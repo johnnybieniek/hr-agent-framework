@@ -1,0 +1,74 @@
+2025-09-27 13:43:35,626 - INFO - Starting HR data extraction experiment with model: llama3.1:8b
+2025-09-27 13:43:35,628 - INFO - Loaded dataset with 50 entries
+2025-09-27 13:43:35,629 - INFO - Processing message 1/50: John Nguyen has accepted the Design Intern role in Product Design. Start: 2025-11-12. Salary: $79000...
+2025-09-27 13:43:35,678 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:35,678 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:35,678 - ERROR - Raw response: 
+2025-09-27 13:43:35,684 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:35,691 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:35,697 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:35,698 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:35,698 - ERROR - Raw security response: 
+2025-09-27 13:43:35,703 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:35,704 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:35,704 - ERROR - Raw security response: 
+2025-09-27 13:43:36,709 - INFO - Processing message 2/50: Maria Gonzalez has accepted the Machine Learning Engineer role in AI/ML. Start: ASAP. Salary: $15900...
+2025-09-27 13:43:36,716 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:36,717 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:36,717 - ERROR - Raw response: 
+2025-09-27 13:43:36,723 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:36,729 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:36,735 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:36,736 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:36,736 - ERROR - Raw security response: 
+2025-09-27 13:43:36,741 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:36,742 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:36,742 - ERROR - Raw security response: 
+2025-09-27 13:43:37,744 - INFO - Processing message 3/50: Ava Nguyen has accepted the Legal Counsel role in Legal. Start: ASAP. Salary: $187000. Location: Par...
+2025-09-27 13:43:37,758 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:37,760 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:37,760 - ERROR - Raw response: 
+2025-09-27 13:43:37,770 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:37,778 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:37,787 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:37,788 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:37,788 - ERROR - Raw security response: 
+2025-09-27 13:43:37,794 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:37,795 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:37,795 - ERROR - Raw security response: 
+2025-09-27 13:43:38,801 - INFO - Processing message 4/50: Mason Lee has accepted the Junior Data Analyst role in Business Intelligence. Start: Q2 2025. Salary...
+2025-09-27 13:43:38,815 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:38,817 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:38,817 - ERROR - Raw response: 
+2025-09-27 13:43:38,827 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:38,836 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:38,844 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:38,845 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:38,845 - ERROR - Raw security response: 
+2025-09-27 13:43:38,852 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:38,853 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:38,853 - ERROR - Raw security response: 
+2025-09-27 13:43:39,854 - INFO - Processing message 5/50: John Khan has accepted the Data Scientist role in AI/ML. Start: TBD. Salary: $96000. Location: Bosto...
+2025-09-27 13:43:39,863 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:39,865 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:39,865 - ERROR - Raw response: 
+2025-09-27 13:43:39,872 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:39,880 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:39,887 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:39,888 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:39,888 - ERROR - Raw security response: 
+2025-09-27 13:43:39,894 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:39,895 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:39,895 - ERROR - Raw security response: 
+2025-09-27 13:43:40,897 - INFO - Processing message 6/50: David Davis has accepted the Legal Counsel role in Legal. Start: TBD. Salary: $167000. Location: Bos...
+2025-09-27 13:43:40,908 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:40,909 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:40,909 - ERROR - Raw response: 
+2025-09-27 13:43:40,917 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:40,925 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:40,933 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:40,934 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:40,934 - ERROR - Raw security response: 
+2025-09-27 13:43:40,940 - ERROR - Error calling Ollama with model llama3.1:8b: [Errno 61] Connection refused
+2025-09-27 13:43:40,941 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-27 13:43:40,941 - ERROR - Raw security response: 

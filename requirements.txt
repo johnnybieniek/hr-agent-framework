@@ -1,0 +1,4 @@
+httpx>=0.24.0
+pandas>=1.5.0
+pathlib
+sqlmodel>=0.0.8
