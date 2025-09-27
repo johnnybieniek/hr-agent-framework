@@ -1,0 +1,24 @@
+2025-09-27 14:17:42,648 - INFO - Starting HR data extraction experiment with model: llama3.1:8b
+2025-09-27 14:17:42,649 - INFO - Loaded dataset with 50 entries
+2025-09-27 14:17:42,650 - INFO - Processing message 1/50: John Nguyen has accepted the Design Intern role in Product Design. Start: 2025-11-12. Salary: $79000...
+2025-09-27 14:18:03,212 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:04,459 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:06,092 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:09,759 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:12,374 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:13,382 - INFO - Processing message 2/50: Maria Gonzalez has accepted the Machine Learning Engineer role in AI/ML. Start: ASAP. Salary: $15900...
+2025-09-27 14:18:15,475 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:16,711 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:17,992 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:22,187 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:24,928 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:25,933 - INFO - Processing message 3/50: Ava Nguyen has accepted the Legal Counsel role in Legal. Start: ASAP. Salary: $187000. Location: Par...
+2025-09-27 14:18:27,973 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:29,097 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:30,476 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:34,803 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:37,464 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:38,471 - INFO - Processing message 4/50: Mason Lee has accepted the Junior Data Analyst role in Business Intelligence. Start: Q2 2025. Salary...
+2025-09-27 14:18:40,656 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:41,925 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-27 14:18:43,847 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"

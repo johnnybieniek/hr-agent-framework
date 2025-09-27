@@ -16,12 +16,12 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 # Array of models to test
 MODELS = [
     "llama3.1:8b",
-    "llama3:8b", 
-    "mistral:7b",
+   # "llama3:8b", 
+    #"mistral:7b",
     "gemma3n:e4b"
 ]
 
-DATASET_PATH = Path(__file__).parent / "dataset-v2.csv"
+DATASET_PATH = Path(__file__).parent / "hiring_v1.csv"
 LOG_PATH = Path(__file__).parent / "experiment_logs"
 
 # Create logs directory if it doesn't exist
