@@ -51,7 +51,7 @@ def call_ollama(prompt: str, model: str) -> str:
 def parse_json_response(response: str) -> Optional[Dict[str, Any]]:
     """Parse JSON response from the model, handling common formatting issues."""
     try:
-        # Try to extract JSON if it's wrapped in markdown code blocks - often happens with gemma
+        # Trying to extract JSON if it's wrapped in markdown code blocks - often happens with gemma
         if "```json" in response:
             start = response.find("```json") + 7
             end = response.find("```", start)
@@ -80,7 +80,7 @@ def parse_json_response(response: str) -> Optional[Dict[str, Any]]:
 def parse_security_json_response(response: str) -> Optional[Dict[str, Any]]:
     """Parse JSON response from the security agent, handling common formatting issues."""
     try:
-        # Try to extract JSON if it's wrapped in markdown code blocks
+        # Same logic as in the parse_json_response function
         if "```json" in response:
             start = response.find("```json") + 7
             end = response.find("```", start)
@@ -95,7 +95,6 @@ def parse_security_json_response(response: str) -> Optional[Dict[str, Any]]:
         # Parse the JSON
         parsed = json.loads(response)
         
-        # Validate keycard_access structure
         if not isinstance(parsed.get("keycard_access"), dict):
             logging.warning("keycard_access must be a dictionary")
             return None
@@ -112,11 +111,11 @@ def parse_security_json_response(response: str) -> Optional[Dict[str, Any]]:
 
 def run_experiment_for_model(model: str):
     """Run the experiment for a single model."""
-    # Create model-specific file paths
+    # Creating model-specific file paths
     model_safe_name = model.replace(":", "_").replace("/", "_")
     csv_out_path = Path(__file__).parent / f"3agent_{model_safe_name}_results.csv"
     
-    # Set up model-specific logging
+    # Setting up model-specific logging
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
@@ -128,7 +127,6 @@ def run_experiment_for_model(model: str):
     
     logging.info(f"Starting HR data extraction experiment with model: {model}")
     
-    # Load dataset
     try:
         df = pd.read_csv(DATASET_PATH)
         logging.info(f"Loaded dataset with {len(df)} entries")
@@ -136,10 +134,8 @@ def run_experiment_for_model(model: str):
         logging.error(f"Failed to load dataset: {e}")
         return
     
-    # Prepare results storage
     results = []
     
-    # Process each row in the dataset
     for idx, row in df.iterrows():
         general_message = row['general_message']
         logging.info(f"Processing message {idx + 1}/{len(df)}: {general_message[:100]}...")
@@ -187,7 +183,6 @@ def run_experiment_for_model(model: str):
 
         # Collect the results for this record.  We include the extracted JSON,
         # the masked message, the security message, and the security JSON.
-        # Response times track both extraction and security agent calls.
         result = {
             "model": model,
             "message_id": idx,
@@ -207,13 +202,12 @@ def run_experiment_for_model(model: str):
         # Optional delay to avoid overwhelming the API service
         time.sleep(1)
     
-    # Save results to CSV
     try:
         results_df = pd.DataFrame(results)
         results_df.to_csv(csv_out_path, index=False)
         logging.info(f"Results saved to {csv_out_path}")
         
-        # Print summary statistics
+        # Summary statistics
         print("\n" + "="*50)
         print(f"EXPERIMENT SUMMARY FOR {model.upper()}")
         print("="*50)
@@ -248,7 +242,7 @@ def run_all_models():
             print(f"❌ Error testing {model}: {e}")
             logging.error(f"Failed to test model {model}: {e}")
         
-        # Add a longer delay between models to avoid overwhelming the system
+        # adding delay between models
         if i < len(MODELS):
             print(f"Waiting 5 seconds before next model...")
             time.sleep(5)
