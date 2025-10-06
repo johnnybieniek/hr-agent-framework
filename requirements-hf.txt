@@ -1,0 +1,18 @@
+# Core dependencies from original requirements
+pandas>=2.0.0
+httpx>=0.25.0
+
+# Hugging Face specific dependencies
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+tokenizers>=0.13.0
+
+# Optional: for better performance on GPU clusters
+# Uncomment if you have CUDA available
+# torch-audio
+# torch-vision
+
+# Optional: for model optimization
+# bitsandbytes>=0.39.0  # For 8-bit quantization
+# optimum>=1.8.0       # For optimized inference
