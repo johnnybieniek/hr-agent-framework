@@ -1,0 +1,61 @@
+2025-10-20 13:59:30,828 - INFO - Starting HR data extraction experiment with model: gpt-5-mini
+2025-10-20 13:59:30,833 - INFO - Loaded dataset with 100 entries
+2025-10-20 13:59:30,833 - INFO - Processing message 1/100: Subject: Confirming New Hire - Danielle Johnson
+
+Hey Danielle,
+
+Just wanted to drop you a quick note...
+2025-10-20 13:59:31,893 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 13:59:31,894 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported value: 'temperature' does not support 0.2 with this model. Only the default (1) value is supported.",
+    "type": "invalid_request_error",
+    "param": "temperature",
+    "code": "unsupported_value"
+  }
+}
+2025-10-20 13:59:31,894 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 13:59:31,894 - ERROR - Raw response: 
+2025-10-20 13:59:34,051 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 13:59:34,053 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported value: 'temperature' does not support 0.2 with this model. Only the default (1) value is supported.",
+    "type": "invalid_request_error",
+    "param": "temperature",
+    "code": "unsupported_value"
+  }
+}
+2025-10-20 13:59:34,760 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 13:59:34,761 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported value: 'temperature' does not support 0.2 with this model. Only the default (1) value is supported.",
+    "type": "invalid_request_error",
+    "param": "temperature",
+    "code": "unsupported_value"
+  }
+}
+2025-10-20 13:59:35,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 13:59:35,687 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported value: 'temperature' does not support 0.2 with this model. Only the default (1) value is supported.",
+    "type": "invalid_request_error",
+    "param": "temperature",
+    "code": "unsupported_value"
+  }
+}
+2025-10-20 13:59:35,687 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 13:59:35,687 - ERROR - Raw security response: 
+2025-10-20 13:59:35,893 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 13:59:35,895 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported value: 'temperature' does not support 0.2 with this model. Only the default (1) value is supported.",
+    "type": "invalid_request_error",
+    "param": "temperature",
+    "code": "unsupported_value"
+  }
+}
+2025-10-20 13:59:35,896 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 13:59:35,896 - ERROR - Raw security response: 
+2025-10-20 13:59:36,898 - INFO - Processing message 2/100: Hey Joshua, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Joshua Walker ...

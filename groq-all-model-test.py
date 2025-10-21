@@ -1,25 +1,40 @@
 import json
-import httpx
 import time
 from pathlib import Path
 import pandas as pd
 from typing import Dict, Any, Optional
 import logging
 from datetime import datetime
-
+from dotenv import load_dotenv
+import os
+from openai import OpenAI
 # Importing all of the prompts from a separate file
 from prompts import HR_PROMPT, MASKING_PROMPT, REWRITING_PROMPT, SECURITY_PROMPT
 
+# Ensure environment variables from .env are loaded before reading API key
+load_dotenv()
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
+# Initialize Groq client
+_groq_client: Optional[OpenAI] = None
 
-# Array of models to test
+def get_groq_client() -> OpenAI:
+    global _groq_client
+    if _groq_client is None:
+        _groq_client = OpenAI(
+            api_key=GROQ_API_KEY,
+            base_url="https://api.groq.com/openai/v1",
+        )
+    return _groq_client
+
+# Array of models to test (Groq models)
 MODELS = [
-    "llama3.1:8b",
-   # "llama3:8b", 
-    #"mistral:7b",
-    `"gemma3n:e4b"
-]
+    #"llama-3.3-70b-versatile",
+    #"llama-3.1-8b-instant", 
+    #"mixtral-8x7b-32768",
+    "openai/gpt-oss-20b",
+    #"gemma-7b-it"
+    ]
 
 DATASET_PATH = Path(__file__).parent / "hiring_v1.csv"
 LOG_PATH = Path(__file__).parent / "experiment_logs"
@@ -28,23 +43,26 @@ LOG_PATH = Path(__file__).parent / "experiment_logs"
 LOG_PATH.mkdir(exist_ok=True)
 
 
-def call_ollama(prompt: str, model: str) -> str:
-    """Call Ollama API and return the response."""
+def call_groq_chat(prompt: str, model: str) -> str:
+    """Call Groq API and return the assistant message content."""
+    if not GROQ_API_KEY:
+        logging.error("GROQ_API_KEY is not set.")
+        return ""
+
     try:
-        response = httpx.post(
-            OLLAMA_URL,
-            json={
-                "model": model,
-                "prompt": prompt,
-                "stream": False
-            },
-            timeout=60
+        client = get_groq_client()
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": "You are a helpful AI assistant."},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.2,
+            max_tokens=1024,
         )
-        response.raise_for_status()
-        result = response.json()
-        return result.get("response", "").strip()
+        return response.choices[0].message.content.strip()
     except Exception as e:
-        logging.error(f"Error calling Ollama with model {model}: {e}")
+        logging.error(f"Error calling Groq API: {e}")
         return ""
 
 
@@ -70,7 +88,8 @@ def parse_json_response(response: str) -> Optional[Dict[str, Any]]:
         return parsed
     except json.JSONDecodeError as e:
         logging.error(f"Failed to parse JSON response: {e}")
-        logging.error(f"Raw response: {response}")
+        logging.error(f"Raw response length: {len(response)}")
+        logging.error(f"Raw response: {repr(response[:200])}...")  # Show first 200 chars
         return None
     except Exception as e:
         logging.error(f"Error parsing response: {e}")
@@ -102,7 +121,8 @@ def parse_security_json_response(response: str) -> Optional[Dict[str, Any]]:
         return parsed
     except json.JSONDecodeError as e:
         logging.error(f"Failed to parse security JSON response: {e}")
-        logging.error(f"Raw security response: {response}")
+        logging.error(f"Raw security response length: {len(response)}")
+        logging.error(f"Raw security response: {repr(response[:200])}...")  # Show first 200 chars
         return None
     except Exception as e:
         logging.error(f"Error parsing security response: {e}")
@@ -146,7 +166,7 @@ def run_experiment_for_model(model: str):
         # returned JSON into a Python dict.
         extraction_prompt = HR_PROMPT.format(message=general_message)
         start_time = time.time()
-        extraction_response = call_ollama(extraction_prompt, model)
+        extraction_response = call_groq_chat(extraction_prompt, model)
         end_time = time.time()
         extracted_data = parse_json_response(extraction_response) or {}
 
@@ -155,20 +175,25 @@ def run_experiment_for_model(model: str):
         # location.  The agent operates on the raw message and returns
         # an edited message with the sensitive information masked.
         masking_prompt = MASKING_PROMPT.format(message=general_message)
-        masked_message = call_ollama(masking_prompt, model)
+        masked_message = call_groq_chat(masking_prompt, model)
+        
+        # Fallback: if masking fails, use original message
+        if not masked_message or masked_message.strip() == "":
+            logging.warning(f"Masking failed for message {idx}, using original message")
+            masked_message = general_message
 
         # Step 3: Rewriting agent
         # Use the imported rewriting prompt to craft the final message for
         # the security team based on the masked message.
         rewriting_prompt = REWRITING_PROMPT.format(masked_message=masked_message)
-        security_message = call_ollama(rewriting_prompt, model)
+        security_message = call_groq_chat(rewriting_prompt, model)
 
         # Step 4: Security agent with masked message
         # Use the imported security prompt to analyze the security message and
         # return security-related JSON data including security level and keycard access.
         security_prompt = SECURITY_PROMPT.format(message=security_message)
         security_start_time = time.time()
-        security_response = call_ollama(security_prompt, model)
+        security_response = call_groq_chat(security_prompt, model)
         security_end_time = time.time()
         security_data = parse_security_json_response(security_response) or {}
 
@@ -177,7 +202,7 @@ def run_experiment_for_model(model: str):
         # return security-related JSON data including security level and keycard access.
         security_prompt = SECURITY_PROMPT.format(message=general_message)
         general_security_start_time = time.time()
-        general_security_response = call_ollama(security_prompt, model)
+        general_security_response = call_groq_chat(security_prompt, model)
         general_security_end_time = time.time()
         general_security_data = parse_security_json_response(general_security_response) or {}
 
@@ -199,8 +224,7 @@ def run_experiment_for_model(model: str):
         }
         results.append(result)
 
-        # Optional delay to avoid overwhelming the API service
-        time.sleep(1)
+        # Removed per-iteration delay to improve throughput
     
     try:
         results_df = pd.DataFrame(results)

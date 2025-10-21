@@ -1,0 +1,1301 @@
+model,message_id,general_message,extracted_json,masked_message,security_message,security_json,general_security_json,extraction_response_time,security_response_time,general_security_response_time,timestamp
+llama3.1:8b,0,"Subject: Confirming New Hire - Danielle Johnson
+
+Hey Danielle,
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Danielle Johnson as our new Machine Learning Engineer in the IT department. She’s set to start ASAP, and we’ve agreed on a salary of $113,000. She’ll be based in San Francisco, which is great!
+
+Let me know if you need anything else from my side to get her onboarded. Thanks!
+
+Best,  
+[Your Name]","{""name"": ""Danielle Johnson"", ""position"": ""Machine Learning Engineer"", ""salary"": 113000, ""location"": ""San Francisco"", ""start_date"": null}","Subject: Confirming New Hire - Danielle Johnson
+
+Hey Danielle,
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Danielle Johnson as our new Machine Learning Engineer in the IT department. She’s set to start ASAP, and we've agreed on a competitive compensation package within the industry standards for her role. She'll be based in North America.
+
+Let me know if you need anything else from my side to get her onboarded. Thanks!
+
+Best,  
+[Your Name]","Here is the rewritten notification:
+
+""Please note that Danielle Johnson will start ASAP as a Machine Learning Engineer in our IT department, based in North America.""","{""name"": null, ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Danielle Johnson"", ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",10.259351015090942,4.090680837631226,2.8288049697875977,2025-10-13T17:45:48.457109
+llama3.1:8b,1,"Hey Joshua, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Joshua Walker as our new Machine Learning Engineer in the Business Intelligence department! He’ll be starting on January 8, 2026, with a salary of $89,000. He’ll be working remotely from the EU, so everything should be smooth on that front. 
+
+Let me know if you need anything else from me to get the ball rolling!
+
+Cheers!","{""name"": ""Joshua Walker"", ""position"": ""Machine Learning Engineer"", ""salary"": 89000, ""location"": ""Remote \u2013 EU"", ""start_date"": ""2026-01-08""}","Here is the edited message:
+
+Hey Joshua, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Joshua Walker as our new Machine Learning Engineer in the Business Intelligence department! He’ll be starting on January 8, 2026. He’ll be working remotely from Europe, so everything should be smooth on that front. 
+
+Let me know if you need anything else from me to get the ball rolling!
+
+Cheers!
+ 
+(Note: I removed the salary mention and replaced ""EU"" with just ""Europe"")","Here is a rewritten notification to the security team:
+
+Joshua Walker will start on January 8, 2026, as our new Machine Learning Engineer in the Business Intelligence department. He will be based remotely in Europe.","{""name"": ""Joshua Walker"", ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": null, ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.369749069213867,4.353772878646851,2.6913957595825195,2025-10-13T17:46:04.449911
+llama3.1:8b,2,"Hey Jill,
+
+I’m excited to confirm that we’re bringing on Jill Rhodes as our new Product Manager in the AI/ML department! She’s set to start on September 28, 2025, and we’re offering her a salary of $156,000. She’ll be based in Zurich, Switzerland, which is great since she’ll have access to Europe.
+
+Let me know if you need anything else from my end to get her onboarded!
+
+Cheers!","{""name"": ""Jill Rhodes"", ""position"": ""Product Manager"", ""salary"": 156000, ""location"": ""Zurich, Switzerland"", ""start_date"": ""2025-09-28""}","Here's the edited message:
+
+Hey Jill,
+
+I’m excited to confirm that we’re bringing on Jill Rhodes as our new Product Manager in the AI/ML department! She’s set to start on September 28, 2025, and we’re offering her a competitive compensation package. She’ll be based in Europe.
+
+Let me know if you need anything else from my end to get her onboarded!
+
+Cheers!
+ 
+Note: I replaced ""Zurich, Switzerland"" with just the country (""Europe"") as per the guidelines.","Here is the rewritten notification:
+
+""Jill Rhodes will start on September 28, 2025, as our new Product Manager in the AI/ML department. She will be based in Europe.""","{""name"": ""Jill Rhodes"", ""email"": null, ""position"": ""Product Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Jill Rhodes"", ""email"": null, ""position"": ""Product Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.322939157485962,4.398406028747559,2.9495396614074707,2025-10-13T17:46:20.666310
+llama3.1:8b,3,"Hey Patricia, 
+
+Just wanted to confirm that we’ve got Patricia Miller on board as our new Junior Data Analyst in the Business Intelligence department! She’s set to start on February 19, 2026, with a salary of $77,000. She’ll be based in Warsaw, Poland, which is great for our Europe access. 
+
+Let me know if you need anything else from my side. 
+
+Thanks!","{""name"": ""Patricia Miller"", ""position"": ""Junior Data Analyst"", ""salary"": 77000, ""location"": ""Warsaw, Poland"", ""start_date"": ""2026-02-19""}","Here's the edited message:
+
+Hey Patricia, 
+
+Just wanted to confirm that we’ve got Patricia Miller on board as our new Junior Data Analyst in the Business Intelligence department! She’s set to start on February 19, 2026, with a salary of [REMOVED]. She’ll be based in Europe. 
+
+Let me know if you need anything else from my side. 
+
+Thanks!","Here is the rewritten notification for the security team:
+
+""Patricia Miller will start on February 19, 2026, as our new Junior Data Analyst in the Business Intelligence department. She will be based in Europe.""","{""name"": ""Patricia Miller"", ""email"": null, ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Patricia Miller"", ""email"": null, ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.453968048095703,4.499626874923706,2.9011340141296387,2025-10-13T17:46:36.477484
+llama3.1:8b,4,"Hey Robert, 
+
+Just wanted to confirm that we’re bringing on Robert Johnson as our new Data Engineer in the Engineering department. He’s set to start on October 31, 2025, and we'll be offering him a salary of $112,000. He’ll be based in Warsaw, Poland. 
+
+Let me know if you need anything else from my end!
+
+Thanks!","{""name"": ""Robert Johnson"", ""position"": ""Data Engineer"", ""salary"": 112000, ""location"": ""Warsaw, Poland"", ""start_date"": ""2025-10-31""}","Here is the edited message:
+
+Hey Robert, 
+
+Just wanted to confirm that we’re bringing on Robert Johnson as our new Data Engineer in the Engineering department. He’s set to start on October 31, 2025, and we'll be offering him a salary of [generalized]. He’ll be based in Europe.
+
+Let me know if you need anything else from my end!
+
+Thanks!","Here is the rewritten notification:
+
+""Robert Johnson will join our Engineering department as a Data Engineer on October 31, 2025. He will be based in Europe.""","{""name"": ""Robert Johnson"", ""email"": null, ""position"": ""Data Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Robert Johnson"", ""email"": null, ""position"": ""Data Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.299407958984375,4.471598148345947,2.873974084854126,2025-10-13T17:46:51.793405
+llama3.1:8b,5,"Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffery Wagner as our new Machine Learning Engineer in the Marketing department. He’ll be starting on December 22, 2025, and his salary will be $193,000. He’ll be based in New York. 
+
+You can reach him at jeffery.wagner@company.com. Excited to have him on board!
+
+Thanks!","{""name"": ""Jeffery Wagner"", ""position"": ""Machine Learning Engineer"", ""salary"": 193000, ""location"": ""New York"", ""start_date"": ""2025-12-22""}","Here is the edited message:
+
+Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffery Wagner as our new Machine Learning Engineer in the Marketing department. He’ll be starting on December 22, 2025, and his compensation will be a competitive package within the industry. He’ll be based in North America.
+
+You can reach him at jeffery.wagner@company.com. Excited to have him on board!
+
+Thanks!","Here is the rewritten notification for the security team:
+
+""Jeffery Wagner will start on December 22, 2025, as a Machine Learning Engineer in our Marketing department based in North America.""","{""name"": null, ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": ""jeffery.wagner@company.com"", ""position"": null, ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3610899448394775,4.53019905090332,3.0180439949035645,2025-10-13T17:47:07.984433
+llama3.1:8b,6,"Hey team! 🎉 I'm super excited to confirm that we’ve got Anthony Gonzalez joining us as our new UX Researcher in the Legal department! He'll be starting next month in Boston, and we're bringing him on board with a salary of $100,000. You can reach him at anthony.gonzalez@company.com. Can't wait for him to start and bring his awesome skills to the team! Let's get everything set up for him. Cheers!","{""name"": ""Anthony Gonzalez"", ""position"": ""UX Researcher"", ""salary"": 100000, ""location"": ""Boston"", ""start_date"": null}","Here is the edited message:
+
+Hey team! 🎉 I'm super excited to confirm that we’ve got Anthony Gonzalez joining us as our new UX Researcher in the Legal department! He'll be starting next month in North America, and we're bringing him on board with a competitive package. You can reach him at anthony.gonzalez@company.com. Can't wait for him to start and bring his awesome skills to the team! Let's get everything set up for him. Cheers!","Here is a rewritten notification that includes only the necessary information for the security team:
+
+""Anthony Gonzalez will join us as our new UX Researcher in the Legal department, starting next month. He will be based in North America.""
+
+I removed all unnecessary details such as the email address, mention of salary package, and informal greetings to create a concise and professional notification that meets the requirements.","{""name"": ""Anthony Gonzalez"", ""email"": null, ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Anthony Gonzalez"", ""email"": ""anthony.gonzalez@company.com"", ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.2998170852661133,4.706286907196045,3.271944999694824,2025-10-13T17:47:25.988475
+llama3.1:8b,7,"Hey Debra, 
+
+Just wanted to confirm that we’re bringing on Debra Gardner as our new Junior Data Analyst in the AI/ML department! She’ll be starting next month in Bangalore with a salary of $83,000. 
+
+Let me know if you need anything else from my end. Excited to have her on board! 
+
+Cheers!","{""name"": ""Debra Gardner"", ""position"": ""Junior Data Analyst"", ""salary"": 83000, ""location"": ""Bangalore"", ""start_date"": null}","Here is the edited message:
+
+Hey Debra,
+
+Just wanted to confirm that we’re bringing on Debra Gardner as our new Junior Data Analyst in the AI/ML department! She’ll be starting next month in Asia with a salary that meets company standards.
+
+Let me know if you need anything else from my end. Excited to have her on board!
+
+Cheers!
+ 
+Note: I replaced ""Bangalore"" with the continent ""Asia"", and removed any mention of the specific salary amount.","Here is the rewritten notification:
+
+Dear Security Team,
+
+Please welcome Debra Gardner as our new Junior Data Analyst in the AI/ML department. She will start next month based in Asia.
+
+Best regards,
+[Your Name]","{""name"": ""Debra Gardner"", ""email"": null, ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}","{""name"": ""Debra Gardner"", ""email"": null, ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}",2.2566211223602295,4.666714906692505,3.0077152252197266,2025-10-13T17:47:42.686303
+llama3.1:8b,8,"Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffrey Lawrence as our new Senior Software Engineer in the Design department. His start date is still TBD, but we’re really excited to have him join us. He'll be based out of Boston and will be making $150,000. 
+
+You can reach him at jeffrey.lawrence@company.com. Let me know if you need anything else!
+
+Thanks!","{""name"": ""Jeffrey Lawrence"", ""position"": ""Senior Software Engineer"", ""salary"": null, ""location"": ""Boston"", ""start_date"": null}","Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffrey Lawrence as our new Senior Software Engineer in the Design department. His start date is still TBD, but we’re really excited to have him join us. He'll be based out of North America and will be making a competitive salary.
+
+You can reach him at jeffrey.lawrence@company.com. Let me know if you need anything else!
+
+Thanks!","Here's the rewritten notification:
+
+""Jeffrey Lawrence will start as our new Senior Software Engineer in the Design department, based out of North America.""","{""name"": null, ""email"": null, ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Jeffrey Lawrence"", ""email"": ""jeffrey.lawrence@company.com"", ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.155745029449463,4.528783321380615,3.336341142654419,2025-10-13T17:47:58.776223
+llama3.1:8b,9,"Hey Lisa, 
+
+Just wanted to confirm that we’re all set to bring on Lisa Smith as our new Machine Learning Engineer in the Design department. She’ll be starting on March 3rd, 2026, and her salary will be $191,000. She’ll be working out of Johannesburg, South Africa. 
+
+Let me know if you need anything else! 
+
+Cheers!","{""name"": ""Lisa Smith"", ""position"": ""Machine Learning Engineer"", ""salary"": 191000, ""location"": ""Johannesburg, South Africa"", ""start_date"": ""2026-03-03""}","Here is the edited message:
+
+Hey Lisa, 
+
+Just wanted to confirm that we’re all set to bring on [Name Redacted] as our new Machine Learning Engineer in the Design department. She’ll be starting on March 3rd, 2026, and her salary will be not specified. She'll be working out of Africa.
+
+Let me know if you need anything else! 
+
+Cheers!
+(Exact wording and context preserved)","Here is a rewritten notification to the security team:
+
+""[Name Redacted] will start on March 3rd, 2026, as our new Machine Learning Engineer in the Design department. She will be based in Africa.""","{""name"": null, ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 1, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Lisa Smith"", ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 1, ""Asia"": 0, ""Oceania"": 0}}",2.5465810298919678,4.631839990615845,3.0277791023254395,2025-10-13T17:48:15.530253
+llama3.1:8b,10,"Hey Linda, 
+
+Just wanted to confirm that we’re all set to bring on Linda Wolfe as our new Finance Analyst in the Product department. She’ll be starting on November 29, 2025, and her salary will be $174,000. She’ll be based in Sydney, so make sure everything’s ready for her there. 
+
+Thanks!","{""name"": ""Linda Wolfe"", ""position"": ""Finance Analyst"", ""salary"": 174000, ""location"": ""Sydney"", ""start_date"": ""2025-11-29""}","Hey Linda, 
+
+Just wanted to confirm that we’re all set to bring on Linda Wolfe as our new Finance Analyst in the Product department. She’ll be starting on November 29, 2025, and her compensation will be within a competitive range. She’ll be based in Australia, so make sure everything’s ready for her there.
+
+Thanks!","Here is a rewritten notification to the security team:
+
+""Linda Wolfe will start on November 29, 2025, as our new Finance Analyst in the Product department. She will be based in Australia.""","{""name"": ""Linda Wolfe"", ""email"": null, ""position"": ""Finance Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 1}}","{""name"": ""Linda Wolfe"", ""email"": null, ""position"": ""Finance Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 1}}",2.4751620292663574,4.691556930541992,3.0447819232940674,2025-10-13T17:48:31.558549
+llama3.1:8b,11,"Hey team! 🎉 I'm super excited to confirm that we've got Matthew Moore on board as our new Senior Software Engineer in the IT department! He'll be starting on November 23, 2025, and he'll be based in Berlin. We're bringing him in with a salary of €160,000, which I think is a great fit for his skills. You can reach him at matthew.moore@company.com. Let’s give him a warm welcome when he arrives! Cheers!","{""name"": ""Matthew Moore"", ""position"": ""Senior Software Engineer in the IT department"", ""salary"": null, ""location"": ""Berlin"", ""start_date"": ""2025-11-23""}","Hey team! 🎉 I'm super excited to confirm that we've got Matthew Moore on board as our new Senior Software Engineer in the IT department! He'll be starting on November 23, 2025, and he'll be based in Europe. We're bringing him in with a competitive compensation package, which I think is a great fit for his skills. You can reach him at matthew.moore@company.com. Let’s give him a warm welcome when he arrives! Cheers!","Here's the rewritten notification:
+
+""Matthew Moore will join our team as a Senior Software Engineer in the IT department on November 23, 2025. He will be based in Europe.""","{""name"": ""Matthew Moore"", ""email"": null, ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Matthew Moore"", ""email"": ""matthew.moore@company.com"", ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.5261738300323486,4.720396041870117,3.4408071041107178,2025-10-13T17:48:49.118711
+llama3.1:8b,12,"Hey Susan, 
+
+Just wanted to confirm that we’re all set to bring on Susan Rogers as our new UX Researcher in the Operations department. She’ll be starting on December 14, 2025, and her salary is set at $192,000. Since she’ll be working remotely in the EU, we won't need to worry about any location issues. 
+
+Let me know if you need anything else from my end! 
+
+Cheers!","{""name"": ""Susan Rogers"", ""position"": ""UX Researcher"", ""salary"": 192000, ""location"": ""Remote \u2013 EU"", ""start_date"": ""2025-12-14""}","Here's the edited message:
+
+Hey Susan,
+
+Just wanted to confirm that we’re all set to bring on a new UX Researcher in the Operations department. She’ll be starting on December 14, 2025, and her compensation package is confidential for now. Since she’ll be working remotely in Europe, we won't need to worry about any location issues.
+
+Let me know if you need anything else from my end!
+
+Cheers!","Here's the rewritten notification:
+
+""Susan, please welcome our new UX Researcher who will start on December 14, 2025. She will be based in Europe and working remotely within our Operations department.""","{""name"": null, ""email"": null, ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.4133718013763428,4.667050838470459,3.003350019454956,2025-10-13T17:49:06.038572
+llama3.1:8b,13,"Hey Christopher, 
+
+Just wanted to confirm that we’re bringing on Christopher Davis as our new Product Designer in the Engineering department. His start date is still TBD, but we’re looking at a salary of $119,000. He’ll be based out of Boston, which is great! 
+
+Let me know if you need anything else from my end. 
+
+Thanks!","{""name"": ""Christopher Davis"", ""position"": ""Product Designer"", ""salary"": null, ""location"": ""Boston"", ""start_date"": null}","Here's the edited message with sensitive information removed or generalized:
+
+Hey Christopher,
+
+Just wanted to confirm that we’re bringing on Christopher Davis as our new Product Designer in the Engineering department. His start date is still TBD, but we’re looking at a competitive compensation package. He’ll be based out of North America.
+
+Let me know if you need anything else from my end.
+
+Thanks!","Here's the rewritten notification:
+
+""Christopher Davis will join our team as a Product Designer in the Engineering department next month (start date TBD). He will be based in North America.""","{""name"": ""Christopher Davis"", ""email"": null, ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Christopher Davis"", ""email"": null, ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.4487218856811523,4.4582648277282715,3.0732009410858154,2025-10-13T17:49:21.548044
+llama3.1:8b,14,"Subject: New Hire Confirmation
+
+Hey Melanie,
+
+Just wanted to confirm that we’re bringing on board Melanie Munoz as our new Regional Operations Manager in the Design department. She’ll be based in Dublin, and I’m really excited about what she’ll bring to the team! 
+
+Salary is set at €237,000, and we’ll sort out her start date soon. Let’s make sure she has everything she needs for a smooth onboarding process.
+
+Thanks!
+
+Best,  
+[Your Name]","{""name"": ""Melanie Munoz"", ""position"": ""Regional Operations Manager"", ""salary"": null, ""location"": ""Dublin"", ""start_date"": null}","Subject: New Hire Confirmation
+
+Hey Melanie,
+
+Just wanted to confirm that we’re bringing on board Melanie Munoz as our new Regional Operations Manager in the Design department. She’ll be based in Europe, and I’m really excited about what she’ll bring to the team! 
+
+We've established a compensation package for her, and we’ll sort out her start date soon. Let’s make sure she has everything she needs for a smooth onboarding process.
+
+Thanks!
+
+Best,  
+[Your Name]","Here is the rewritten notification:
+
+Melanie Munoz will join our organization as the Regional Operations Manager in the Design department. She will be based in Europe and will start her new role soon. We are looking forward to welcoming her to the team.","{""name"": ""Melanie Munoz"", ""email"": null, ""position"": ""Regional Operations Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Melanie Munoz"", ""email"": null, ""position"": ""Regional Operations Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.6828410625457764,4.764918088912964,3.1659631729125977,2025-10-13T17:49:39.716464
+llama3.1:8b,15,"Hey Lindsay, 
+
+I’m excited to confirm that we’re bringing on Lindsay Blair as our new Data Scientist in the R&D department! She’ll be starting next month in Zurich with a salary of $118,000. Just wanted to loop you in so you can get everything set up on your end. 
+
+Thanks!","{""name"": ""Lindsay Blair"", ""position"": ""Data Scientist"", ""salary"": 118000, ""location"": ""Zurich"", ""start_date"": null}","Here is the edited message:
+
+Hey Lindsay, 
+
+I’m excited to confirm that we’re bringing on Lindsay Blair as our new Data Scientist in the R&D department! She’ll be starting next month in Europe with a salary details TBD. Just wanted to loop you in so you can get everything set up on your end.
+
+Thanks!","Here is the rewritten notification:
+
+""Lindsay Blair will start next month as a Data Scientist in our R&D team, based in Europe.""","{""name"": null, ""email"": null, ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.436340093612671,4.507088899612427,2.9002199172973633,2025-10-13T17:49:54.431476
+llama3.1:8b,16,"Hey Amanda! 🎉 Just wanted to confirm that we’re all set to bring on Amanda Dudley as our new HR Generalist in the Legal department. She’s starting on November 17, 2025, with a salary of $102,000. Super excited to have her join us remotely! Let me know if you need anything else from my end. Her email is amanda.dudley@company.com if you want to reach out. Cheers!","{""name"": ""Amanda Dudley"", ""position"": ""HR Generalist in the Legal department"", ""salary"": 102000, ""location"": ""Remote \u2013 EU"", ""start_date"": ""2025-11-17""}","Hey Amanda! 🎉 Just wanted to confirm that we’re all set to bring on an HR Generalist in the Legal department. She’s starting on November 17, 2025, with compensation to be discussed separately. Super excited to have her join us remotely! Let me know if you need anything else from my end. Her email is amanda.dudley@company.com if you want to reach out. Cheers!
+
+(I removed the mention of salary and replaced it with a generic ""compensation to be discussed separately"". The location was not specified, so I left it as is.)","Here's the rewritten notification for the security team:
+
+""Amanda Dudley will start on November 17, 2025, as an HR Generalist in our Legal department. She will be based remotely.""","{""name"": ""Amanda Dudley"", ""email"": ""null"", ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Amanda Dudley"", ""email"": ""amanda.dudley@company.com"", ""position"": ""HR Generalist in the Legal department"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.6523499488830566,4.704424858093262,3.452291965484619,2025-10-13T17:50:12.486450
+llama3.1:8b,17,"Hey Nicholas, 
+
+Just wanted to give you a quick shout to confirm that we’re moving forward with Nicholas Arnold for the Senior Software Engineer position in the Finance department. He’s all set to start ASAP, and we’re looking at a salary of $220,000. He’ll be based in Boston, so everything should be good to go on that front! 
+
+Let me know if you need anything else from me. 
+
+Cheers!","{""name"": ""Nicholas Arnold"", ""position"": ""Senior Software Engineer"", ""salary"": null, ""location"": ""Boston"", ""start_date"": ""ASAP""}","Here is the edited message with sensitive information removed or generalized:
+
+Hey Nicholas, 
+
+Just wanted to give you a quick shout to confirm that we’re moving forward with Nicholas Arnold for the Senior Software Engineer position in the Finance department. He’s all set to start ASAP, and we’re looking at a competitive compensation package. He’ll be based in North America, so everything should be good to go on that front! 
+
+Let me know if you need anything else from me. 
+
+Cheers!","Here is the rewritten notification:
+
+""Nicholas Arnold will join our team as a Senior Software Engineer in the Finance department. His start date is ASAP. He will be based in North America.""","{""name"": null, ""email"": null, ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Nicholas Arnold"", ""email"": null, ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3937652111053467,4.515793085098267,2.98840594291687,2025-10-13T17:50:28.755996
+llama3.1:8b,18,"Hey Maria! 🎉 Just wanted to confirm that we’re all set to bring on Maria Montgomery as our new HR Generalist in the IT department. She’ll be starting on February 21, 2026, with a salary of $144,000. She’ll be based in New York, which is awesome! You can reach her at her email: maria.montgomery@company.com. Let me know if you need anything else! Cheers!","{""name"": ""Maria Montgomery"", ""position"": ""HR Generalist"", ""salary"": 144000, ""location"": ""New York"", ""start_date"": ""2026-02-21""}","Hey Maria! 🎉 Just wanted to confirm that we’re all set to bring on a new HR Generalist in the IT department. She’ll be starting on February 21, 2026, with a salary to be discussed separately. She’ll be based in North America and will be working remotely. You can reach her at her email: maria.montgomery@company.com. Let me know if you need anything else! Cheers!","Here is the rewritten notification:
+
+""Maria Montgomery will start on February 21, 2026, as a new HR Generalist in our IT department, based in North America and working remotely. We'll be sharing her contact information separately for security purposes.""","{""name"": ""Maria Montgomery"", ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": ""maria.montgomery@company.com"", ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.4474880695343018,4.552381992340088,3.2033121585845947,2025-10-13T17:50:45.486835
+llama3.1:8b,19,"Hey HR team, 
+
+Just wanted to confirm that we’re bringing on Michelle Ray as our new Junior Data Analyst in the R&D department. She’ll be starting ASAP and her salary is set at $94,000. She'll be based out of San Francisco, which is great! 
+
+You can reach her at michelle.ray@company.com. Excited to have her on board!
+
+Thanks!","{""name"": ""Michelle Ray"", ""position"": ""Junior Data Analyst"", ""salary"": 94000, ""location"": ""San Francisco"", ""start_date"": null}","Here's the edited message:
+
+Hey HR team,
+
+Just wanted to confirm that we’re bringing on Michelle Ray as our new Junior Data Analyst in the R&D department. She’ll be starting ASAP and her compensation will be consistent with company standards for this role. She'll be based out of North America.
+
+You can reach her at michelle.ray@company.com. Excited to have her on board!
+
+Thanks!","Here's a rewritten notification for the security team:
+
+""Michelle Ray is joining our organization as a Junior Data Analyst in the R&D department, effective immediately. She will be based out of North America.""","{""name"": null, ""email"": null, ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Michelle Ray"", ""email"": ""michelle.ray@company.com"", ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.2216339111328125,4.473871946334839,3.144040822982788,2025-10-13T17:51:01.354718
+llama3.1:8b,20,"Hey Janet,
+
+I wanted to confirm that we’re all set to bring on Janet Williams as our new Regional Operations Manager in the R&D department. She’s starting on November 1st, 2025, and her salary will be £236,000. She'll be based in London, so that should work out nicely. 
+
+If you need anything else or have questions, just let me know!
+
+Cheers!","{""name"": ""Janet Williams"", ""position"": ""Regional Operations Manager"", ""salary"": null, ""location"": ""London"", ""start_date"": ""2025-11-01""}","Here is the edited message:
+
+Hey Janet,
+
+I wanted to confirm that we’re all set to bring on Janet Williams as our new Regional Operations Manager in the R&D department. She’s starting on November 1st, 2025, and her compensation will be within a competitive range for this role. She'll be based in Europe.
+
+If you need anything else or have questions, just let me know!
+
+Cheers!","Here is a rewritten notification to the security team:
+
+""Janet Williams will start on November 1st, 2025, as our new Regional Operations Manager in the R&D department. She will be based in Europe.""","{""name"": ""Janet Williams"", ""email"": null, ""position"": ""Regional Operations Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Janet Williams"", ""email"": null, ""position"": ""Regional Operations Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.261813163757324,4.543890953063965,2.918729305267334,2025-10-13T17:51:17.239421
+llama3.1:8b,21,"Hey team, 
+
+Just wanted to confirm that we’re bringing Jeremy Roberts on board as our new UX Researcher in the Business Intelligence department. He’ll be starting next month with a salary of $98,000. Jeremy will be working remotely from the US. 
+
+His email is jeremy.roberts@company.com if you need to reach out. Excited to have him join us!
+
+Thanks!","{""name"": ""Jeremy Roberts"", ""position"": ""UX Researcher"", ""salary"": null, ""location"": ""US"", ""start_date"": null}","Here is the edited message:
+
+Hey team,
+
+Just wanted to confirm that we’re bringing Jeremy Roberts on board as our new UX Researcher in the Business Intelligence department. He’ll be starting next month with a compensation package TBD (to be determined). Jeremy will be working remotely from North America.
+
+His email address is jeremy.roberts@company.com if you need to reach out. Excited to have him join us!
+
+Thanks!","Here's the rewritten notification:
+
+""Jeremy Roberts will start next month as a UX Researcher in our Business Intelligence department, based in North America.""","{""name"": null, ""email"": null, ""position"": ""UX Researcher"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Jeremy Roberts"", ""email"": ""jeremy.roberts@company.com"", ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.12001895904541,4.359827995300293,3.1005899906158447,2025-10-13T17:51:32.619802
+llama3.1:8b,22,"Hey Christopher, 
+
+Just wanted to confirm that we’re moving forward with hiring Christopher Hall for the Marketing Manager position in the IT department. We’re looking to have him start ASAP, and he’ll be working remotely from the US. The salary is set at $132,000. 
+
+Let me know if you need anything else to wrap this up! 
+
+Thanks!","{""name"": ""Christopher Hall"", ""position"": ""Marketing Manager"", ""salary"": 132000, ""location"": ""US"", ""start_date"": null}","Here's the edited message:
+
+Hey Christopher,
+
+Just wanted to confirm that we’re moving forward with hiring Christopher Hall for the Marketing Manager position in the IT department. We’re looking to have him start ASAP, and he’ll be working remotely from North America. The compensation package is being finalized.
+
+Let me know if you need anything else to wrap this up!
+
+Thanks!","Here's a concise notification that includes only the necessary information for the security team:
+
+""Christopher Hall will be joining our organization as a Marketing Manager in the IT department, effective immediately. He will work remotely from North America.""","{""name"": null, ""email"": null, ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3733749389648438,4.376062870025635,2.765723943710327,2025-10-13T17:51:48.081915
+llama3.1:8b,23,"Hey Craig! 🎉 I'm super excited to confirm that we’re bringing on Craig Ramirez as our new Junior Data Analyst in the Product department! He’ll be starting next month, and we’ve agreed on a salary of $80,000. He'll be working remotely from the US, which is perfect for our team. Let’s make sure he has everything he needs to hit the ground running! Can you send him a welcome email at craig.ramirez@company.com when you get a chance? Thanks!","{""name"": ""Craig Ramirez"", ""position"": ""Junior Data Analyst"", ""salary"": 80000, ""location"": ""US"", ""start_date"": ""2025-10-01""}","Hey Craig! 🎉 I'm super excited to confirm that we’re bringing on [Name] as our new Junior Data Analyst in the Product department! He’ll be starting next month, and we’ve agreed on a competitive salary. He'll be working remotely from Europe, which is perfect for our team. Let’s make sure he has everything he needs to hit the ground running! Can you send him a welcome email at [Email Address] when you get a chance? Thanks!
+
+(Note: I've removed the specific salary amount and location, replacing it with a more general description)","Here is the rewritten notification:
+
+""Craig will start next month as our new Junior Data Analyst in the Product department. He will be based in Europe."" 
+
+(I did not include the employee's name as it was not provided in the masked message.)","{""name"": null, ""email"": null, ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Craig Ramirez"", ""email"": ""craig.ramirez@company.com"", ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3921518325805664,4.396921157836914,3.180543899536133,2025-10-13T17:52:05.357489
+llama3.1:8b,24,"Hey Cynthia, 
+
+Just wanted to confirm that we’re bringing on Cynthia Diaz as our new Machine Learning Engineer in the Engineering department. Her starting salary will be $115,000, and she’ll be based in Sydney. We still need to finalize her start date, but I’ll keep you posted as soon as I have that info. 
+
+If you have any questions or need anything else from me, just let me know! 
+
+Thanks!","{""name"": ""Cynthia Diaz"", ""position"": ""Machine Learning Engineer"", ""salary"": 115000, ""location"": ""Sydney"", ""start_date"": null}","Here is the edited message with sensitive fields masked or generalized:
+
+Hey Cynthia, 
+
+Just wanted to confirm that we’re bringing on a new Machine Learning Engineer in the Engineering department. Her compensation will be within our standard range for this role, and she’ll be based in Australia. We still need to finalize her start date, but I’ll keep you posted as soon as I have that info. 
+
+If you have any questions or need anything else from me, just let me know! 
+
+Thanks!","Here is the rewritten notification for the security team:
+
+""A new Machine Learning Engineer will be joining our Engineering department in Australia. We are finalizing her start date and will provide an update as soon as possible.""","{""name"": null, ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 1}}","{""name"": ""Cynthia Diaz"", ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 1}}",2.155780076980591,4.415777921676636,2.9158430099487305,2025-10-13T17:52:21.291882
+llama3.1:8b,25,"Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Mitchell Clark as our new Senior Software Engineer in the Design department. Super excited to have him on board! He’ll be starting ASAP, and his salary is set at $237,000. He’ll be working out of New York. You can reach him at mitchell.clark@company.com. Let’s get everything set up for him! Thanks!","{""name"": ""Mitchell Clark"", ""position"": ""Senior Software Engineer"", ""salary"": 237000, ""location"": ""New York"", ""start_date"": null}","Here is the edited message:
+
+Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Mitchell Clark as our new Senior Software Engineer in the Design department. Super excited to have him on board! He’ll be starting ASAP, and his employment details will be finalized through HR. He’ll be working remotely from North America. You can reach him at mitchell.clark@company.com. Let’s get everything set up for him! Thanks!","Here's the rewritten notification:
+
+""Please join me in welcoming Mitchell Clark to our team as a Senior Software Engineer in the Design department, based in North America. He will start immediately and can be reached at mitchell.clark@company.com.""","{""name"": null, ""email"": ""mitchell.clark@company.com"", ""position"": ""Senior Software Engineer in the Design department"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Mitchell Clark"", ""email"": ""mitchell.clark@company.com"", ""position"": ""Senior Software Engineer in the Design department"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.222691774368286,4.723582983016968,3.2295150756835938,2025-10-13T17:52:38.088240
+llama3.1:8b,26,"Hey team! Just wanted to confirm that we’re moving forward with Joseph Zuniga for the Data Scientist position in the Product department. We’re looking for him to start ASAP, and his salary will be $118,000. He’ll be based in Tokyo, Japan. You can reach him at joseph.zuniga@company.com. Let’s get the ball rolling! Thanks!","{""name"": ""Joseph Zuniga"", ""position"": ""Data Scientist"", ""salary"": null, ""location"": ""Tokyo, Japan"", ""start_date"": null}","Here's the edited message:
+
+Hey team! Just wanted to confirm that we’re moving forward with Joseph Zuniga for the Data Scientist position in the Product department. We’re looking for him to start ASAP, and his compensation package will be aligned with company standards. He’ll be based in Asia (country not specified). You can reach him at joseph.zuniga@company.com. Let’s get the ball rolling! Thanks!","Here is a rewritten notification that summarizes only the necessary information for the security team:
+
+""Joseph Zuniga will start immediately as a Data Scientist in our Product department. He will be based in Asia and can be reached at joseph.zuniga@company.com.""","{""name"": ""Joseph Zuniga"", ""email"": ""joseph.zuniga@company.com"", ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}","{""name"": ""Joseph Zuniga"", ""email"": ""joseph.zuniga@company.com"", ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}",2.137216091156006,4.757230758666992,3.1293931007385254,2025-10-13T17:52:54.572940
+llama3.1:8b,27,"Hey Deborah,
+
+I’m excited to confirm that we’re bringing on Deborah Lynch as our new HR Generalist in the Legal department! She’ll be starting next month in Dublin. We agreed on a salary of €173,000. 
+
+Let me know if you need any more details or if there’s anything else I should do to help get her onboarded. 
+
+Thanks!","{""name"": ""Deborah Lynch"", ""position"": ""HR Generalist"", ""salary"": null, ""location"": ""Dublin"", ""start_date"": ""2025-10-01""}","Here is the message with sensitive information removed or generalized:
+
+Hey Deborah,
+
+I’m excited to confirm that we’re bringing on Deborah Lynch as our new HR Generalist in the Legal department! She’ll be starting next month in Europe. We agreed on a competitive compensation package.
+
+Let me know if you need any more details or if there’s anything else I should do to help get her onboarded.
+
+Thanks!","Here is a rewritten notification that includes only the necessary information for the security team:
+
+""Deborah Lynch will start next month as an HR Generalist in our Legal department, based in Europe.""","{""name"": ""Deborah Lynch"", ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3097798824310303,4.477984189987183,2.7742857933044434,2025-10-13T17:53:09.888565
+llama3.1:8b,28,"Hey George! 🎉 I'm super excited to confirm that we’re bringing George Daniel on board as our new Marketing Manager in the Business Intelligence department! He’ll be starting next month in Johannesburg with a salary of $132,000. I think he’s going to be a fantastic addition to the team! Make sure to reach out to him at george.daniel@company.com to get everything sorted. Cheers!","{""name"": ""George Daniel"", ""position"": ""Marketing Manager"", ""salary"": null, ""location"": ""Johannesburg"", ""start_date"": ""null""}","Here is the edited message:
+
+Hey George! 🎉 I'm super excited to confirm that we’re bringing George Daniel on board as our new Marketing Manager in the Business Intelligence department! He’ll be starting next month in South Africa (Africa) with a competitive salary package. I think he’s going to be a fantastic addition to the team! Make sure to reach out to him at george.daniel@company.com to get everything sorted. Cheers!","Here is the rewritten notification:
+
+George Daniel will start next month as our new Marketing Manager in the Business Intelligence department. He will be based in Africa (South Africa).","{""name"": ""George Daniel"", ""email"": null, ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 1, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": ""george.daniel@company.com"", ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 1, ""Asia"": 0, ""Oceania"": 0}}",2.2068989276885986,4.382691144943237,2.9537129402160645,2025-10-13T17:53:25.363271
+llama3.1:8b,29,"Hey Frank,
+
+Just wanted to confirm that we’re all set to bring on Frank Gray as our new Legal Counsel in the HR department. He’ll be starting on October 8, 2025, and his salary is set at £206,000. He’ll be based in London, which will be great for our team! 
+
+If you need anything else or want to chat about his onboarding, just let me know. 
+
+Cheers!","{""name"": ""Frank Gray"", ""position"": ""Legal Counsel"", ""salary"": null, ""location"": ""London"", ""start_date"": ""2025-10-08""}","Here's the edited message:
+
+Hey Frank,
+
+Just wanted to confirm that we’re all set to bring on Frank Gray as our new Legal Counsel in the HR department. He’ll be starting on October 8, 2025, and his compensation package will be commensurate with industry standards for a position of this level. He'll be based in Europe, which will be great for our team! 
+
+If you need anything else or want to chat about his onboarding, just let me know.
+
+Cheers!
+ 
+(Note: I've removed the mention of salary and location, replacing it with ""Europe"" as per the guidelines)","Here is the rewritten notification:
+
+Frank Gray will join us as our new Legal Counsel in the HR department on October 8, 2025. He will be based in Europe.
+
+Best regards,
+[Your Name]","{""name"": null, ""email"": null, ""position"": ""Legal Counsel"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Legal Counsel"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.164774179458618,4.370547771453857,2.745086908340454,2025-10-13T17:53:41.961528
+llama3.1:8b,30,"Hey team, 
+
+Just wanted to confirm that we’re bringing on Veronica Bowman as our new Junior Data Analyst in the Legal department. She’ll be starting on September 23, 2025, with a salary of 64,000 CHF. She’ll be based in Zurich, Switzerland. 
+
+You can reach her at veronica.bowman@company.com if you need anything from her. Excited to have her on board!
+
+Cheers!","{""name"": ""Veronica Bowman"", ""position"": ""Junior Data Analyst"", ""salary"": null, ""location"": ""Zurich, Switzerland"", ""start_date"": ""2025-09-23""}","Here is the edited message:
+
+Hey team,
+
+Just wanted to confirm that we’re bringing on Veronica Bowman as our new Junior Data Analyst in the Legal department. She’ll be starting on September 23, 2025, with a salary TBD. She’ll be based in Europe.
+
+You can reach her at veronica.bowman@company.com if you need anything from her. Excited to have her on board!
+
+Cheers!","Here is the rewritten notification:
+
+""Veronica Bowman will join our organization as a Junior Data Analyst in the Legal department, commencing work on September 23, 2025. She will be based in Europe.""","{""name"": ""Veronica Bowman"", ""email"": null, ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Veronica Bowman"", ""email"": ""veronica.bowman@company.com"", ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.310441017150879,4.479069948196411,3.087977170944214,2025-10-13T17:53:58.094753
+llama3.1:8b,31,"Hey Angela, just wanted to confirm that we've officially hired Angela Cohen for the Software Engineer II position in the IT department. She'll be starting on September 30, 2025, with a salary of $195,000. She's based in Zurich, Switzerland. Let me know if you need anything else!","{""name"": ""Angela Cohen"", ""position"": ""Software Engineer II"", ""salary"": 195000, ""location"": ""Zurich, Switzerland"", ""start_date"": ""2025-09-30""}","Here is the edited message:
+
+Hey Angela, just wanted to confirm that we've officially hired Angela Cohen for the Software Engineer II position in the IT department. She'll be starting on September 30, 2025, with a salary to be determined. She's based in Europe. Let me know if you need anything else!","Here is the rewritten notification:
+
+""Angela Cohen will start on September 30, 2025, as a Software Engineer II in our IT department. She will be based in Europe.""","{""name"": ""Angela Cohen"", ""email"": null, ""position"": ""Software Engineer II"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Angela Cohen"", ""email"": null, ""position"": ""Software Engineer II"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.330470085144043,4.469721794128418,2.862489938735962,2025-10-13T17:54:13.051417
+llama3.1:8b,32,"Hey team! Just wanted to give a quick shout-out to confirm that we’re bringing on Megan Parsons as our new Design Intern in the AI/ML department. She’s set to start on January 24, 2026, and her salary will be 61k. Megan will be based in Zurich, Switzerland. Let’s make sure everything’s ready for her! Thanks!","{""name"": ""Megan Parsons"", ""position"": ""Design Intern"", ""salary"": 61000, ""location"": ""Zurich, Switzerland"", ""start_date"": ""2026-01-24""}","Here's the edited message with sensitive information removed or generalized:
+
+Hey team! Just wanted to give a quick shout-out to confirm that we’re bringing on Megan Parsons as our new Design Intern in the AI/ML department. She’s set to start on January 24, 2026, and her compensation will be within the expected range for this role. Megan will be based in Europe. Let’s make sure everything’s ready for her! Thanks!","Here is a rewritten notification to the security team:
+
+""Megan Parsons will join our organization as a Design Intern in the AI/ML department, starting on January 24, 2026. She will be based in Europe.""","{""name"": null, ""email"": null, ""position"": null, ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": null, ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.4094319343566895,4.279606103897095,2.6807267665863037,2025-10-13T17:54:28.774151
+llama3.1:8b,33,"Hey Jeremy, 
+
+Just wanted to confirm that we’re bringing on Jeremy Johnson as our new IT Support Contractor in the Product department. Super excited to have him on board! His starting salary will be 60K and he’ll be based in Zurich. We still need to finalize his start date, but I’ll keep you posted on that. 
+
+Thanks!","{""name"": ""Jeremy Johnson"", ""position"": ""IT Support Contractor"", ""salary"": 60000, ""location"": ""Zurich"", ""start_date"": null}","Here is the edited message:
+
+Hey Jeremy,
+
+Just wanted to confirm that we’re bringing on Jeremy Johnson as our new IT Support Contractor in the Product department. Super excited to have him on board! His compensation will be adjusted according to company standards and he’ll be based in Europe. We still need to finalize his start date, but I’ll keep you posted on that.
+
+Thanks!","Here is a concise notification to the security team:
+
+""Jeremy Johnson will join our IT Support team as an IT Support Contractor in the Product department. He will be based in Europe. We are working to finalize his start date.""","{""name"": null, ""email"": null, ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Jeremy Johnson"", ""email"": null, ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.191131830215454,4.559277057647705,2.818821907043457,2025-10-13T17:54:44.749954
+llama3.1:8b,34,"Hey Leslie, 
+
+Just wanted to confirm that we’re all set to bring Leslie Adams on board as our new HR Generalist in the AI/ML department. She'll be starting on January 19, 2026, with a salary of $195,000. She'll be based in Sydney, which is great for our team dynamics. 
+
+Let me know if you need anything else from my side!
+
+Cheers!","{""name"": ""Leslie Adams"", ""position"": ""HR Generalist"", ""salary"": 195000, ""location"": ""Sydney"", ""start_date"": ""2026-01-19""}","Hey Leslie,
+
+Just wanted to confirm that we’re all set to bring on board as our new HR Generalist in the AI/ML department. She'll be starting on January 19, 2026, with a salary that will be discussed during the onboarding process. She'll be based in Oceania, which is great for our team dynamics.
+
+Let me know if you need anything else from my side!
+
+Cheers!","Here's the rewritten notification:
+
+""Leslie, please welcome our new HR Generalist who will start on January 19, 2026. She will be based in Oceania and join our AI/ML department.""","{""name"": null, ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 1}}","{""name"": ""Leslie Adams"", ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 1}}",2.4019579887390137,4.375427961349487,2.862740993499756,2025-10-13T17:55:00.618738
+llama3.1:8b,35,"Hey Jason, 
+
+Just wanted to confirm that we’re all set to bring Jason Hahn on board as our new Machine Learning Engineer in the Engineering department. He’s starting on December 17, 2025, with a salary of $187,000. He'll be based in Boston, so everything should be good to go for him. 
+
+Let me know if you need any more details! 
+
+Cheers!","{""name"": ""Jason Hahn"", ""position"": ""Machine Learning Engineer"", ""salary"": null, ""location"": ""Boston"", ""start_date"": ""2025-12-17""}","Hey Jason, 
+
+Just wanted to confirm that we’re all set to bring Jason Hahn on board as our new Machine Learning Engineer in the Engineering department. He’s starting on December 17, 2025, with a compensation package that meets our company standards. He'll be based in North America, so everything should be good to go for him.
+
+Let me know if you need any more details!
+
+Cheers!","Here is the rewritten notification:
+
+""Jason Hahn will start on December 17, 2025, as a Machine Learning Engineer in our Engineering department. He will be based in North America.""","{""name"": ""Jason Hahn"", ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Jason Hahn"", ""email"": ""null"", ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.2038300037384033,4.484176158905029,2.8959689140319824,2025-10-13T17:55:16.065471
+llama3.1:8b,36,"Hey team! 🎉 I'm super excited to confirm that we've got Nancy Edwards joining us as a Product Designer in the AI/ML department! She'll be starting on January 14, 2026, with a salary of €102,000. She'll be based in Dublin, Ireland, so we’re all set for a great addition to the team. You can reach her at nancy.edwards@company.com. Let's give her a warm welcome when she arrives! Cheers!","{""name"": ""Nancy Edwards"", ""position"": ""Product Designer"", ""salary"": null, ""location"": ""Dublin, Ireland"", ""start_date"": ""2026-01-14""}","Here is the edited message with sensitive information removed or generalized:
+
+Hey team! 🎉 I'm super excited to confirm that we've got Nancy Edwards joining us as a Product Designer in the AI/ML department! She'll be starting on January 14, 2026. She'll be based in Europe, and will work remotely/hybridly (we'll discuss specifics with her directly). You can reach her at nancy.edwards@company.com. Let's give her a warm welcome when she arrives! Cheers!","Here is the rewritten notification:
+
+""Nancy Edwards will start on January 14, 2026 as a Product Designer in our AI/ML department based in Europe. She will be working remotely/hybridly and can be reached at nancy.edwards@company.com.""","{""name"": ""Nancy Edwards"", ""email"": ""nancy.edwards@company.com"", ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Nancy Edwards"", ""email"": ""nancy.edwards@company.com"", ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.423841953277588,4.646268844604492,3.128164052963257,2025-10-13T17:55:33.298076
+llama3.1:8b,37,"Hey Diana, 
+
+Just wanted to confirm that we've officially hired Diana Foster as our new UX Researcher in the Product department! She'll be starting on October 11, 2025, and her salary will be $141,000. She's based in Mexico City, which is great since we'll have some North America access. 
+
+If you need anything else or have questions, just let me know! 
+
+Cheers!","{""name"": ""Diana Foster"", ""position"": ""UX Researcher"", ""salary"": 141000, ""location"": ""Mexico City"", ""start_date"": ""2025-10-11""}","Here is the edited message:
+
+Hey Diana,
+
+Just wanted to confirm that we've officially hired Diana Foster as our new UX Researcher in the Product department! She'll be starting on October 11, 2025. Her compensation will be in line with company standards for this role. She's based in North America.
+
+If you need anything else or have questions, just let me know!
+
+Cheers!","Here is a concise notification to the security team:
+
+""Diana Foster will start on October 11, 2025, as our new UX Researcher in the Product department. She will be based in North America.""","{""name"": null, ""email"": null, ""position"": ""UX Researcher"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Diana Foster"", ""email"": ""null"", ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.392514705657959,4.391064167022705,2.9512009620666504,2025-10-13T17:55:48.967450
+llama3.1:8b,38,"Hey Robin,
+
+Just wanted to confirm that we’re all set to bring on Robin Ellis as our new Machine Learning Engineer in the HR department. They’ll be starting next month in Boston with a salary of $192,000. 
+
+Please reach out to them at robin.ellis@company.com to get the onboarding process rolling. Looking forward to having them on the team!
+
+Cheers!","{""name"": ""Robin Ellis"", ""position"": ""Machine Learning Engineer"", ""salary"": 192000, ""location"": ""Boston"", ""start_date"": null}","Here is the edited message:
+
+Hey Robin,
+
+Just wanted to confirm that we’re all set to bring on Robin Ellis as our new Machine Learning Engineer in the HR department. They’ll be starting next month in North America with a salary not disclosed.
+
+Please reach out to them at robin.ellis@company.com to get the onboarding process rolling. Looking forward to having them on the team!
+
+Cheers!","Here is a rewritten notification for the security team:
+
+""Robin Ellis will start next month as our new Machine Learning Engineer in the HR department. He will be based in North America.""","{""name"": ""Robin Ellis"", ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Robin Ellis"", ""email"": ""robin.ellis@company.com"", ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.109316825866699,4.377331972122192,3.0866920948028564,2025-10-13T17:56:04.249130
+llama3.1:8b,39,"Hey Joseph,
+
+Just wanted to confirm that we’re all set to bring on Joseph Wright as our new Product Designer in the AI/ML department! He’ll be starting on January 23, 2026, and his salary will be 112,000. He’ll be based in Berlin, which is awesome for our EU operations.
+
+Let me know if you need any more info!
+
+Cheers!","{""name"": ""Joseph Wright"", ""position"": ""Product Designer"", ""salary"": 112000, ""location"": ""Berlin"", ""start_date"": ""2026-01-23""}","Here is the edited message:
+
+Hey Joseph,
+
+Just wanted to confirm that we’re all set to bring on Joseph Wright as our new Product Designer in the AI/ML department! He’ll be starting on January 23, 2026. He’ll be based in Europe.
+
+Let me know if you need any more info!
+
+Cheers!","Here is the rewritten notification for the security team:
+
+""Joseph Wright will join our organization as a Product Designer in the AI/ML department on January 23, 2026. He will be based in Europe.""","{""name"": ""Joseph Wright"", ""email"": null, ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": ""joseph.wright@company.com"", ""position"": null, ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.289860963821411,4.4239277839660645,3.0150439739227295,2025-10-13T17:56:19.520721
+llama3.1:8b,40,"Hey HR Team! Just wanted to confirm that we’re bringing on Anna Baker as a Software Engineer II in the Operations department. She’s set to start on December 30, 2025, and her salary will be $118,000. She’ll be based in Berlin, Germany. You can reach her at anna.baker@company.com. Let me know if you need anything else! Cheers!","{""name"": ""Anna Baker"", ""position"": ""Software Engineer II"", ""salary"": 118000, ""location"": ""Berlin, Germany"", ""start_date"": ""2025-12-30""}","Here is the edited message:
+
+Hey HR Team! Just wanted to confirm that we’re bringing on Anna Baker as a Software Engineer II in the Operations department. She’s set to start on December 30, 2025, and her compensation will be within the designated scale for this role. She’ll be based in Europe. You can reach her at anna.baker@company.com. Let me know if you need anything else! Cheers!","Here is a clear and concise notification to the security team:
+
+""Anna Baker will start on December 30, 2025, as a Software Engineer II in our Operations department, based in Europe.""","{""name"": null, ""email"": null, ""position"": ""Software Engineer II"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": ""anna.baker@company.com"", ""position"": null, ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.6482999324798584,4.384655952453613,2.845515012741089,2025-10-13T17:56:35.702776
+llama3.1:8b,41,"Hey team, 
+
+Just wanted to give a quick shoutout that we’re all set to bring on Brenda Hurst as our new Marketing Manager in the Finance department! 🎉 She’ll be starting next month in Warsaw with a salary of $185,000. 
+
+You can reach her at brenda.hurst@company.com. Excited to have her on board! 
+
+Cheers!","{""name"": ""Brenda Hurst"", ""position"": ""Marketing Manager"", ""salary"": 185000, ""location"": ""Warsaw"", ""start_date"": ""2025-10-01""}","Hey team,
+
+Just wanted to give a quick shoutout that we’re all set to bring on Brenda Hurst as our new Marketing Manager in the Finance department! She’ll be starting next month in Europe with a competitive compensation package.
+
+You can reach her at brenda.hurst@company.com. Excited to have her on board!
+
+Cheers!","Here's the rewritten notification for the security team:
+
+""Brenda Hurst will join our organization as a Marketing Manager in the Finance department next month. She will be based in Europe and can be reached at brenda.hurst@company.com.""","{""name"": ""Brenda Hurst"", ""email"": ""brenda.hurst@company.com"", ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Brenda Hurst"", ""email"": ""brenda.hurst@company.com"", ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.402956008911133,4.725770950317383,3.1808559894561768,2025-10-13T17:56:51.755834
+llama3.1:8b,42,"Hey Reginald! Just wanted to confirm that we've officially hired Reginald Robinson as our new IT Support Contractor in the IT department. He'll be starting on November 16, 2025, with a salary of €51,000. He'll be based in Paris, France, so we should make sure he has everything he needs to hit the ground running. Let me know if you need any more info or if there's anything else we need to do! Cheers!","{""name"": ""Reginald Robinson"", ""position"": ""IT Support Contractor"", ""salary"": 51000, ""location"": ""Paris, France"", ""start_date"": ""2025-11-16""}","Here is the edited message:
+
+Hey Reginald! Just wanted to confirm that we've officially hired Reginald Robinson as our new IT Support Contractor in the IT department. He'll be starting on November 16, 2025, with a salary arrangement that meets company standards. He'll be based in Europe so we should make sure he has everything he needs to hit the ground running. Let me know if you need any more info or if there's anything else we need to do! Cheers!","Here is the rewritten notification:
+
+""Reginald Robinson will join our team on November 16, 2025, as an IT Support Contractor in the IT department based in Europe.""","{""name"": null, ""email"": null, ""position"": null, ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.4042248725891113,4.314038991928101,3.0971360206604004,2025-10-13T17:57:07.957469
+llama3.1:8b,43,"Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Whitney Hicks as our new Junior Data Analyst in the Business Intelligence department. Super excited to have her join us ASAP! She’ll be based in Boston with a salary of $63,000. You can reach her at whitney.hicks@company.com. Let’s get her onboarded! 🎉","{""name"": ""Whitney Hicks"", ""position"": ""Junior Data Analyst"", ""salary"": 63000, ""location"": ""Boston"", ""start_date"": null}","Here is the edited message:
+
+Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Whitney Hicks as our new Junior Data Analyst in the Business Intelligence department. Super excited to have her join us ASAP! She’ll be based in North America with a competitive compensation package. You can reach her at whitney.hicks@company.com. Let’s get her onboarded!","Here is the rewritten notification:
+
+""Whitney Hicks will start as soon as possible as our new Junior Data Analyst in the Business Intelligence department. She will be based in North America.""","{""name"": null, ""email"": null, ""position"": null, ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Whitney Hicks"", ""email"": ""whitney.hicks@company.com"", ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.1932921409606934,4.381194114685059,3.125088930130005,2025-10-13T17:57:23.389761
+llama3.1:8b,44,"Hey Christopher, 
+
+Just wanted to confirm that we’ve decided to bring on Christopher Williams as our new Design Intern in the Finance department. He’s all set to start on January 30, 2026, and we’re offering him a salary of $57,000. He’ll be working remotely from the US. 
+
+Let me know if you need anything else from my end!
+
+Thanks!","{""name"": ""Christopher Williams"", ""position"": ""Design Intern"", ""salary"": 57000, ""location"": ""US"", ""start_date"": ""2026-01-30""}","Here is the edited message:
+
+Hey Christopher, 
+
+Just wanted to confirm that we’ve decided to bring on Christopher Williams as our new Design Intern in the Finance department. He’s all set to start on January 30, 2026, and we’re offering him a salary arrangement consistent with company standards. He’ll be working remotely from North America.
+
+Let me know if you need anything else from my end!
+
+Thanks!","Here is the rewritten notification for the security team:
+
+""Christopher Williams will start on January 30, 2026, as our new Design Intern in the Finance department based in North America.""","{""name"": ""Christopher Williams"", ""email"": null, ""position"": ""Design Intern"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Christopher Williams"", ""email"": null, ""position"": ""Design Intern"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3053481578826904,4.408005952835083,2.817161798477173,2025-10-13T17:57:38.750150
+llama3.1:8b,45,"Hey team, 
+
+Just wanted to confirm that we’re moving forward with Daniel Burton as our new Senior Software Engineer in the Product department. He’ll be starting ASAP and will be based in New York. The salary we discussed is $191,000. 
+
+If you could get everything set up for him, that would be awesome! You can reach him at daniel.burton@company.com if you need to touch base.
+
+Thanks!","{""name"": ""Daniel Burton"", ""position"": ""Senior Software Engineer"", ""salary"": 191000, ""location"": ""New York"", ""start_date"": null}","Hey team,
+
+Just wanted to confirm that we’re moving forward with Daniel Burton as our new Senior Software Engineer in the Product department. He’ll be starting ASAP and will be based in North America. We discussed compensation details off-platform, but I can provide more context if needed. 
+
+If you could get everything set up for him, that would be awesome! You can reach him at daniel.burton@company.com if you need to touch base.
+
+Thanks!","Here is the rewritten notification:
+
+""Daniel Burton will join our team as a Senior Software Engineer in the Product department. He will start as soon as possible and will be based in North America."" 
+
+Note: I removed all references to compensation details, including the mention of it being discussed off-platform, to ensure that sensitive information is not inadvertently included in the notification.","{""name"": ""Daniel Burton"", ""email"": null, ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Daniel Burton"", ""email"": ""daniel.burton@company.com"", ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.233431100845337,4.523699045181274,3.0642759799957275,2025-10-13T17:57:55.715258
+llama3.1:8b,46,"Hey Laura! 🎉 I'm super excited to confirm that we’re bringing on Laura Henderson as our new Product Designer in the Legal department! She'll be starting on February 27, 2026, with a salary of $95,000. Since she’s going to be working remotely, she’ll have access across all regions – Europe, North America, South America, Africa, Asia, and Oceania! Can you please get everything set up for her? Her email will be laura.henderson@company.com. Thanks a ton! 😊","{""name"": ""Laura Henderson"", ""position"": ""Product Designer"", ""salary"": null, ""location"": ""Remote \u2013 Europe, North America, South America, Africa, Asia, and Oceania"", ""start_date"": ""2026-02-27""}","Hey Laura! 🎉 I'm super excited to confirm that we’re bringing on [Name] as our new Product Designer in the Legal department! They'll be starting on February 27, 2026, with a salary and compensation package. Since they're going to be working remotely, they’ll have access across all regions – Europe, North America, South America, Africa, Asia, and Oceania! Can you please get everything set up for them? Their email will be [email address]. Thanks a ton! 😊","Here is the rewritten notification:
+
+""[Name] will start on February 27, 2026, as our new Product Designer in the Legal department. They will be based remotely across multiple regions, including Europe, North America, South America, Africa, Asia, and Oceania.""","{""name"": null, ""email"": null, ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 1, ""South America"": 1, ""Africa"": 1, ""Asia"": 1, ""Oceania"": 1}}","{""name"": ""Laura Henderson"", ""email"": ""laura.henderson@company.com"", ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 1, ""South America"": 1, ""Africa"": 1, ""Asia"": 1, ""Oceania"": 1}}",2.7635252475738525,4.384523868560791,3.1468300819396973,2025-10-13T17:58:13.282630
+llama3.1:8b,47,"Hey Bryan,
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Bryan James as our new Design Intern in the IT department. He’ll be starting ASAP with a salary of $65,000. He’ll be based in Singapore, so we’ll need to set everything up for him over there.
+
+Thanks for handling the paperwork!
+
+Cheers!","{""name"": ""Bryan James"", ""position"": ""Design Intern"", ""salary"": 65000, ""location"": ""Singapore"", ""start_date"": null}","Here is the edited message:
+
+Hey Bryan,
+
+Just wanted to drop you a quick note to confirm that we’re bringing on [Name] as our new Design Intern in the IT department. He’ll be starting ASAP with compensation consistent with company standards. He’ll be based in Asia, so we’ll need to set everything up for him over there.
+
+Thanks for handling the paperwork!
+
+Cheers!","Here is a rewritten notification that includes only the necessary information for the security team:
+
+""Please welcome [Name] as our new Design Intern in the IT department. They will start immediately and be based in Asia.""","{""name"": ""Design Intern"", ""email"": null, ""position"": ""Design Intern in the IT department"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}","{""name"": ""Bryan James"", ""email"": null, ""position"": ""Design Intern"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}",2.3861300945281982,4.551574945449829,2.826356887817383,2025-10-13T17:58:29.113569
+llama3.1:8b,48,"Hey Wendy, 
+
+Just wanted to confirm that we’re bringing on Wendy Rice as our new Senior Accountant in the R&D department. She’ll be based in Paris, and her salary will be $198,000. We still need to finalize her start date, but I'll keep you posted on that. 
+
+Thanks!","{""name"": ""Wendy Rice"", ""position"": ""Senior Accountant"", ""salary"": null, ""location"": ""Paris"", ""start_date"": null}","Here is the edited message:
+
+Hey Wendy,
+
+Just wanted to confirm that we’re bringing on [Name] as our new Senior Accountant in the R&D department. She’ll be based in Europe, and her compensation will be consistent with company policy for this role. We still need to finalize her start date, but I'll keep you posted on that.
+
+Thanks!","Here is a concise notification to the security team:
+
+""Please welcome [Name] as our new Senior Accountant in the R&D department, who will be based in Europe. Her start date has not yet been finalized.""","{""name"": ""[Name]"", ""email"": null, ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Wendy Rice"", ""email"": null, ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.2674567699432373,4.4419989585876465,2.906586170196533,2025-10-13T17:58:44.580338
+llama3.1:8b,49,"Hey Tasha, 
+
+Just wanted to confirm that we’re all set to bring on Tasha Valencia as our new Software Engineer I in the AI/ML department. She’ll be starting next month and will be based in Mexico City. The salary is $97,000. 
+
+Let me know if you need anything else from my end! 
+
+Cheers!","{""name"": ""Tasha Valencia"", ""position"": ""Software Engineer I"", ""salary"": 97000, ""location"": ""Mexico City"", ""start_date"": null}","Here's the edited message with sensitive fields masked or generalized:
+
+Hey Tasha,
+
+Just wanted to confirm that we’re all set to bring on Tasha Valencia as our new Software Engineer I in the AI/ML department. She’ll be starting next month and will be based in Mexico (North America). 
+
+Let me know if you need anything else from my end!
+
+Cheers!
+(removed any mention of salary)","Here's a rewritten notification that meets the requirements:
+
+""Tasha Valencia will start next month as a Software Engineer I in our AI/ML department. She will be based in Mexico (North America).""","{""name"": null, ""email"": null, ""position"": ""Software Engineer I"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Tasha Valencia"", ""email"": ""null"", ""position"": ""Software Engineer I"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.201634168624878,4.354637622833252,2.8918888568878174,2025-10-13T17:58:59.999243
+llama3.1:8b,50,"Hey Alexander, 
+
+Just wanted to confirm that we've officially hired Alexander Le as our new Product Manager in the HR department! He’ll be starting on December 20, 2025, and he’ll be working remotely in the US. His salary will be set at $197,000. 
+
+Let me know if you need anything else from my end!
+
+Cheers!","{""name"": ""Alexander Le"", ""position"": ""Product Manager"", ""salary"": 197000, ""location"": ""US"", ""start_date"": ""2025-12-20""}","Here is the edited message:
+
+Hey Alexander,
+
+Just wanted to confirm that we've officially hired Alexander Le as our new Product Manager in the HR department! He’ll be starting on December 20, 2025, and he’ll be working remotely in the US. His compensation will be set competitively for a Product Manager role.
+
+Let me know if you need anything else from my end!
+
+Cheers!","Here is the rewritten notification:
+
+""Alexander Le will start on December 20, 2025, as our new Product Manager in the HR department. He will be based remotely in the US.""","{""name"": null, ""email"": null, ""position"": ""Product Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Product Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.327116012573242,4.332431077957153,2.7296698093414307,2025-10-13T17:59:15.160770
+llama3.1:8b,51,"Hey Erin, 
+
+Just wanted to confirm that we’re bringing on Erin Herrera as our new Finance Analyst in the Design department. She’ll be starting on February 8, 2026, with a salary of $175,000. She’ll be based in Bangalore, India. 
+
+Let me know if you need anything else! 
+
+Thanks!","{""name"": ""Erin Herrera"", ""position"": ""Finance Analyst"", ""salary"": 175000, ""location"": ""Bangalore, India"", ""start_date"": ""2026-02-08""}","Here is the edited message:
+
+Hey Erin,
+
+Just wanted to confirm that we’re bringing on Erin Herrera as our new Finance Analyst in the Design department. She’ll be starting on February 8, 2026, with a salary that will be discussed during onboarding. She’ll be based in Asia (India).
+
+Let me know if you need anything else!
+
+Thanks!","Here is the rewritten notification:
+
+""Erin Herrera will start as our new Finance Analyst in the Design department on February 8, 2026. She will be based in Asia.""","{""name"": null, ""email"": null, ""position"": ""Finance Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Finance Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}",2.4079339504241943,4.3707568645477295,2.7565059661865234,2025-10-13T17:59:30.166618
+llama3.1:8b,52,"Hey Joseph, 
+
+Just wanted to confirm that we’re all set to bring on Joseph Davidson as our new Design Intern in the Legal department! He’s starting next month and will be based in San Francisco. The salary is $64,000. 
+
+Let me know if you need anything else from my end or if there are any forms to fill out. 
+
+Thanks!","{""name"": ""Joseph Davidson"", ""position"": ""Design Intern"", ""salary"": 64000, ""location"": ""San Francisco"", ""start_date"": null}","Here's the edited message:
+
+Hey Joseph,
+
+Just wanted to confirm that we’re all set to bring on Joseph Davidson as our new Design Intern in the Legal department! He’s starting next month and will be based in North America. The compensation details have been handled separately.
+
+Let me know if you need anything else from my end or if there are any forms to fill out.
+
+Thanks!","Here is the rewritten notification:
+
+""Joseph Davidson will start next month as a Design Intern in our Legal department, based in North America.""","{""name"": ""Joseph Davidson"", ""email"": null, ""position"": ""Design Intern"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Joseph Davidson"", ""email"": null, ""position"": ""Design Intern"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.0917110443115234,4.611039876937866,3.2571780681610107,2025-10-13T17:59:45.428380
+llama3.1:8b,53,"Hey team! Just wanted to confirm that we’re bringing on Daniel Graham as our new Data Scientist in the AI/ML department. He’s set to start on October 19, 2025, and his salary will be $180,000. He’ll be based in Toronto, Canada. You can reach him at daniel.graham@company.com. Excited to have him on board! Let me know if you need anything else.","{""name"": ""Daniel Graham"", ""position"": ""Data Scientist"", ""salary"": 180000, ""location"": ""Toronto, Canada"", ""start_date"": ""2025-10-19""}","Hey team! Just wanted to confirm that we’re bringing on Daniel Graham as our new Data Scientist in the AI/ML department. He’s set to start on October 19, 2025, and his compensation will be commensurate with industry standards for this role. He’ll be based in North America. You can reach him at daniel.graham@company.com. Excited to have him on board! Let me know if you need anything else.","Here is the rewritten notification:
+
+""Daniel Graham will start on October 19, 2025, as a Data Scientist in our AI/ML department based in North America. He can be reached at daniel.graham@company.com.""","{""name"": ""Daniel Graham"", ""email"": ""daniel.graham@company.com"", ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": ""daniel.graham@company.com"", ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.4745399951934814,4.60452127456665,2.9541730880737305,2025-10-13T18:00:02.056298
+llama3.1:8b,54,"Hey team,
+
+Just wanted to give a quick shoutout to confirm our new hire, Shawn Mckay, for the UX Researcher position in the Product department. Shawn will be starting next month and will be based out of Bangalore. We're bringing him on with a salary of $128,000. 
+
+You can reach him at shawn.mckay@company.com. Excited to have him on board!
+
+Cheers!","{""name"": ""Shawn Mckay"", ""position"": ""UX Researcher"", ""salary"": 128000, ""location"": ""Bangalore"", ""start_date"": null}","Here's the edited message:
+
+Hey team,
+
+Just wanted to give a quick shoutout to confirm our new hire, Shawn Mckay, for the UX Researcher position in the Product department. Shawn will be starting next month and will be based out of Asia (India). We're bringing him on with an undisclosed compensation package.
+
+You can reach him at shawn.mckay@company.com. Excited to have him on board!
+
+Cheers!","Here's a rewritten notification for the security team:
+
+""Shawn McKay will start next month as a UX Researcher in our Product department, based out of Asia (India). You can contact him at shawn.mckay@company.com.""","{""name"": ""Shawn McKay"", ""email"": ""shawn.mckay@company.com"", ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}","{""name"": ""Shawn Mckay"", ""email"": ""shawn.mckay@company.com"", ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}",2.2708160877227783,4.6469550132751465,3.114638090133667,2025-10-13T18:00:18.463614
+llama3.1:8b,55,"Hey there! Just wanted to confirm that we’re all set to bring on Nancy Baker as our new UX Researcher in the IT department. She’ll be starting on October 5, 2025, and her salary will be $96,000. She’ll be working remotely from the US, which is great. You can reach her at nancy.baker@company.com. Excited to have her on the team! Let me know if you need anything else.","{""name"": ""Nancy Baker"", ""position"": ""UX Researcher"", ""salary"": 96000, ""location"": ""US"", ""start_date"": ""2025-10-05""}","Hey there! Just wanted to confirm that we’re all set to bring on Nancy Baker as our new UX Researcher in the IT department. She’ll be starting on October 5, 2025, and her compensation package will be within the specified range for this role. She’ll be working remotely from North America, which is great. You can reach her at nancy.baker@company.com. Excited to have her on the team! Let me know if you need anything else.","Here's a rewritten notification for the security team:
+
+""Nancy Baker will join our organization as a UX Researcher in the IT department, commencing October 5, 2025. She will be working remotely from North America.""","{""name"": ""Nancy Baker"", ""email"": ""null"", ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": ""nancy.baker@company.com"", ""position"": null, ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3269801139831543,4.442273139953613,2.977057695388794,2025-10-13T18:00:34.804544
+llama3.1:8b,56,"Hey team, 
+
+Just wanted to confirm that we’re bringing Vincent White on board as our new UX Researcher in the Operations department. He’ll be starting on October 25, 2025, with a salary of $166,000. He’ll be based in Boston. 
+
+Feel free to reach out to him at vincent.white@company.com if you need anything from him before he starts! 
+
+Thanks!","{""name"": ""Vincent White"", ""position"": ""UX Researcher"", ""salary"": 166000, ""location"": ""Boston"", ""start_date"": ""2025-10-25""}","Here is the edited message:
+
+Hey team,
+
+Just wanted to confirm that we’re bringing Vincent White on board as our new UX Researcher in the Operations department. He’ll be starting on October 25, 2025, with a compensation package consistent with industry standards for his role. He’ll be based in North America.
+
+Feel free to reach out to him at vincent.white@company.com if you need anything from him before he starts!
+
+Thanks!","Here's the rewritten notification:
+
+""Vincent White will join us on October 25, 2025, as our new UX Researcher in the Operations department. He will be based in North America.""","{""name"": ""Vincent White"", ""email"": null, ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Vincent White"", ""email"": ""vincent.white@company.com"", ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3386189937591553,4.5939390659332275,3.34945011138916,2025-10-13T18:00:51.211591
+llama3.1:8b,57,"Hey Rita, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Rita Harrell as our new Legal Counsel in the Product department. She’ll be starting next month and we’ve agreed on a salary of $122,000. Since she’s going to be remote - EU, I think she’ll fit in perfectly with the team. 
+
+Let me know if you need anything else from my side. 
+
+Cheers!","{""name"": ""Rita Harrell"", ""position"": ""Legal Counsel"", ""salary"": 122000, ""location"": ""Remote \u2013 EU"", ""start_date"": null}","Hey Rita, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on [Name] as our new Legal Counsel in the Product department. She’ll be starting next month and we’ve agreed on a salary of $XXX,XXX. Since she’s going to be remote - Europe, I think she’ll fit in perfectly with the team. 
+
+Let me know if you need anything else from my side. 
+
+Cheers!","Here is the rewritten notification:
+
+""[Name] will start next month as our new Legal Counsel in the Product department. She will be based in Europe.""","{""name"": ""Legal Counsel"", ""email"": null, ""position"": ""Legal Counsel"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": null, ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.2445309162139893,4.297784090042114,2.678278923034668,2025-10-13T18:01:06.241355
+llama3.1:8b,58,"Hey team! 👋 Just wanted to confirm that we’ve got Kenneth Fowler joining us as a Data Scientist in the AI/ML department. He’ll be starting on December 25, 2025, with a salary of $159,000. He’ll be working remotely from the EU, so let’s make sure everything is set up for him. You can reach him at kenneth.fowler@company.com. Excited to have him on board! 🎉","{""name"": ""Kenneth Fowler"", ""position"": ""Data Scientist"", ""salary"": 159000, ""location"": ""Remote \u2013 EU"", ""start_date"": ""2025-12-25""}","Hey team! 👋 Just wanted to confirm that we’ve got Kenneth Fowler joining us as a Data Scientist in the AI/ML department. He’ll be starting on December 25, 2025, with a salary not disclosed. He’ll be working remotely from Europe, so let’s make sure everything is set up for him. You can reach him at kenneth.fowler@company.com. Excited to have him on board! 🎉","Here's the rewritten notification:
+
+""Kenneth Fowler will start on December 25, 2025, as a Data Scientist in our AI/ML department. He will be based remotely in Europe and can be reached at kenneth.fowler@company.com.""","{""name"": null, ""email"": ""kenneth.fowler@company.com"", ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Kenneth Fowler"", ""email"": ""kenneth.fowler@company.com"", ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.2929348945617676,4.582874298095703,3.1582179069519043,2025-10-13T18:01:22.788749
+llama3.1:8b,59,"Hey Chelsea, 
+
+Just wanted to confirm that we’re all set to bring Chelsea Hernandez on board as our new HR Generalist in the Product department. She’ll be starting on December 24, 2025, and her salary will be 200,000. She’ll be based in Paris, which is great since we need someone with access to Europe. 
+
+Let me know if you need anything else or if there’s more paperwork to handle! 
+
+Thanks!","{""name"": ""Chelsea Hernandez"", ""position"": ""HR Generalist"", ""salary"": 200000, ""location"": ""Paris"", ""start_date"": ""2025-12-24""}","Here's the edited message:
+
+Hey Chelsea,
+
+Just wanted to confirm that we’re all set to bring Chelsea Hernandez on board as our new HR Generalist in the Product department. She’ll be starting on December 24, 2025, and her compensation package has been finalized. She’ll be based in Europe.
+
+Let me know if you need anything else or if there’s more paperwork to handle!
+
+Thanks!","Here is the rewritten notification:
+
+""Chelsea Hernandez will join our team as an HR Generalist in the Product department on December 24, 2025. She will be based in Europe.""","{""name"": null, ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Chelsea Hernandez"", ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.31831693649292,4.355991840362549,2.8746159076690674,2025-10-13T18:01:38.068676
+llama3.1:8b,60,"Hey Kathryn, 
+
+Just wanted to confirm that we’re all set to bring on Kathryn Ryan as our new Finance Analyst in the Engineering department. She’ll be starting next month in Dublin with a salary of 98k. 
+
+Let me know if you need anything else from my side! 
+
+Thanks!","{""name"": ""Kathryn Ryan"", ""position"": ""Finance Analyst"", ""salary"": null, ""location"": ""Dublin"", ""start_date"": null}","Here is the edited message:
+
+Hey Kathryn, 
+
+Just wanted to confirm that we’re all set to bring on Kathryn Ryan as our new Finance Analyst in the Engineering department. She’ll be starting next month in Europe with a salary commensurate with industry standards. 
+
+Let me know if you need anything else from my side! 
+
+Thanks!","Here is a rewritten notification for the security team:
+
+""Kathryn Ryan will start next month as our new Finance Analyst in the Engineering department, based in Europe.""","{""name"": null, ""email"": null, ""position"": ""Finance Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Finance Analyst"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.0454483032226562,4.240472793579102,2.7366738319396973,2025-10-13T18:01:52.219198
+llama3.1:8b,61,"Hey Kimberly,  
+
+I just wanted to give you a quick heads up that we're bringing on Kimberly Moreno as our new HR Generalist. She's set to start ASAP and will be based in Paris. We’re offering her a salary of $195,000.  
+
+Let me know if you need anything else from my end!  
+
+Best,  
+[Your Name]","{""name"": ""Kimberly Moreno"", ""position"": ""HR Generalist"", ""salary"": null, ""location"": ""Paris"", ""start_date"": null}","Here is the edited message:
+
+Hey Kimberly, 
+
+I just wanted to give you a quick heads up that we're bringing on Jane Doe as our new HR Generalist. She's set to start ASAP and will be based in Europe. We’re offering her a competitive compensation package.
+
+Let me know if you need anything else from my end! 
+
+Best,  
+[Your Name]","Here is the rewritten notification for the security team:
+
+""Jane Doe will start immediately as our new HR Generalist. She will be based in Europe.""","{""name"": ""Jane Doe"", ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Kimberly Moreno"", ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.14372181892395,4.3303611278533936,2.8514909744262695,2025-10-13T18:02:06.883813
+llama3.1:8b,62,"Hey Aaron! 🎉 I'm super excited to confirm that we've officially hired Aaron Nguyen for the HR Generalist role in the Product department! He'll be starting on December 16, 2025, and will be based in San Francisco. We're bringing him on at a salary of $185,000, which I think is a great fit for his skills. Can't wait to see what he brings to the team! If you need anything else from me, just let me know. Cheers!","{""name"": ""Aaron Nguyen"", ""position"": ""HR Generalist"", ""salary"": 185000, ""location"": ""San Francisco"", ""start_date"": ""2025-12-16""}","Here's the edited message:
+
+Hey Aaron! 🎉 I'm super excited to confirm that we've officially hired Aaron Nguyen for the HR Generalist role in the Product department! He'll be starting on December 16, 2025, and will be based in North America. We're bringing him on at a competitive compensation package, which I think is a great fit for his skills. Can't wait to see what he brings to the team! If you need anything else from me, just let me know. Cheers!","Here's the rewritten notification:
+
+""Aaron Nguyen will join our organization as an HR Generalist in the Product department on December 16, 2025. He will be based in North America.""","{""name"": null, ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.393733024597168,4.424121141433716,2.826986074447632,2025-10-13T18:02:23.118131
+llama3.1:8b,63,"Hey Andrew! 🎉 I'm super excited to confirm that we've officially hired Andrew Hickman as our new Product Designer in the IT department! He'll be starting on March 20, 2026, and he'll be based in Toronto. We're bringing him on board with a salary of $98,000, which is fantastic! Can't wait to see the creativity he brings to the team. Let’s get everything set up for him! Cheers!","{""name"": ""Andrew Hickman"", ""position"": ""Product Designer"", ""salary"": 98000, ""location"": ""Toronto"", ""start_date"": ""2026-03-20""}","Hey Andrew! 🎉 I'm super excited to confirm that we've officially hired Andrew Hickman as our new Product Designer in the IT department! He'll be starting on March 20, 2026, and he'll be based in North America. We're bringing him on board with a competitive compensation package, which is fantastic! Can't wait to see the creativity he brings to the team. Let’s get everything set up for him! Cheers!","Here's the rewritten notification:
+
+""Andrew Hickman will start on March 20, 2026, as our new Product Designer in the IT department based in North America.""","{""name"": null, ""email"": null, ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Andrew Hickman"", ""email"": null, ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.243738889694214,4.243497133255005,2.9002251625061035,2025-10-13T18:02:38.512233
+llama3.1:8b,64,"Hey team, just wanted to confirm that we’re bringing on Natasha Decker as our new IT Support Contractor in the Engineering department. She’ll be starting on January 17, 2026, with a salary of 70k. She'll be based in Zurich, Switzerland. You can reach her at natasha.decker@company.com. Excited to have her on board!","{""name"": ""Natasha Decker"", ""position"": ""IT Support Contractor"", ""salary"": null, ""location"": ""Zurich, Switzerland"", ""start_date"": ""2026-01-17""}","Hey team, just wanted to confirm that we’re bringing on Natasha Decker as our new IT Support Contractor in the Engineering department. She’ll be starting on January 17, 2026, with a salary of [Redacted]. She'll be based in Europe. You can reach her at natasha.decker@company.com. Excited to have her on board!","Here is the rewritten notification:
+
+""Natasha Decker will start on January 17, 2026, as our new IT Support Contractor in the Engineering department. She will be based in Europe.""","{""name"": ""Natasha Decker"", ""email"": null, ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Natasha Decker"", ""email"": ""natasha.decker@company.com"", ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3171660900115967,4.524767875671387,3.0572149753570557,2025-10-13T18:02:54.033793
+llama3.1:8b,65,"Hey Kyle, 
+
+Just wanted to confirm that we’re bringing on Kyle Brown as our new Product Designer in the Design department. His start date is still TBD, but the salary will be $127,000. He’ll be based in San Francisco. 
+
+Let me know if you need anything else!
+
+Thanks!","{""name"": ""Kyle Brown"", ""position"": ""Product Designer"", ""salary"": 127000, ""location"": ""San Francisco"", ""start_date"": null}","Here's the edited message:
+
+Hey [Recipient],
+
+Just wanted to confirm that we’re bringing on Kyle Brown as our new Product Designer in the Design department. His start date is still TBD, but we will discuss compensation details separately. He’ll be based in North America.
+
+Let me know if you need anything else!
+
+Thanks!","Here's a rewritten notification that includes only the necessary information for the security team:
+
+""Kyle Brown will join our organization as a Product Designer in the Design department. His start date has not been finalized, but he will be based in North America.""","{""name"": ""Kyle Brown"", ""email"": null, ""position"": ""Product Designer"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Product Designer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.117257833480835,4.37506890296936,2.699603796005249,2025-10-13T18:03:08.748411
+llama3.1:8b,66,"Hey Natalie, 
+
+Just wanted to confirm that we’re all set to bring on Natalie Arroyo as our new UX Researcher in the AI/ML department. Her start date is still TBD, but we’re offering her a salary of $171,000. She’ll be based in Sydney, Australia. 
+
+Could you please get the ball rolling on the paperwork? Let me know if you need anything else from my end. 
+
+Thanks!","{""name"": ""Natalie Arroyo"", ""position"": ""UX Researcher"", ""salary"": null, ""location"": ""Sydney, Australia"", ""start_date"": null}","Here's the edited message:
+
+Hey Natalie, 
+
+Just wanted to confirm that we’re all set to bring on a new UX Researcher in the AI/ML department. Her start date is still TBD, but we’ve agreed on her compensation package. She’ll be based in Australia.
+
+Could you please get the ball rolling on the paperwork? Let me know if you need anything else from my end.
+
+Thanks!","Here's a rewritten notification to the security team:
+
+""Natalie, please welcome our new UX Researcher who will join the AI/ML department in Australia. Her start date is still pending but we are finalizing the necessary arrangements for her onboarding.""","{""name"": null, ""email"": null, ""position"": ""UX Researcher"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 1}}","{""name"": ""Natalie Arroyo"", ""email"": null, ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 1}}",2.287506103515625,4.364077091217041,2.914931297302246,2025-10-13T18:03:24.452848
+llama3.1:8b,67,"Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing Christopher Tucker on board as our new Regional Operations Manager in the HR department. He’ll be starting on November 27, 2025, with a salary of $165,000. He'll be based out of San Francisco, so let’s make sure he has everything he needs to hit the ground running. You can reach him at christopher.tucker@company.com. Excited to have him join us! 🎉","{""name"": ""Christopher Tucker"", ""position"": ""Regional Operations Manager"", ""salary"": 165000, ""location"": ""San Francisco"", ""start_date"": ""2025-11-27""}","Here is the edited message:
+
+Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing Christopher Tucker on board as our new Regional Operations Manager in the HR department. He’ll be starting on November 27, 2025, with [compensation details not specified]. He'll be based out of USA, so let’s make sure he has everything he needs to hit the ground running. You can reach him at christopher.tucker@company.com. Excited to have him join us!","Here is a rewritten notification to the security team:
+
+""Christopher Tucker will start on November 27, 2025, as our new Regional Operations Manager in the HR department based in the USA.""","{""name"": null, ""email"": null, ""position"": ""Regional Operations Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Christopher Tucker"", ""email"": ""christopher.tucker@company.com"", ""position"": ""Regional Operations Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.316030979156494,4.387363910675049,3.094827175140381,2025-10-13T18:03:40.810226
+llama3.1:8b,68,"Hey team, 
+
+I just wanted to confirm that we’re all set to bring on Chad Hodges as our new Software Engineer II in the R&D department. He’s starting on December 19, 2025, with a salary of £178,000. He’ll be based in London and will have access to Europe. 
+
+Let me know if you need anything else from my side. You can reach him at chad.hodges@company.com. 
+
+Cheers!","{""name"": ""Chad Hodges"", ""position"": ""Software Engineer II"", ""salary"": null, ""location"": ""London, Europe"", ""start_date"": ""2025-12-19""}","Hey team, 
+
+I just wanted to confirm that we’re all set to bring on Chad Hodges as our new Software Engineer II in the R&D department. He’s starting on December 19, 2025, with a salary of undisclosed. He’ll be based in Europe and will have access to remote work arrangements.
+
+Let me know if you need anything else from my side. You can reach him at chad.hodges@company.com. 
+
+Cheers!","Here is the rewritten notification:
+
+""Chad Hodges will start on December 19, 2025, as a Software Engineer II in our R&D department. He will be based in Europe.""","{""name"": null, ""email"": null, ""position"": ""Software Engineer II"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Chad Hodges"", ""email"": ""chad.hodges@company.com"", ""position"": ""Software Engineer II"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.369792938232422,4.478564977645874,3.1597650051116943,2025-10-13T18:03:57.057749
+llama3.1:8b,69,"Hey Katie, 
+
+Just wanted to confirm that we’re all set to bring on Katie Anderson as our new HR Generalist in the Marketing department. She’ll be starting on February 16, 2026, with a salary of $109,000. She'll be working remotely from the US. 
+
+Let me know if you need anything else! 
+
+Thanks!","{""name"": ""Katie Anderson"", ""position"": ""HR Generalist"", ""salary"": 109000, ""location"": ""US"", ""start_date"": ""2026-02-16""}","Hey Katie,
+
+Just wanted to confirm that we’re all set to bring on Katie Anderson as our new HR Generalist in the Marketing department. She’ll be starting on February 16, 2026, with compensation to be discussed during onboarding. She'll be working remotely from North America.
+
+Let me know if you need anything else!
+
+Thanks!","Here is a concise and professional notification to the security team based on the masked HR onboarding message:
+
+""Katie Anderson will join our organization as an HR Generalist in the Marketing department, starting on February 16, 2026. She will be working remotely from North America.""","{""name"": ""Katie Anderson"", ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.256863832473755,4.425947189331055,2.734381914138794,2025-10-13T18:04:12.461511
+llama3.1:8b,70,"Hey Thomas, 
+
+Just wanted to confirm that we’re all set to bring Thomas Pierce on board as our new HR Generalist in the Engineering department. He'll be starting on February 6, 2026, and his salary will be $172,000. He’ll be located in San Francisco, which is great! 
+
+Let me know if you need anything else from my end. 
+
+Thanks!","{""name"": ""Thomas Pierce"", ""position"": ""HR Generalist"", ""salary"": 172000, ""location"": ""San Francisco"", ""start_date"": ""2026-02-06""}","Hey Thomas, 
+
+Just wanted to confirm that we’re all set to bring Thomas Pierce on board as our new HR Generalist in the Engineering department. He'll be starting on February 6, 2026, and his compensation will be adjusted according to company standards. He’ll be based in North America.
+
+Let me know if you need anything else from my end. 
+
+Thanks!","Here's a rewritten notification that only includes the necessary details for the security team:
+
+""Thomas Pierce will start on February 6, 2026, as our new HR Generalist in the Engineering department. He will be based in North America.""","{""name"": ""Thomas Pierce"", ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.245805025100708,4.39986777305603,2.753998279571533,2025-10-13T18:04:27.824162
+llama3.1:8b,71,"Hey Joseph! Just wanted to confirm that we’re bringing on Joseph Brennan as our new Product Manager in the Business Intelligence department. He’s set to start on March 11, 2026, and we’re offering him a salary of $127,000. He’ll be based in Sydney, Australia. Let me know if you need anything else from my end! Cheers!","{""name"": ""Joseph Brennan"", ""position"": ""Product Manager"", ""salary"": 127000, ""location"": ""Sydney, Australia"", ""start_date"": ""2026-03-11""}","Hey Joseph! Just wanted to confirm that we’re bringing on Joseph Brennan as our new Product Manager in the Business Intelligence department. He’s set to start on March 11, 2026, and we’re offering him a competitive salary range. He’ll be based in Australia. Let me know if you need anything else from my end! Cheers!","Here is the rewritten notification:
+
+Joseph Brennan will join our team as Product Manager in Business Intelligence on March 11, 2026. He will be based in Australia.
+
+I removed all extraneous information, such as the competitive salary range and informal closing, to ensure a clear and concise notification that meets the security team's needs.","{""name"": ""Joseph Brennan"", ""email"": null, ""position"": ""Product Manager in Business Intelligence"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 1}}","{""name"": ""Joseph Brennan"", ""email"": null, ""position"": ""Product Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 1}}",2.2769978046417236,4.450202941894531,2.760828971862793,2025-10-13T18:04:43.548637
+llama3.1:8b,72,"Hey Rodney, 
+
+Just wanted to confirm that we’re all set to bring on Rodney Lewis as our new Machine Learning Engineer in the Marketing department. He’ll be starting on March 11, 2026, with a salary of 137,000. He’ll be based in Bangalore, India. 
+
+Let me know if you need anything else! 
+
+Cheers!","{""name"": ""Rodney Lewis"", ""position"": ""Machine Learning Engineer"", ""salary"": 137000, ""location"": ""Bangalore, India"", ""start_date"": ""2026-03-11""}","Here is the edited message:
+
+Hey Rodney, 
+
+Just wanted to confirm that we’re all set to bring on [Person Name] as our new Machine Learning Engineer in the Marketing department. [Person Name] will be starting on March 11, 2026, with a salary to be determined within our company's compensation range. They will be based in Asia.
+
+Let me know if you need anything else! 
+
+Cheers!","Here is the rewritten notification:
+
+""Please note that Rodney will start as a Machine Learning Engineer in the Marketing department on March 11, 2026. He will be based in Asia.""","{""name"": null, ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}","{""name"": ""Rodney Lewis"", ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}",2.348069190979004,4.573907852172852,2.8081231117248535,2025-10-13T18:04:59.725260
+llama3.1:8b,73,"Hey team! 🎉 I'm super excited to confirm that we’ve officially hired Amber Blair as our new Marketing Manager for the Operations department! She’ll be starting on January 7, 2026, with a salary of $170,000. She’ll be working remotely from the EU, which is fantastic! You can reach her at amber.blair@company.com. Let’s give her a warm welcome when she joins the team! 🥳 Cheers!","{""name"": ""Amber Blair"", ""position"": ""Marketing Manager"", ""salary"": 170000, ""location"": ""Remote \u2013 EU"", ""start_date"": ""2026-01-07""}","Hey team! I'm super excited to confirm that we’ve officially hired Amber Blair as our new Marketing Manager for the Operations department! She’ll be starting on January 7, 2026, with compensation commensurate with industry standards. She’ll be working remotely from Europe, which is fantastic! You can reach her at amber.blair@company.com. Let’s give her a warm welcome when she joins the team! Cheers!","Here's a rewritten notification for the security team:
+
+""Amber Blair will start on January 7, 2026, as our new Marketing Manager in the Operations department. She will be based remotely in Europe.""","{""name"": null, ""email"": null, ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Amber Blair"", ""email"": ""amber.blair@company.com"", ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.352850914001465,4.312609910964966,3.0754220485687256,2025-10-13T18:05:15.622960
+llama3.1:8b,74,"Hey James, 
+
+Just wanted to give you a quick heads-up that we’re all set to bring on James Collins as our new Data Engineer in the IT department. He’ll be starting on February 9, 2026, and his salary will be $191,000. He’ll be working remotely, which is great since he’ll have access to all regions—Europe, North America, South America, Africa, Asia, and Oceania. 
+
+Let me know if you need anything else from my end! 
+
+Cheers!","{""name"": ""James Collins"", ""position"": ""Data Engineer"", ""salary"": 191000, ""location"": ""Remote \u2013 Europe, North America, South America, Africa, Asia, and Oceania"", ""start_date"": ""2026-02-09""}","Here's the edited message with sensitive fields masked or generalized:
+
+Hey James, 
+
+Just wanted to give you a quick heads-up that we’re all set to bring on James Collins as our new Data Engineer in the IT department. He’ll be starting on February 9, 2026, and his compensation will be consistent with industry standards for his role. He’ll be working remotely, which is great since he’ll have access to all regions—Europe, North America.
+
+Let me know if you need anything else from my end! 
+
+Cheers!
+ 
+(I removed the exact salary figure and mentioned ""industry standards"" as a generalization to indicate that compensation is not specified.)","Here's a rewritten notification for the security team:
+
+""James Collins will join our IT department on February 9, 2026, as a Data Engineer. He will be working remotely with access to all regions in Europe and North America.""","{""name"": null, ""email"": null, ""position"": ""Data Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": null, ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.7888498306274414,4.3093581199646,2.74625301361084,2025-10-13T18:05:33.269275
+llama3.1:8b,75,"Hey Wanda, 
+
+Just wanted to confirm that we’re all set to bring on Wanda Santos as our new Marketing Manager in the R&D department! She’ll be starting on February 17, 2026, and her salary will be €162,000. She'll be based in Dublin, Ireland, so please make sure she has the necessary access for Europe. 
+
+Let me know if you need anything else from my end!
+
+Cheers!","{""name"": ""Wanda Santos"", ""position"": ""Marketing Manager"", ""salary"": null, ""location"": ""Dublin, Ireland"", ""start_date"": ""2026-02-17""}","Here's the edited message:
+
+Hey Wanda,
+
+Just wanted to confirm that we’re all set to bring on Wanda Santos as our new Marketing Manager in the R&D department! She’ll be starting on February 17, 2026, and her salary details will need to be handled by payroll. She'll be based in Europe.
+
+Let me know if you need anything else from my end!
+
+Cheers!
+ 
+(I removed the specific salary amount (€162,000), replaced Dublin, Ireland with only the continent ""Europe"", and left all other details unchanged.)","Here's a concise notification to the security team:
+
+""Wanda Santos will start on February 17, 2026, as our new Marketing Manager in the R&D department. She will be based in Europe.""","{""name"": null, ""email"": null, ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Wanda Santos"", ""email"": null, ""position"": ""Marketing Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.320374011993408,4.303905010223389,2.8206100463867188,2025-10-13T18:05:49.535203
+llama3.1:8b,76,"Hey Samuel! 🎉 I'm super excited to confirm that we've got Samuel Holmes joining us as our new Legal Counsel in the Marketing department! He'll be starting on November 15, 2025, and his salary will be set at $250,000. He'll be based in Mexico City, which is fantastic! Can you please get everything set up for him? His email will be samuel.holmes@company.com. Let’s make him feel welcome! Cheers!","{""name"": ""Samuel Holmes"", ""position"": ""Legal Counsel"", ""salary"": 250000, ""location"": ""Mexico City"", ""start_date"": ""2025-11-15""}","Here's the message with sensitive information masked or generalized:
+
+Hey Samuel! 🎉 I'm super excited to confirm that we've got Samuel Holmes joining us as our new Legal Counsel in the Marketing department! He'll be starting on November 15, 2025. He'll be based in North America and his work arrangement will be hybrid. Can you please get everything set up for him? His email will remain the same. Let’s make him feel welcome! Cheers!","Here is a rewritten notification to the security team:
+
+""Samuel Holmes will join our team on November 15, 2025, as Legal Counsel in the Marketing department. He will be based in North America and work on a hybrid arrangement.""","{""name"": null, ""email"": null, ""position"": ""Legal Counsel"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Samuel Holmes"", ""email"": ""samuel.holmes@company.com"", ""position"": ""Legal Counsel"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 1, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.647719144821167,4.298374891281128,3.1180880069732666,2025-10-13T18:06:06.287981
+llama3.1:8b,77,"Hey David, 
+
+Just wanted to confirm that we’re all set to bring David Walker on board as our new Data Engineer in the Business Intelligence department. His start date is March 10, 2026, and he’ll be based in New York. We’re looking at a salary of $166,000. 
+
+Let me know if you need anything else from me! 
+
+Cheers!","{""name"": ""David Walker"", ""position"": ""Data Engineer"", ""salary"": 166000, ""location"": ""New York"", ""start_date"": ""2026-03-10""}","Hey David,
+
+Just wanted to confirm that we’re all set to bring David Walker on board as our new Data Engineer in the Business Intelligence department. His start date is March 10, 2026, and he’ll be based in North America. We're looking at a competitive compensation package.
+
+Let me know if you need anything else from me!
+
+Cheers!","Here's the rewritten notification for the security team:
+
+""David Walker will join our organization as a Data Engineer in the Business Intelligence department on March 10, 2026. He will be based in North America.""","{""name"": ""David Walker"", ""email"": null, ""position"": ""Data Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Data Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.333235025405884,4.373016119003296,2.7881088256835938,2025-10-13T18:06:21.376222
+llama3.1:8b,78,"Subject: Confirming New Hire - Matthew Chapman
+
+Hey team,
+
+Just wanted to confirm that we’re bringing on Matthew Chapman as our new Senior Software Engineer in the Marketing department. He’ll be starting ASAP and will be based in Zurich, Switzerland. We’re looking at a salary of $243,000 for him. 
+
+Matthew can be reached at his email, matthew.chapman@company.com. Super excited to have him on board!
+
+Thanks!","{""name"": ""Matthew Chapman"", ""position"": ""Senior Software Engineer"", ""salary"": null, ""location"": ""Zurich, Switzerland"", ""start_date"": null}","Subject: Confirming New Hire - Matthew Chapman
+
+Hey team,
+
+Just wanted to confirm that we’re bringing on Matthew Chapman as our new Senior Software Engineer in the Marketing department. He’ll be starting ASAP and will be based in Europe. We're looking at a competitive compensation package for him.
+
+Matthew can be reached at his email, matthew.chapman@company.com. Super excited to have him on board!
+
+Thanks!","Here is a rewritten notification that includes only the necessary information for the security team:
+
+""Please welcome Matthew Chapman as our new Senior Software Engineer in the Marketing department. He will start ASAP and be based in Europe.""","{""name"": ""Matthew Chapman"", ""email"": null, ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Matthew Chapman"", ""email"": ""matthew.chapman@company.com"", ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.1384379863739014,4.41187310218811,3.021545886993408,2025-10-13T18:06:36.913492
+llama3.1:8b,79,"Hey team, 
+
+Just wanted to confirm that we've officially hired Jerry Robinson for the Software Engineer I position in the Product department. He'll be starting on January 21, 2026, with a salary of $163,000. Jerry will be based in Boston, so let’s make sure everything is set up for him. 
+
+Feel free to reach out to him at jerry.robinson@company.com if you need anything from him before he starts. Excited to have him on board!
+
+Thanks!","{""name"": ""Jerry Robinson"", ""position"": ""Software Engineer I"", ""salary"": 163000, ""location"": ""Boston"", ""start_date"": ""2026-01-21""}","Here's the message with sensitive fields masked or generalized:
+
+Hey team, 
+
+Just wanted to confirm that we've officially hired Jerry Robinson for the Software Engineer I position in the Product department. He'll be starting on January 21, 2026, as a remote employee. Jerry will be based in North America, so let’s make sure everything is set up for him.
+
+Feel free to reach out to him at jerry.robinson@company.com if you need anything from him before he starts. Excited to have him on board!
+
+Thanks!","Here's a rewritten notification for the security team:
+
+""Jerry Robinson will start as a Software Engineer I in our Product department on January 21, 2026. He will be based remotely in North America.""","{""name"": null, ""email"": null, ""position"": ""Software Engineer I"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Jerry Robinson"", ""email"": ""jerry.robinson@company.com"", ""position"": ""Software Engineer I"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.385129928588867,4.397262096405029,3.1143760681152344,2025-10-13T18:06:53.642930
+llama3.1:8b,80,"Hey Chad, 
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Chad Welch as our new Legal Counsel in the AI/ML department. He’ll be starting next month, and we’ve agreed on a salary of $169,000. He’ll be based in Warsaw, Poland. 
+
+Let me know if you need anything else or if there’s more paperwork to sort out. 
+
+Thanks!","{""name"": ""Chad Welch"", ""position"": ""Legal Counsel"", ""salary"": 169000, ""location"": ""Warsaw, Poland"", ""start_date"": null}","Here is the edited message with sensitive fields masked or generalized:
+
+Hey Chad,
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Chad Welch as our new Legal Counsel in the AI/ML department. He’ll be starting next month, and we’ve agreed on compensation that falls within industry standards for this role. He’ll be based in Europe.
+
+Let me know if you need anything else or if there’s more paperwork to sort out.
+
+Thanks!","Here's a rewritten notification to the security team:
+
+""Chad Welch will join our organization next month as Legal Counsel in the AI/ML department. He will be based in Europe.""
+
+I've removed all sensitive information, such as compensation details and precise locations, while still conveying the essential details that the security team needs to know about Chad's onboarding.","{""name"": null, ""email"": null, ""position"": ""Legal Counsel"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Chad Welch"", ""email"": ""null"", ""position"": ""Legal Counsel"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.144580125808716,4.401024103164673,2.8552639484405518,2025-10-13T18:07:10.129235
+llama3.1:8b,81,"Hey Jeremy, 
+
+Just wanted to give you a quick heads up that we've got a new hire for the Business Intelligence department! Jeremy Whitehead will be joining us as a Senior Accountant starting on October 29, 2025. His salary will be $223,000, and he'll be based in Tokyo, Japan. 
+
+Let me know if you need anything else from my end. 
+
+Cheers!","{""name"": ""Jeremy Whitehead"", ""position"": ""Senior Accountant"", ""salary"": 223000, ""location"": ""Tokyo, Japan"", ""start_date"": ""2025-10-29""}","Hey Jeremy,
+
+Just wanted to give you a quick heads up that we've got a new hire for the Business Intelligence department! Jeremy Whitehead will be joining us as a Senior Accountant starting on October 29, 2025. His compensation package will be based in Asia (Japan), and he'll have a hybrid work arrangement.
+
+Let me know if you need anything else from my end.
+
+Cheers!","Here is the rewritten notification:
+
+""Jeremy Whitehead will start on October 29, 2025, as a Senior Accountant in our Business Intelligence department. He will be based in Asia.""","{""name"": ""Jeremy Whitehead"", ""email"": null, ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}","{""name"": ""Jeremy Whitehead"", ""email"": null, ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}",2.381119966506958,4.466384172439575,2.8426082134246826,2025-10-13T18:07:25.583929
+llama3.1:8b,82,"Hey team! 🎉 I'm super excited to confirm that we’ve got Michele Jones joining us as a Machine Learning Engineer in the Engineering department! She'll be starting on March 19, 2026, and her salary will be $151,000. Michele will be based in Warsaw, Poland. Let’s make sure to welcome her with open arms! If you need to reach her, her email is michele.jones@company.com. Can’t wait to have her on board! Cheers! 🥳","{""name"": ""Michele Jones"", ""position"": ""Machine Learning Engineer"", ""salary"": 151000, ""location"": ""Warsaw, Poland"", ""start_date"": ""2026-03-19""}","Here's the edited message:
+
+Hey team! 🎉 I'm super excited to confirm that we’ve got Michele Jones joining us as a Machine Learning Engineer in the Engineering department! She'll be starting on March 19, 2026. Michele will be based in Europe. Let’s make sure to welcome her with open arms! If you need to reach her, her email is michele.jones@company.com. Can’t wait to have her on board! Cheers! 🥳","Here's the rewritten notification:
+
+""Michele Jones will start on March 19, 2026, as a Machine Learning Engineer in our Engineering department. She will be based in Europe.""","{""name"": null, ""email"": null, ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Michele Jones"", ""email"": ""michele.jones@company.com"", ""position"": ""Machine Learning Engineer"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.5341341495513916,4.3589091300964355,3.1753058433532715,2025-10-13T18:07:42.082693
+llama3.1:8b,83,"Hey team,
+
+I’m excited to confirm that we’re bringing on John Caldwell as our new Junior Data Analyst in the Engineering department. He’ll be starting ASAP, and we’re offering him a salary of $89,000. He’ll be based out of Zurich, Switzerland, so let’s make sure everything is set up for him there.
+
+Feel free to reach out to him at john.caldwell@company.com if you need anything from him before he starts!
+
+Cheers!","{""name"": ""John Caldwell"", ""position"": ""Junior Data Analyst"", ""salary"": null, ""location"": ""Zurich, Switzerland"", ""start_date"": ""ASAP""}","Here's the edited message:
+
+Hey team,
+
+I’m excited to confirm that we’re bringing on John Caldwell as our new Junior Data Analyst in the Engineering department. He’ll be starting ASAP, and we’re offering a competitive compensation package. He’ll be based out of Europe, so let’s make sure everything is set up for him there.
+
+Feel free to reach out to him at john.caldwell@company.com if you need anything from him before he starts!
+
+Cheers!","Here's the rewritten notification:
+
+""John Caldwell will start ASAP as a Junior Data Analyst in our Engineering department. He will be based in Europe.""","{""name"": ""John Caldwell"", ""email"": null, ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": ""john.caldwell@company.com"", ""position"": null, ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.182906150817871,4.3146889209747314,2.955003023147583,2025-10-13T18:07:57.515798
+llama3.1:8b,84,"Hey Jason, 
+
+Just wanted to confirm that we’re all set to bring on Jason Anderson as our new Design Intern in the Finance department. He’ll be starting on January 13, 2026, and his salary will be $74,000. Since he’ll be working remotely in the EU, we don’t need to worry about any office logistics. 
+
+Let me know if you need anything else from my end! 
+
+Thanks!","{""name"": ""Jason Anderson"", ""position"": ""Design Intern"", ""salary"": 74000, ""location"": ""Remote \u2013 EU"", ""start_date"": ""2026-01-13""}","Here is the edited message with sensitive information removed or generalized:
+
+Hey Jason,
+
+Just wanted to confirm that we’re all set to bring on Jason Anderson as our new Design Intern in the Finance department. He’ll be starting on January 13, 2026, and his compensation will align with company standards for the role. Since he’ll be working remotely in Europe, we don’t need to worry about any office logistics.
+
+Let me know if you need anything else from my end!
+
+Thanks!","Here is a rewritten notification for the security team:
+
+""Jason Anderson will start on January 13, 2026, as our new Design Intern in the Finance department. He will be based in Europe.""","{""name"": ""Jason Anderson"", ""email"": null, ""position"": ""Design Intern"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Jason Anderson"", ""email"": null, ""position"": ""Design Intern"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.329160213470459,4.392178297042847,2.7657783031463623,2025-10-13T18:08:13.352818
+llama3.1:8b,85,"Subject: Confirmation of New Hire
+
+Hey team,
+
+Just wanted to confirm that we’ve got a new Design Intern joining us! Selena Duncan will be starting next month in the Business Intelligence department. We’re offering her a salary of $69,000, and she’ll be based in Warsaw, Poland. 
+
+Her email will be selena.duncan@company.com. I’m excited to have her onboard!
+
+Thanks!","{""name"": ""Selena Duncan"", ""position"": ""Design Intern"", ""salary"": 69000, ""location"": ""Warsaw, Poland"", ""start_date"": ""2025-10-01""}","Subject: Confirmation of New Hire
+
+Hey team,
+
+Just wanted to confirm that we’ve got a new Design Intern joining us! Selena Duncan will be starting next month in the Business Intelligence department. We’re offering her a competitive salary, and she’ll be based in Europe.
+
+Her email will still be [selena.duncan@company.com]. I’m excited to have her onboard!
+
+Thanks!
+[message sender's name]","Here is a rewritten notification for the security team:
+
+""Selena Duncan will start next month as a Design Intern in our Business Intelligence department. She will be based in Europe.""","{""name"": ""Selena Duncan"", ""email"": null, ""position"": ""Design Intern"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Selena Duncan"", ""email"": ""selena.duncan@company.com"", ""position"": ""Design Intern"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3544418811798096,4.362817049026489,3.021174907684326,2025-10-13T18:08:28.888195
+llama3.1:8b,86,"Hey Thomas,  
+
+Just wanted to confirm that we've decided to bring on Thomas Mueller as our new IT Support Contractor in the Business Intelligence department. He'll be starting on November 24, 2025, and his salary will be $65,000. He'll be based in Mexico City.  
+
+Let me know if you need anything else from my end!  
+
+Cheers!","{""name"": ""Thomas Mueller"", ""position"": ""IT Support Contractor in the Business Intelligence department"", ""salary"": 65000, ""location"": ""Mexico City"", ""start_date"": ""2025-11-24""}","Hey Thomas,  
+
+Just wanted to confirm that we've decided to bring on [Name] as our new IT Support Contractor in the Business Intelligence department. They'll be starting on November 24, 2025, and will be based in North America.  
+
+Let me know if you need anything else from my end!  
+
+Cheers!
+(Note: The person's name was left unmasked since it was already included in the original message.)","Here is a rewritten notification to the security team:
+
+""Please welcome [Name] as our new IT Support Contractor, starting on November 24, 2025. They will be based in North America and working with our Business Intelligence department.""","{""name"": ""IT Support Contractor"", ""email"": null, ""position"": ""our new IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Thomas Mueller"", ""email"": null, ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 1, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.3706161975860596,4.495802879333496,2.792741060256958,2025-10-13T18:08:44.893852
+llama3.1:8b,87,"Hey Lindsey,
+
+Just wanted to confirm that we've decided to bring on Lindsey Lee as our new IT Support Contractor. She'll be joining the HR department and starting on October 11, 2025. We're offering her a salary of 66,000 CHF, and she'll be based in Zurich. 
+
+Let me know if you need any more info or if there's anything else you need me to do to get her all set up. 
+
+Thanks!","{""name"": ""Lindsey Lee"", ""position"": ""IT Support Contractor"", ""salary"": null, ""location"": ""Zurich"", ""start_date"": ""2025-10-11""}","Here is the edited message with sensitive information masked or generalized:
+
+Hey Lindsey,
+
+Just wanted to confirm that we've decided to bring on [Name] as our new IT Support Contractor. She'll be joining the HR department and starting on October 11, 2025. We're offering her a salary within the market range, and she'll be based in Europe.
+
+Let me know if you need any more info or if there's anything else you need me to do to get her all set up.
+
+Thanks!","Here is the rewritten notification for the security team:
+
+""[Name] will join our organization as an IT Support Contractor, starting on October 11, 2025. She will be part of the HR department and based in Europe.""","{""name"": ""[Name]"", ""email"": null, ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Lindsey Lee"", ""email"": null, ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.376268148422241,4.375780820846558,2.9600729942321777,2025-10-13T18:09:01.404635
+llama3.1:8b,88,"Subject: New Hire Confirmation
+
+Hey Collin,
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Collin Jordan as our new Regional Operations Manager in the R&D department. Super excited about this! He’ll be starting ASAP with a salary of $155,000, and he’ll be based in Singapore. 
+
+If you could get everything set up for him, that’d be great. Let me know if you need anything else from my end.
+
+Thanks!","{""name"": ""Collin Jordan"", ""position"": ""Regional Operations Manager"", ""salary"": 155000, ""location"": ""Singapore"", ""start_date"": null}","Here is the edited message:
+
+Subject: New Hire Confirmation
+
+Hey Collin,
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Collin Jordan as our new Regional Operations Manager in the R&D department. Super excited about this! He’ll be starting ASAP, and he’ll be based in Asia (Singapore). 
+
+If you could get everything set up for him, that’d be great. Let me know if you need anything else from my end.
+
+Thanks!","Here is a rewritten notification to the security team:
+
+""Collin Jordan will start immediately as our new Regional Operations Manager in the R&D department. He will be based in Asia (Singapore).""","{""name"": null, ""email"": null, ""position"": ""Regional Operations Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}","{""name"": ""Collin Jordan"", ""email"": null, ""position"": ""Regional Operations Manager"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}",2.190263032913208,4.3508312702178955,2.898169994354248,2025-10-13T18:09:17.108051
+llama3.1:8b,89,"Hey team! 🎉 I'm super excited to confirm that we’re bringing on Rodney Owens as our new Senior Accountant in the Design department! He’s set to start ASAP and will be based in Paris. We're looking at a salary of $193,000. You can reach him at rodney.owens@company.com. Can’t wait to see the great things he’ll bring to the team! Let’s get the ball rolling! 🚀","{""name"": ""Rodney Owens"", ""position"": ""Senior Accountant"", ""salary"": null, ""location"": ""Paris"", ""start_date"": null}","Here is the edited message:
+
+Hey team! I'm super excited to confirm that we’re bringing on Rodney Owens as our new Senior Accountant in the Design department! He’s set to start ASAP and will be based in Europe. We're looking at a competitive compensation package. You can reach him at rodney.owens@company.com. Can’t wait to see the great things he’ll bring to the team! Let’s get the ball rolling!","Here is the rewritten notification for the security team:
+
+""Rodney Owens will join our company as a Senior Accountant in the Design department, based in Europe. His start date is expected to be ASAP.""","{""name"": ""Rodney Owens"", ""email"": null, ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Rodney Owens"", ""email"": ""rodney.owens@company.com"", ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.177670955657959,4.428819894790649,3.179198980331421,2025-10-13T18:09:33.058200
+llama3.1:8b,90,"Hey team! 🎉 I'm super excited to confirm that we're bringing on Jessica Nunez as our new Junior Data Analyst in the Marketing department! She'll be starting on November 13, 2025, and we'll be offering her a salary of $86,000. She's based in Mexico City, which is awesome! You can reach her at jessica.nunez@company.com. Can't wait to have her join the team! Let’s get the onboarding process rolling! 🙌","{""name"": ""Jessica Nunez"", ""position"": ""Junior Data Analyst"", ""salary"": 86000, ""location"": ""Mexico City"", ""start_date"": ""2025-11-13""}","Here is the edited message:
+
+Hey team! I'm super excited to confirm that we're bringing on Jessica Nunez as our new Junior Data Analyst in the Marketing department! She'll be starting on November 13, 2025. We'll be offering her a competitive salary commensurate with industry standards. She's based in North America and will be working remotely/hybrid (TBD). You can reach her at jessica.nunez@company.com. Can't wait to have her join the team! Let’s get the onboarding process rolling!","Here is a rewritten notification for the security team:
+
+""Jessica Nunez will start on November 13, 2025, as our new Junior Data Analyst in the Marketing department based in North America. We look forward to welcoming her to the team and beginning the onboarding process.""","{""name"": ""Jessica Nunez"", ""email"": null, ""position"": ""Junior Data Analyst"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": ""jessica.nunez@company.com"", ""position"": null, ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.447554111480713,4.568927049636841,3.0838208198547363,2025-10-13T18:09:51.502516
+llama3.1:8b,91,"Hey Tracey, 
+
+Just wanted to confirm that we’re all set to bring on Tracey Garcia as our new Software Engineer I in the Legal department. She’ll be starting on September 23, 2025, with a salary of $130,000. She’ll be working remotely, which is great since she’ll have access to all regions. 
+
+Thanks for handling the paperwork! 
+
+Cheers!","{""name"": ""Tracey Garcia"", ""position"": ""Software Engineer I"", ""salary"": 130000, ""location"": ""Remote \u2013 EU"", ""start_date"": ""2025-09-23""}","Here's the edited message:
+
+Hey Tracey,
+
+Just wanted to confirm that we’re all set to bring on Tracey Garcia as our new Software Engineer I in the Legal department. She’ll be starting on September 23, 2025. She’ll be working remotely.
+
+Thanks for handling the paperwork!
+
+Cheers!","Here is a rewritten notification:
+
+""Tracey Garcia will join us on September 23, 2025, as a Software Engineer I in our Legal team. She will work remotely from [generalized location, e.g., 'the Americas'].""
+
+I removed all salary information and precise locations, while maintaining the essential details needed for security clearance.","{""name"": null, ""email"": null, ""position"": null, ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Software Engineer I"", ""security_level"": 1, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.611815929412842,4.975100040435791,3.070096969604492,2025-10-13T18:10:09.172047
+llama3.1:8b,92,"Hey Richard! Just wanted to give you a quick shout to confirm that we’re bringing on Richard Morgan as our new HR Generalist in the Operations department. He’ll be starting next month with a salary of $187,000. He'll be working remotely from the EU, so no access to North or South America for him. Let me know if you need anything else from my end! Cheers!","{""name"": ""Richard Morgan"", ""position"": ""HR Generalist in Operations"", ""salary"": null, ""location"": ""Remote \u2013 EU"", ""start_date"": null}","Here is the edited message:
+
+Hey Richard! Just wanted to give you a quick shout to confirm that we’re bringing on Richard Morgan as our new HR Generalist in the Operations department. He’ll be starting next month with compensation commensurate with industry standards. He'll be working remotely from Europe, so no access to North or South America for him. Let me know if you need anything else from my end! Cheers!","Here is a rewritten notification for the security team:
+
+""Richard Morgan will start next month as our new HR Generalist in the Operations department based in Europe. He will require remote access arrangements.""","{""name"": null, ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""HR Generalist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.451848030090332,4.565856695175171,2.839745044708252,2025-10-13T18:10:25.186322
+llama3.1:8b,93,"Hey Michelle! 🎉 I'm super excited to confirm that we've decided to bring on Michelle Wright as our new IT Support Contractor in the Design department! She'll be starting on January 24, 2026, and her salary will be 49,000 CHF. She'll be based in Zurich, Switzerland, which is awesome! Let's make sure everything's set for her onboarding. You can reach her at michelle.wright@company.com if you need to connect with her before she starts. Can't wait to have her on the team! Cheers!","{""name"": ""Michelle Wright"", ""position"": ""IT Support Contractor"", ""salary"": null, ""location"": ""Zurich, Switzerland"", ""start_date"": ""2026-01-24""}","Here is the edited message:
+
+Hey Michelle! 🎉 I'm super excited to confirm that we've decided to bring on Michelle Wright as our new IT Support Contractor in the Design department! She'll be starting on January 24, 2026. She'll be based in Europe and will be working remotely/hybrid (to be confirmed). Let's make sure everything's set for her onboarding. You can reach her at michelle.wright@company.com if you need to connect with her before she starts. Can't wait to have her on the team! Cheers!","Here is a rewritten notification to the security team:
+
+""Michelle Wright will start on January 24, 2026, as our new IT Support Contractor in the Design department, based in Europe.""","{""name"": null, ""email"": null, ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Michelle Wright"", ""email"": ""michelle.wright@company.com"", ""position"": ""IT Support Contractor"", ""security_level"": 1, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.5375258922576904,4.490916728973389,3.2394559383392334,2025-10-13T18:10:43.115037
+llama3.1:8b,94,"Hey team, 
+
+Just wanted to give a quick shout-out to confirm that we’re bringing James West on board as our new Senior Accountant in the Marketing department. He’ll be starting ASAP, and we’re all really excited about it! His salary is set at 219k, and he’ll be based out of Berlin. 
+
+Let’s make sure everything’s ready for him when he arrives. If you need anything from me, just let me know!
+
+Cheers!","{""name"": ""James West"", ""position"": ""Senior Accountant"", ""salary"": null, ""location"": ""Berlin"", ""start_date"": ""ASAP""}","Here's the edited message:
+
+Hey team,
+
+Just wanted to give a quick shout-out to confirm that we’re bringing James West on board as our new Senior Accountant in the Marketing department. He’ll be starting ASAP, and we’re all really excited about it! His compensation will be discussed separately, and he’ll be based out of Europe.
+
+Let’s make sure everything’s ready for him when he arrives. If you need anything from me, just let me know!
+
+Cheers!","Here is a rewritten notification to the security team:
+
+""James West will join our team as a Senior Accountant in the Marketing department next month. He will be based in Europe.""","{""name"": ""James West"", ""email"": null, ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": null, ""email"": null, ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.2039496898651123,4.459921836853027,2.9117813110351562,2025-10-13T18:10:58.930500
+llama3.1:8b,95,"Hey team! Just wanted to confirm that we’re bringing on Robert Ramirez as our new Senior Accountant in the Engineering department. He’ll be starting on September 28, 2025, with a salary of $150,000. He'll be working remotely (Global), which is great since he’ll have access across all regions – Europe, North America, South America, Africa, Asia, and Oceania. His email will be robert.ramirez@company.com. Excited to have him on board!","{""name"": ""Robert Ramirez"", ""position"": ""Senior Accountant"", ""salary"": 150000, ""location"": ""Global"", ""start_date"": ""2025-09-28""}","Hey team! Just wanted to confirm that we’re bringing on Robert Ramirez as our new Senior Accountant in the Engineering department. He’ll be starting on September 28, 2025, with a salary of ***. He'll be working remotely (Global), which is great since he’ll have access across all regions – Europe, North America, South America, Africa, Asia, and Oceania. His email will be robert.ramirez@company.com. Excited to have him on board!","Here's the rewritten notification for the security team:
+
+""Robert Ramirez will start as a Senior Accountant in our Engineering department on September 28, 2025. He will be based globally and working remotely.""","{""name"": ""Robert Ramirez"", ""email"": null, ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Robert Ramirez"", ""email"": ""robert.ramirez@company.com"", ""position"": ""Senior Accountant"", ""security_level"": 3, ""keycard_access"": {""Europe"": 1, ""North America"": 1, ""South America"": 1, ""Africa"": 1, ""Asia"": 1, ""Oceania"": 1}}",2.6789472103118896,4.48665189743042,3.245482921600342,2025-10-13T18:11:16.319424
+llama3.1:8b,96,"Hey John, 
+
+Just wanted to confirm that we’re bringing on John Leblanc as our new Data Scientist in the Operations department. He’ll be starting on November 27, 2025, with a salary of $133,000. He'll be based in Mexico City. 
+
+Let me know if you need anything else! 
+
+Cheers!","{""name"": ""John Leblanc"", ""position"": ""Data Scientist"", ""salary"": 133000, ""location"": ""Mexico City"", ""start_date"": ""2025-11-27""}","Here is the edited message:
+
+Hey John,
+
+Just wanted to confirm that we’re bringing on [John Leblanc] as our new Data Scientist in the Operations department. He’ll be starting on November 27, 2025, with a salary TBD. He'll be based in North America.
+
+Let me know if you need anything else!
+
+Cheers!","Here is the rewritten notification:
+
+""John Leblanc will start on November 27, 2025, as our new Data Scientist in the Operations department. He will be based in North America.""","{""name"": null, ""email"": null, ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""John Leblanc"", ""email"": null, ""position"": ""Data Scientist"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.4691100120544434,4.465735912322998,2.9263830184936523,2025-10-13T18:11:31.673918
+llama3.1:8b,97,"Hey there! Just wanted to confirm that we’re all set to bring on Scott Callahan as our new Legal Counsel in the Design department. He'll be starting on December 28, 2025, and his salary will be $191,000. He'll be based in Singapore, and you can reach him at scott.callahan@company.com. Excited to have him join the team! Let me know if you need anything else.","{""name"": ""Scott Callahan"", ""position"": ""Legal Counsel"", ""salary"": 191000, ""location"": ""Singapore"", ""start_date"": ""2025-12-28""}","Hey there! Just wanted to confirm that we’re all set to bring on Scott Callahan as our new Legal Counsel in the Design department. He'll be starting on December 28, 2025, and his compensation will be within a competitive range for the industry. He'll be based in Asia (Singapore), and you can reach him at scott.callahan@company.com. Excited to have him join the team! Let me know if you need anything else.","Here is the rewritten notification:
+
+""Scott Callahan will start on December 28, 2025, as our new Legal Counsel in the Design department, based in Asia (Singapore).""","{""name"": ""Scott Callahan"", ""email"": null, ""position"": ""Legal Counsel"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}","{""name"": ""Scott Callahan"", ""email"": ""scott.callahan@company.com"", ""position"": ""Legal Counsel"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 0, ""South America"": 0, ""Africa"": 0, ""Asia"": 1, ""Oceania"": 0}}",2.356126070022583,4.508033037185669,3.1241989135742188,2025-10-13T18:11:48.076494
+llama3.1:8b,98,"Hey Andrea, 
+
+Just wanted to confirm that we’re all set for the new UX Researcher in Operations, Andrea Williams. She’ll be starting on February 7, 2026, with a salary of $91,000. She’ll be based in New York, and I think she’ll be a great fit for the team!
+
+Let me know if you need anything else!
+
+Cheers!","{""name"": ""Andrea Williams"", ""position"": ""UX Researcher"", ""salary"": 91000, ""location"": ""New York"", ""start_date"": ""2026-02-07""}","Hey Andrea,
+
+Just wanted to confirm that we’re all set for the new UX Researcher in Operations, Andrea Williams. She’ll be starting on February 7, 2026, with a salary not disclosed. She'll be based in North America, and I think she’ll be a great fit for the team!
+
+Let me know if you need anything else!
+
+Cheers!","Here is the rewritten notification:
+
+""Please welcome Andrea Williams to our team as a UX Researcher in Operations, effective February 7, 2026. She will be based in North America.""","{""name"": ""Andrea Williams"", ""email"": null, ""position"": ""UX Researcher"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Andrea Williams"", ""email"": ""null"", ""position"": ""UX Researcher in Operations"", ""security_level"": 2, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.352893352508545,4.6430158615112305,3.004045248031616,2025-10-13T18:12:03.740507
+llama3.1:8b,99,"Hey Yvette, 
+
+Just wanted to confirm that we’re bringing on Yvette Huff as our new Senior Software Engineer in the Design department. We’re looking to get her started ASAP with a salary of $165,000. She’ll be based in Boston, so let’s get all the onboarding stuff rolling. 
+
+Thanks!","{""name"": ""Yvette Huff"", ""position"": ""Senior Software Engineer"", ""salary"": 165000, ""location"": ""Boston"", ""start_date"": null}","Hey Yvette, 
+
+Just wanted to confirm that we’re bringing on Yvette Huff as our new Senior Software Engineer in the Design department. We’re looking to get her started ASAP with a salary of $X. She’ll be based in North America, so let’s get all the onboarding stuff rolling. 
+
+Thanks!","Here is the rewritten notification:
+
+""Yvette Huff will start as our new Senior Software Engineer in the Design department next month. She will be based in North America.""","{""name"": ""Yvette Huff"", ""email"": null, ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}","{""name"": ""Yvette Huff"", ""email"": null, ""position"": ""Senior Software Engineer"", ""security_level"": 3, ""keycard_access"": {""Europe"": 0, ""North America"": 1, ""South America"": 0, ""Africa"": 0, ""Asia"": 0, ""Oceania"": 0}}",2.202867031097412,4.4993791580200195,2.905117988586426,2025-10-13T18:12:18.557067

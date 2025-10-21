@@ -1,0 +1,1499 @@
+2025-10-13 17:45:27,147 - INFO - Starting HR data extraction experiment with model: llama3.1:8b
+2025-10-13 17:45:27,152 - INFO - Loaded dataset with 100 entries
+2025-10-13 17:45:27,152 - INFO - Processing message 1/100: Subject: Confirming New Hire - Danielle Johnson
+
+Hey Danielle,
+
+Just wanted to drop you a quick note...
+2025-10-13 17:45:37,409 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:45:40,203 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:45:41,535 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:45:45,626 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:45:48,456 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:45:49,467 - INFO - Processing message 2/100: Hey Joshua, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Joshua Walker ...
+2025-10-13 17:45:51,836 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:45:55,478 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:45:57,402 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:01,756 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:04,448 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:05,455 - INFO - Processing message 3/100: Hey Jill,
+
+I’m excited to confirm that we’re bringing on Jill Rhodes as our new Product Manager in t...
+2025-10-13 17:46:07,778 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:11,494 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:13,317 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:17,715 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:20,664 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:21,671 - INFO - Processing message 4/100: Hey Patricia, 
+
+Just wanted to confirm that we’ve got Patricia Miller on board as our new Junior Dat...
+2025-10-13 17:46:24,123 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:27,143 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:29,074 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:33,575 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:36,475 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:37,479 - INFO - Processing message 5/100: Hey Robert, 
+
+Just wanted to confirm that we’re bringing on Robert Johnson as our new Data Engineer ...
+2025-10-13 17:46:39,778 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:42,809 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:44,446 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:48,917 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:51,791 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:52,799 - INFO - Processing message 6/100: Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffery Wagner as our new Machine Learning...
+2025-10-13 17:46:55,159 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:46:58,576 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:00,434 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:04,964 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:07,983 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:08,985 - INFO - Processing message 7/100: Hey team! 🎉 I'm super excited to confirm that we’ve got Anthony Gonzalez joining us as our new UX Re...
+2025-10-13 17:47:11,284 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:14,977 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:18,008 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:22,714 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:25,986 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:26,989 - INFO - Processing message 8/100: Hey Debra, 
+
+Just wanted to confirm that we’re bringing on Debra Gardner as our new Junior Data Anal...
+2025-10-13 17:47:29,245 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:32,928 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:35,010 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:39,677 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:42,684 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:43,687 - INFO - Processing message 9/100: Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffrey Lawrence as our new Senior Softwar...
+2025-10-13 17:47:45,843 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:49,282 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:50,909 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:55,438 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:58,774 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:47:59,781 - INFO - Processing message 10/100: Hey Lisa, 
+
+Just wanted to confirm that we’re all set to bring on Lisa Smith as our new Machine Lear...
+2025-10-13 17:48:02,328 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:05,723 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:07,868 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:12,500 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:15,528 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:16,533 - INFO - Processing message 11/100: Hey Linda, 
+
+Just wanted to confirm that we’re all set to bring on Linda Wolfe as our new Finance An...
+2025-10-13 17:48:19,007 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:21,894 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:23,820 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:28,512 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:31,556 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:32,564 - INFO - Processing message 12/100: Hey team! 🎉 I'm super excited to confirm that we've got Matthew Moore on board as our new Senior Sof...
+2025-10-13 17:48:35,089 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:39,056 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:40,955 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:45,675 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:49,117 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:50,121 - INFO - Processing message 13/100: Hey Susan, 
+
+Just wanted to confirm that we’re all set to bring on Susan Rogers as our new UX Resear...
+2025-10-13 17:48:52,533 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:56,304 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:48:58,367 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:03,033 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:06,038 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:07,040 - INFO - Processing message 14/100: Hey Christopher, 
+
+Just wanted to confirm that we’re bringing on Christopher Davis as our new Produc...
+2025-10-13 17:49:09,488 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:12,369 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:14,015 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:18,474 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:21,546 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:22,551 - INFO - Processing message 15/100: Subject: New Hire Confirmation
+
+Hey Melanie,
+
+Just wanted to confirm that we’re bringing on board Me...
+2025-10-13 17:49:25,233 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:29,394 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:31,784 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:36,548 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:39,714 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:40,722 - INFO - Processing message 16/100: Hey Lindsay, 
+
+I’m excited to confirm that we’re bringing on Lindsay Blair as our new Data Scientist...
+2025-10-13 17:49:43,158 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:45,629 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:47,022 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:51,529 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:54,429 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:49:55,436 - INFO - Processing message 17/100: Hey Amanda! 🎉 Just wanted to confirm that we’re all set to bring on Amanda Dudley as our new HR Gene...
+2025-10-13 17:49:58,087 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:02,317 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:04,328 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:09,032 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:12,484 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:13,491 - INFO - Processing message 18/100: Hey Nicholas, 
+
+Just wanted to give you a quick shout to confirm that we’re moving forward with Nich...
+2025-10-13 17:50:15,884 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:19,394 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:21,250 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:25,766 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:28,755 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:29,757 - INFO - Processing message 19/100: Hey Maria! 🎉 Just wanted to confirm that we’re all set to bring on Maria Montgomery as our new HR Ge...
+2025-10-13 17:50:32,203 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:35,494 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:37,729 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:42,281 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:45,485 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:46,492 - INFO - Processing message 20/100: Hey HR team, 
+
+Just wanted to confirm that we’re bringing on Michelle Ray as our new Junior Data Ana...
+2025-10-13 17:50:48,714 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:51,916 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:53,736 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:50:58,208 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:01,352 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:02,360 - INFO - Processing message 21/100: Hey Janet,
+
+I wanted to confirm that we’re all set to bring on Janet Williams as our new Regional Op...
+2025-10-13 17:51:04,621 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:07,805 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:09,775 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:14,319 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:17,237 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:18,245 - INFO - Processing message 22/100: Hey team, 
+
+Just wanted to confirm that we’re bringing Jeremy Roberts on board as our new UX Researc...
+2025-10-13 17:51:20,364 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:23,591 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:25,157 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:29,517 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:32,618 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:33,621 - INFO - Processing message 23/100: Hey Christopher, 
+
+Just wanted to confirm that we’re moving forward with hiring Christopher Hall for...
+2025-10-13 17:51:35,994 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:38,997 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:40,938 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:45,314 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:48,079 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:49,085 - INFO - Processing message 24/100: Hey Craig! 🎉 I'm super excited to confirm that we’re bringing on Craig Ramirez as our new Junior Dat...
+2025-10-13 17:51:51,476 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:55,641 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:51:57,778 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:02,175 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:05,355 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:06,363 - INFO - Processing message 25/100: Hey Cynthia, 
+
+Just wanted to confirm that we’re bringing on Cynthia Diaz as our new Machine Learnin...
+2025-10-13 17:52:08,518 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:12,065 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:13,957 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:18,374 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:21,291 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:22,297 - INFO - Processing message 26/100: Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Mitchell Clark as o...
+2025-10-13 17:52:24,519 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:27,957 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:30,133 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:34,856 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:38,086 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:39,092 - INFO - Processing message 27/100: Hey team! Just wanted to confirm that we’re moving forward with Joseph Zuniga for the Data Scientist...
+2025-10-13 17:52:41,228 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:44,429 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:46,684 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:51,441 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:54,571 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:52:55,578 - INFO - Processing message 28/100: Hey Deborah,
+
+I’m excited to confirm that we’re bringing on Deborah Lynch as our new HR Generalist i...
+2025-10-13 17:52:57,887 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:00,912 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:02,634 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:07,112 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:09,886 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:10,894 - INFO - Processing message 29/100: Hey George! 🎉 I'm super excited to confirm that we’re bringing George Daniel on board as our new Mar...
+2025-10-13 17:53:13,100 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:16,389 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:18,025 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:22,407 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:25,361 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:26,367 - INFO - Processing message 30/100: Hey Frank,
+
+Just wanted to confirm that we’re all set to bring on Frank Gray as our new Legal Counse...
+2025-10-13 17:53:28,531 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:32,831 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:34,844 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:39,215 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:41,960 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:42,966 - INFO - Processing message 31/100: Hey team, 
+
+Just wanted to confirm that we’re bringing on Veronica Bowman as our new Junior Data Ana...
+2025-10-13 17:53:45,276 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:48,455 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:50,526 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:55,005 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:58,094 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:53:59,105 - INFO - Processing message 32/100: Hey Angela, just wanted to confirm that we've officially hired Angela Cohen for the Software Enginee...
+2025-10-13 17:54:01,435 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:03,994 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:05,717 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:10,187 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:13,049 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:14,062 - INFO - Processing message 33/100: Hey team! Just wanted to give a quick shout-out to confirm that we’re bringing on Megan Parsons as o...
+2025-10-13 17:54:16,470 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:19,810 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:21,812 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:26,091 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:28,772 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:29,783 - INFO - Processing message 34/100: Hey Jeremy, 
+
+Just wanted to confirm that we’re bringing on Jeremy Johnson as our new IT Support Con...
+2025-10-13 17:54:31,975 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:35,128 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:37,371 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:41,929 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:44,748 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:45,760 - INFO - Processing message 35/100: Hey Leslie, 
+
+Just wanted to confirm that we’re all set to bring Leslie Adams on board as our new HR...
+2025-10-13 17:54:48,162 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:51,378 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:53,378 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:54:57,755 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:00,617 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:01,629 - INFO - Processing message 36/100: Hey Jason, 
+
+Just wanted to confirm that we’re all set to bring Jason Hahn on board as our new Machi...
+2025-10-13 17:55:03,833 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:06,933 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:08,683 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:13,167 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:16,063 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:17,074 - INFO - Processing message 37/100: Hey team! 🎉 I'm super excited to confirm that we've got Nancy Edwards joining us as a Product Design...
+2025-10-13 17:55:19,497 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:23,226 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:25,522 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:30,168 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:33,296 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:34,309 - INFO - Processing message 38/100: Hey Diana, 
+
+Just wanted to confirm that we've officially hired Diana Foster as our new UX Researche...
+2025-10-13 17:55:36,700 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:39,735 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:41,623 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:46,015 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:48,967 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:49,972 - INFO - Processing message 39/100: Hey Robin,
+
+Just wanted to confirm that we’re all set to bring on Robin Ellis as our new Machine Lea...
+2025-10-13 17:55:52,080 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:55,120 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:55:56,783 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:01,160 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:04,247 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:05,259 - INFO - Processing message 40/100: Hey Joseph,
+
+Just wanted to confirm that we’re all set to bring on Joseph Wright as our new Product ...
+2025-10-13 17:56:07,548 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:10,203 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:12,080 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:16,504 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:19,519 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:20,531 - INFO - Processing message 41/100: Hey HR Team! Just wanted to confirm that we’re bringing on Anna Baker as a Software Engineer II in t...
+2025-10-13 17:56:23,178 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:26,589 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:28,471 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:32,856 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:35,701 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:36,713 - INFO - Processing message 42/100: Hey team, 
+
+Just wanted to give a quick shoutout that we’re all set to bring on Brenda Hurst as our ...
+2025-10-13 17:56:39,116 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:41,803 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:43,847 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:48,573 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:51,754 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:52,765 - INFO - Processing message 43/100: Hey Reginald! Just wanted to confirm that we've officially hired Reginald Robinson as our new IT Sup...
+2025-10-13 17:56:55,169 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:56:58,778 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:00,544 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:04,858 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:07,956 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:08,963 - INFO - Processing message 44/100: Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Whitney Hicks as ou...
+2025-10-13 17:57:11,155 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:14,198 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:15,881 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:20,262 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:23,387 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:24,395 - INFO - Processing message 45/100: Hey Christopher, 
+
+Just wanted to confirm that we’ve decided to bring on Christopher Williams as our...
+2025-10-13 17:57:26,700 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:29,812 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:31,523 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:35,931 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:38,748 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:39,761 - INFO - Processing message 46/100: Hey team, 
+
+Just wanted to confirm that we’re moving forward with Daniel Burton as our new Senior So...
+2025-10-13 17:57:41,993 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:45,338 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:48,125 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:52,649 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:55,713 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:57:56,725 - INFO - Processing message 47/100: Hey Laura! 🎉 I'm super excited to confirm that we’re bringing on Laura Henderson as our new Product ...
+2025-10-13 17:57:59,488 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:03,391 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:05,749 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:10,134 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:13,282 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:14,291 - INFO - Processing message 48/100: Hey Bryan,
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Bryan James as ou...
+2025-10-13 17:58:16,676 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:19,851 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:21,734 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:26,285 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:29,113 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:30,116 - INFO - Processing message 49/100: Hey Wendy, 
+
+Just wanted to confirm that we’re bringing on Wendy Rice as our new Senior Accountant i...
+2025-10-13 17:58:32,383 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:35,290 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:37,231 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:41,671 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:44,578 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:45,591 - INFO - Processing message 50/100: Hey Tasha, 
+
+Just wanted to confirm that we’re all set to bring on Tasha Valencia as our new Softwar...
+2025-10-13 17:58:47,791 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:50,940 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:52,751 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:57,105 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:58:59,997 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:01,003 - INFO - Processing message 51/100: Hey Alexander, 
+
+Just wanted to confirm that we've officially hired Alexander Le as our new Product ...
+2025-10-13 17:59:03,329 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:06,307 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:08,096 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:12,429 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:15,159 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:16,171 - INFO - Processing message 52/100: Hey Erin, 
+
+Just wanted to confirm that we’re bringing on Erin Herrera as our new Finance Analyst in...
+2025-10-13 17:59:18,578 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:21,370 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:23,037 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:27,409 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:30,164 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:31,177 - INFO - Processing message 53/100: Hey Joseph, 
+
+Just wanted to confirm that we’re all set to bring on Joseph Davidson as our new Desig...
+2025-10-13 17:59:33,268 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:36,153 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:37,558 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:42,170 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:45,427 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:46,432 - INFO - Processing message 54/100: Hey team! Just wanted to confirm that we’re bringing on Daniel Graham as our new Data Scientist in t...
+2025-10-13 17:59:48,905 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:52,340 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:54,496 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 17:59:59,100 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:02,054 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:03,067 - INFO - Processing message 55/100: Hey team,
+
+Just wanted to give a quick shoutout to confirm our new hire, Shawn Mckay, for the UX Res...
+2025-10-13 18:00:05,337 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:08,577 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:10,700 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:15,347 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:18,462 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:19,474 - INFO - Processing message 56/100: Hey there! Just wanted to confirm that we’re all set to bring on Nancy Baker as our new UX Researche...
+2025-10-13 18:00:21,799 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:25,331 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:27,383 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:31,826 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:34,802 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:35,813 - INFO - Processing message 57/100: Hey team, 
+
+Just wanted to confirm that we’re bringing Vincent White on board as our new UX Research...
+2025-10-13 18:00:38,151 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:41,411 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:43,266 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:47,860 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:51,209 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:52,214 - INFO - Processing message 58/100: Hey Rita, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Rita Harrell as ...
+2025-10-13 18:00:54,458 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:57,712 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:00:59,264 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:03,561 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:06,240 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:07,248 - INFO - Processing message 59/100: Hey team! 👋 Just wanted to confirm that we’ve got Kenneth Fowler joining us as a Data Scientist in t...
+2025-10-13 18:01:09,540 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:12,830 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:15,045 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:19,629 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:22,786 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:23,790 - INFO - Processing message 60/100: Hey Chelsea, 
+
+Just wanted to confirm that we’re all set to bring Chelsea Hernandez on board as our ...
+2025-10-13 18:01:26,107 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:29,147 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:30,837 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:35,192 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:38,067 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:39,078 - INFO - Processing message 61/100: Hey Kathryn, 
+
+Just wanted to confirm that we’re all set to bring on Kathryn Ryan as our new Finance...
+2025-10-13 18:01:41,123 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:43,677 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:45,241 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:49,482 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:52,217 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:53,230 - INFO - Processing message 62/100: Hey Kimberly,  
+
+I just wanted to give you a quick heads up that we're bringing on Kimberly Moreno a...
+2025-10-13 18:01:55,372 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:58,216 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:01:59,701 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:04,030 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:06,882 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:07,892 - INFO - Processing message 63/100: Hey Aaron! 🎉 I'm super excited to confirm that we've officially hired Aaron Nguyen for the HR Genera...
+2025-10-13 18:02:10,284 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:14,063 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:15,865 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:20,289 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:23,116 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:24,127 - INFO - Processing message 64/100: Hey Andrew! 🎉 I'm super excited to confirm that we've officially hired Andrew Hickman as our new Pro...
+2025-10-13 18:02:26,371 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:29,685 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:31,366 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:35,610 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:38,510 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:39,522 - INFO - Processing message 65/100: Hey team, just wanted to confirm that we’re bringing on Natasha Decker as our new IT Support Contrac...
+2025-10-13 18:02:41,838 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:44,684 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:46,450 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:50,974 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:54,032 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:55,036 - INFO - Processing message 66/100: Hey Kyle, 
+
+Just wanted to confirm that we’re bringing on Kyle Brown as our new Product Designer in ...
+2025-10-13 18:02:57,153 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:02:59,626 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:01,672 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:06,047 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:08,746 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:09,756 - INFO - Processing message 67/100: Hey Natalie, 
+
+Just wanted to confirm that we’re all set to bring on Natalie Arroyo as our new UX Re...
+2025-10-13 18:03:12,043 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:15,069 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:17,172 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:21,536 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:24,452 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:25,461 - INFO - Processing message 68/100: Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing Christopher Tucker on ...
+2025-10-13 18:03:27,776 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:31,513 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:33,326 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:37,713 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:40,808 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:41,812 - INFO - Processing message 69/100: Hey team, 
+
+I just wanted to confirm that we’re all set to bring on Chad Hodges as our new Software ...
+2025-10-13 18:03:44,181 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:47,565 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:49,418 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:53,894 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:57,057 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:03:58,060 - INFO - Processing message 70/100: Hey Katie, 
+
+Just wanted to confirm that we’re all set to bring on Katie Anderson as our new HR Gene...
+2025-10-13 18:04:00,316 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:03,012 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:05,300 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:09,725 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:12,459 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:13,471 - INFO - Processing message 71/100: Hey Thomas, 
+
+Just wanted to confirm that we’re all set to bring Thomas Pierce on board as our new H...
+2025-10-13 18:04:15,715 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:18,604 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:20,669 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:25,068 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:27,823 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:28,835 - INFO - Processing message 72/100: Hey Joseph! Just wanted to confirm that we’re bringing on Joseph Brennan as our new Product Manager ...
+2025-10-13 18:04:31,111 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:33,809 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:36,335 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:40,786 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:43,547 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:44,559 - INFO - Processing message 73/100: Hey Rodney, 
+
+Just wanted to confirm that we’re all set to bring on Rodney Lewis as our new Machine ...
+2025-10-13 18:04:46,907 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:50,334 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:52,342 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:56,914 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:04:59,723 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:00,731 - INFO - Processing message 74/100: Hey team! 🎉 I'm super excited to confirm that we’ve officially hired Amber Blair as our new Marketin...
+2025-10-13 18:05:03,082 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:06,290 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:08,233 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:12,546 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:15,621 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:16,631 - INFO - Processing message 75/100: Hey James, 
+
+Just wanted to give you a quick heads-up that we’re all set to bring on James Collins a...
+2025-10-13 18:05:19,419 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:24,045 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:26,211 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:30,521 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:33,267 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:34,280 - INFO - Processing message 76/100: Hey Wanda, 
+
+Just wanted to confirm that we’re all set to bring on Wanda Santos as our new Marketing...
+2025-10-13 18:05:36,599 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:40,511 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:42,409 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:46,712 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:49,533 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:50,546 - INFO - Processing message 77/100: Hey Samuel! 🎉 I'm super excited to confirm that we've got Samuel Holmes joining us as our new Legal ...
+2025-10-13 18:05:53,192 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:56,735 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:05:58,869 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:03,168 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:06,286 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:07,297 - INFO - Processing message 78/100: Hey David, 
+
+Just wanted to confirm that we’re all set to bring David Walker on board as our new Dat...
+2025-10-13 18:06:09,630 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:12,360 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:14,213 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:18,586 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:21,374 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:22,387 - INFO - Processing message 79/100: Subject: Confirming New Hire - Matthew Chapman
+
+Hey team,
+
+Just wanted to confirm that we’re bringin...
+2025-10-13 18:06:24,524 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:27,649 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:29,478 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:33,890 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:36,911 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:37,924 - INFO - Processing message 80/100: Hey team, 
+
+Just wanted to confirm that we've officially hired Jerry Robinson for the Software Engin...
+2025-10-13 18:06:40,308 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:44,223 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:46,129 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:50,526 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:53,641 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:06:54,647 - INFO - Processing message 81/100: Hey Chad, 
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Chad Welch as our...
+2025-10-13 18:06:56,790 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:00,126 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:02,871 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:07,272 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:10,127 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:11,131 - INFO - Processing message 82/100: Hey Jeremy, 
+
+Just wanted to give you a quick heads up that we've got a new hire for the Business In...
+2025-10-13 18:07:13,511 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:16,519 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:18,273 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:22,739 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:25,582 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:26,594 - INFO - Processing message 83/100: Hey team! 🎉 I'm super excited to confirm that we’ve got Michele Jones joining us as a Machine Learni...
+2025-10-13 18:07:29,129 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:32,769 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:34,546 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:38,905 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:42,080 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:43,088 - INFO - Processing message 84/100: Hey team,
+
+I’m excited to confirm that we’re bringing on John Caldwell as our new Junior Data Analys...
+2025-10-13 18:07:45,270 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:48,666 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:50,244 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:54,559 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:57,514 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:07:58,518 - INFO - Processing message 85/100: Hey Jason, 
+
+Just wanted to confirm that we’re all set to bring on Jason Anderson as our new Design ...
+2025-10-13 18:08:00,846 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:04,323 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:06,193 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:10,585 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:13,351 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:14,358 - INFO - Processing message 86/100: Subject: Confirmation of New Hire
+
+Hey team,
+
+Just wanted to confirm that we’ve got a new Design Int...
+2025-10-13 18:08:16,712 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:19,875 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:21,502 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:25,865 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:28,886 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:29,892 - INFO - Processing message 87/100: Hey Thomas,  
+
+Just wanted to confirm that we've decided to bring on Thomas Mueller as our new IT Su...
+2025-10-13 18:08:32,261 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:35,461 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:37,603 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:42,099 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:44,893 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:45,895 - INFO - Processing message 88/100: Hey Lindsey,
+
+Just wanted to confirm that we've decided to bring on Lindsey Lee as our new IT Suppor...
+2025-10-13 18:08:48,270 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:52,045 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:54,066 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:08:58,442 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:01,402 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:02,410 - INFO - Processing message 89/100: Subject: New Hire Confirmation
+
+Hey Collin,
+
+Just wanted to drop you a quick note to confirm that we...
+2025-10-13 18:09:04,599 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:08,086 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:09,858 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:14,208 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:17,106 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:18,113 - INFO - Processing message 90/100: Hey team! 🎉 I'm super excited to confirm that we’re bringing on Rodney Owens as our new Senior Accou...
+2025-10-13 18:09:20,289 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:23,571 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:25,448 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:29,878 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:33,057 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:34,063 - INFO - Processing message 91/100: Hey team! 🎉 I'm super excited to confirm that we're bringing on Jessica Nunez as our new Junior Data...
+2025-10-13 18:09:36,511 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:40,956 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:43,848 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:48,417 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:51,500 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:52,504 - INFO - Processing message 92/100: Hey Tracey, 
+
+Just wanted to confirm that we’re all set to bring on Tracey Garcia as our new Softwar...
+2025-10-13 18:09:55,116 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:09:57,974 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:01,126 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:06,101 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:09,170 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:10,174 - INFO - Processing message 93/100: Hey Richard! Just wanted to give you a quick shout to confirm that we’re bringing on Richard Morgan ...
+2025-10-13 18:10:12,625 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:16,042 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:17,779 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:22,344 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:25,184 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:26,188 - INFO - Processing message 94/100: Hey Michelle! 🎉 I'm super excited to confirm that we've decided to bring on Michelle Wright as our n...
+2025-10-13 18:10:28,725 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:33,343 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:35,383 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:39,875 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:43,111 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:44,117 - INFO - Processing message 95/100: Hey team, 
+
+Just wanted to give a quick shout-out to confirm that we’re bringing James West on board...
+2025-10-13 18:10:46,320 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:49,813 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:51,556 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:56,017 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:58,928 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:10:59,935 - INFO - Processing message 96/100: Hey team! Just wanted to confirm that we’re bringing on Robert Ramirez as our new Senior Accountant ...
+2025-10-13 18:11:02,613 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:06,565 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:08,585 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:13,071 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:16,317 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:17,320 - INFO - Processing message 97/100: Hey John, 
+
+Just wanted to confirm that we’re bringing on John Leblanc as our new Data Scientist in ...
+2025-10-13 18:11:19,787 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:22,507 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:24,280 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:28,746 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:31,673 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:32,678 - INFO - Processing message 98/100: Hey there! Just wanted to confirm that we’re all set to bring on Scott Callahan as our new Legal Cou...
+2025-10-13 18:11:35,034 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:38,646 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:40,442 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:44,951 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:48,075 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:49,079 - INFO - Processing message 99/100: Hey Andrea, 
+
+Just wanted to confirm that we’re all set for the new UX Researcher in Operations, And...
+2025-10-13 18:11:51,431 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:54,311 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:11:56,089 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:00,734 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:03,738 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:04,742 - INFO - Processing message 100/100: Hey Yvette, 
+
+Just wanted to confirm that we’re bringing on Yvette Huff as our new Senior Software E...
+2025-10-13 18:12:06,944 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:09,535 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:11,150 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:15,650 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:18,555 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:19,578 - INFO - Results saved to /Users/janbieniek/Desktop/coding/hr-agent-framework/3agent_llama3.1_8b_results.csv
+2025-10-13 18:12:24,584 - INFO - Starting HR data extraction experiment with model: gemma3n:e4b
+2025-10-13 18:12:24,592 - INFO - Loaded dataset with 100 entries
+2025-10-13 18:12:24,593 - INFO - Processing message 1/100: Subject: Confirming New Hire - Danielle Johnson
+
+Hey Danielle,
+
+Just wanted to drop you a quick note...
+2025-10-13 18:12:38,958 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:42,397 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:44,410 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:49,165 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:54,164 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:12:55,170 - INFO - Processing message 2/100: Hey Joshua, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Joshua Walker ...
+2025-10-13 18:12:58,479 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:01,818 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:03,589 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:08,274 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:13,218 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:14,237 - INFO - Processing message 3/100: Hey Jill,
+
+I’m excited to confirm that we’re bringing on Jill Rhodes as our new Product Manager in t...
+2025-10-13 18:13:17,544 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:20,972 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:23,050 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:27,786 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:32,732 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:33,734 - INFO - Processing message 4/100: Hey Patricia, 
+
+Just wanted to confirm that we’ve got Patricia Miller on board as our new Junior Dat...
+2025-10-13 18:13:37,040 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:40,180 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:42,041 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:46,790 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:51,641 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:52,643 - INFO - Processing message 5/100: Hey Robert, 
+
+Just wanted to confirm that we’re bringing on Robert Johnson as our new Data Engineer ...
+2025-10-13 18:13:55,971 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:13:58,866 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:00,588 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:05,332 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:10,165 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:11,169 - INFO - Processing message 6/100: Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffery Wagner as our new Machine Learning...
+2025-10-13 18:14:14,532 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:17,567 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:19,317 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:24,058 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:29,212 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:30,217 - INFO - Processing message 7/100: Hey team! 🎉 I'm super excited to confirm that we’ve got Anthony Gonzalez joining us as our new UX Re...
+2025-10-13 18:14:33,422 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:36,669 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:38,202 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:42,954 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:48,079 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:49,085 - INFO - Processing message 8/100: Hey Debra, 
+
+Just wanted to confirm that we’re bringing on Debra Gardner as our new Junior Data Anal...
+2025-10-13 18:14:52,430 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:55,158 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:14:56,716 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:01,520 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:06,421 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:07,427 - INFO - Processing message 9/100: Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffrey Lawrence as our new Senior Softwar...
+2025-10-13 18:15:10,618 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:13,841 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:15,549 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:20,463 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:26,001 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:27,006 - INFO - Processing message 10/100: Hey Lisa, 
+
+Just wanted to confirm that we’re all set to bring on Lisa Smith as our new Machine Lear...
+2025-10-13 18:15:30,352 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:33,406 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:35,133 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:39,811 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:44,733 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:45,735 - INFO - Processing message 11/100: Hey Linda, 
+
+Just wanted to confirm that we’re all set to bring on Linda Wolfe as our new Finance An...
+2025-10-13 18:15:48,924 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:51,875 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:53,527 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:15:58,226 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:03,059 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:04,062 - INFO - Processing message 12/100: Hey team! 🎉 I'm super excited to confirm that we've got Matthew Moore on board as our new Senior Sof...
+2025-10-13 18:16:07,385 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:10,915 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:12,728 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:17,539 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:22,805 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:23,811 - INFO - Processing message 13/100: Hey Susan, 
+
+Just wanted to confirm that we’re all set to bring on Susan Rogers as our new UX Resear...
+2025-10-13 18:16:27,057 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:30,261 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:32,052 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:36,774 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:41,664 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:42,670 - INFO - Processing message 14/100: Hey Christopher, 
+
+Just wanted to confirm that we’re bringing on Christopher Davis as our new Produc...
+2025-10-13 18:16:45,694 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:48,524 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:50,338 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:16:55,107 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:00,032 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:01,037 - INFO - Processing message 15/100: Subject: New Hire Confirmation
+
+Hey Melanie,
+
+Just wanted to confirm that we’re bringing on board Me...
+2025-10-13 18:17:04,237 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:07,707 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:09,658 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:14,529 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:19,671 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:20,675 - INFO - Processing message 16/100: Hey Lindsay, 
+
+I’m excited to confirm that we’re bringing on Lindsay Blair as our new Data Scientist...
+2025-10-13 18:17:23,877 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:26,544 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:27,968 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:32,769 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:37,631 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:38,632 - INFO - Processing message 17/100: Hey Amanda! 🎉 Just wanted to confirm that we’re all set to bring on Amanda Dudley as our new HR Gene...
+2025-10-13 18:17:41,910 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:45,183 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:46,870 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:51,717 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:56,950 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:17:57,953 - INFO - Processing message 18/100: Hey Nicholas, 
+
+Just wanted to give you a quick shout to confirm that we’re moving forward with Nich...
+2025-10-13 18:18:01,052 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:04,307 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:06,033 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:10,844 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:15,883 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:16,886 - INFO - Processing message 19/100: Hey Maria! 🎉 Just wanted to confirm that we’re all set to bring on Maria Montgomery as our new HR Ge...
+2025-10-13 18:18:20,208 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:23,559 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:25,436 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:30,192 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:35,425 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:36,428 - INFO - Processing message 20/100: Hey HR team, 
+
+Just wanted to confirm that we’re bringing on Michelle Ray as our new Junior Data Ana...
+2025-10-13 18:18:39,408 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:42,395 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:43,998 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:48,731 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:53,800 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:18:54,802 - INFO - Processing message 21/100: Hey Janet,
+
+I wanted to confirm that we’re all set to bring on Janet Williams as our new Regional Op...
+2025-10-13 18:18:58,165 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:01,256 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:03,357 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:08,146 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:13,206 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:14,209 - INFO - Processing message 22/100: Hey team, 
+
+Just wanted to confirm that we’re bringing Jeremy Roberts on board as our new UX Researc...
+2025-10-13 18:19:17,433 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:20,356 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:21,900 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:26,687 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:31,838 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:32,844 - INFO - Processing message 23/100: Hey Christopher, 
+
+Just wanted to confirm that we’re moving forward with hiring Christopher Hall for...
+2025-10-13 18:19:35,853 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:38,630 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:40,369 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:45,249 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:50,163 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:51,167 - INFO - Processing message 24/100: Hey Craig! 🎉 I'm super excited to confirm that we’re bringing on Craig Ramirez as our new Junior Dat...
+2025-10-13 18:19:54,381 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:57,871 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:19:59,454 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:04,168 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:09,287 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:10,291 - INFO - Processing message 25/100: Hey Cynthia, 
+
+Just wanted to confirm that we’re bringing on Cynthia Diaz as our new Machine Learnin...
+2025-10-13 18:20:13,290 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:16,416 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:18,403 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:23,382 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:28,435 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:29,441 - INFO - Processing message 26/100: Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Mitchell Clark as o...
+2025-10-13 18:20:32,518 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:35,671 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:37,329 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:42,191 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:47,453 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:48,459 - INFO - Processing message 27/100: Hey team! Just wanted to confirm that we’re moving forward with Joseph Zuniga for the Data Scientist...
+2025-10-13 18:20:51,483 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:54,262 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:20:55,960 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:00,747 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:05,880 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:06,886 - INFO - Processing message 28/100: Hey Deborah,
+
+I’m excited to confirm that we’re bringing on Deborah Lynch as our new HR Generalist i...
+2025-10-13 18:21:10,074 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:12,980 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:15,568 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:20,497 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:25,364 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:26,369 - INFO - Processing message 29/100: Hey George! 🎉 I'm super excited to confirm that we’re bringing George Daniel on board as our new Mar...
+2025-10-13 18:21:29,630 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:32,682 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:34,204 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:38,947 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:44,039 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:45,041 - INFO - Processing message 30/100: Hey Frank,
+
+Just wanted to confirm that we’re all set to bring on Frank Gray as our new Legal Counse...
+2025-10-13 18:21:48,282 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:51,450 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:53,165 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:21:57,905 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:02,792 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:03,799 - INFO - Processing message 31/100: Hey team, 
+
+Just wanted to confirm that we’re bringing on Veronica Bowman as our new Junior Data Ana...
+2025-10-13 18:22:07,149 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:10,501 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:12,241 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:17,061 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:22,313 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:23,319 - INFO - Processing message 32/100: Hey Angela, just wanted to confirm that we've officially hired Angela Cohen for the Software Enginee...
+2025-10-13 18:22:26,639 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:29,130 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:30,833 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:35,628 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:40,507 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:41,513 - INFO - Processing message 33/100: Hey team! Just wanted to give a quick shout-out to confirm that we’re bringing on Megan Parsons as o...
+2025-10-13 18:22:44,738 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:47,592 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:49,417 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:54,081 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:58,966 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:22:59,972 - INFO - Processing message 34/100: Hey Jeremy, 
+
+Just wanted to confirm that we’re bringing on Jeremy Johnson as our new IT Support Con...
+2025-10-13 18:23:02,942 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:05,358 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:06,700 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:11,389 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:16,258 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:17,263 - INFO - Processing message 35/100: Hey Leslie, 
+
+Just wanted to confirm that we’re all set to bring Leslie Adams on board as our new HR...
+2025-10-13 18:23:20,528 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:23,587 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:25,389 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:30,156 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:35,100 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:36,105 - INFO - Processing message 36/100: Hey Jason, 
+
+Just wanted to confirm that we’re all set to bring Jason Hahn on board as our new Machi...
+2025-10-13 18:23:39,367 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:42,486 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:45,327 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:50,349 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:55,344 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:23:56,348 - INFO - Processing message 37/100: Hey team! 🎉 I'm super excited to confirm that we've got Nancy Edwards joining us as a Product Design...
+2025-10-13 18:23:59,641 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:03,037 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:04,940 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:09,671 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:14,774 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:15,777 - INFO - Processing message 38/100: Hey Diana, 
+
+Just wanted to confirm that we've officially hired Diana Foster as our new UX Researche...
+2025-10-13 18:24:19,088 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:22,256 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:24,012 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:28,775 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:33,684 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:34,690 - INFO - Processing message 39/100: Hey Robin,
+
+Just wanted to confirm that we’re all set to bring on Robin Ellis as our new Machine Lea...
+2025-10-13 18:24:37,966 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:40,894 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:42,299 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:47,015 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:52,129 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:53,133 - INFO - Processing message 40/100: Hey Joseph,
+
+Just wanted to confirm that we’re all set to bring on Joseph Wright as our new Product ...
+2025-10-13 18:24:56,345 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:24:59,527 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:01,233 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:05,978 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:10,826 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:11,828 - INFO - Processing message 41/100: Hey HR Team! Just wanted to confirm that we’re bringing on Anna Baker as a Software Engineer II in t...
+2025-10-13 18:25:15,156 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:18,250 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:20,667 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:26,006 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:31,363 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:32,368 - INFO - Processing message 42/100: Hey team, 
+
+Just wanted to give a quick shoutout that we’re all set to bring on Brenda Hurst as our ...
+2025-10-13 18:25:35,611 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:38,280 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:39,784 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:44,501 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:49,649 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:50,651 - INFO - Processing message 43/100: Hey Reginald! Just wanted to confirm that we've officially hired Reginald Robinson as our new IT Sup...
+2025-10-13 18:25:53,920 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:57,229 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:25:59,187 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:04,133 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:09,339 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:10,342 - INFO - Processing message 44/100: Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Whitney Hicks as ou...
+2025-10-13 18:26:13,222 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:15,912 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:17,592 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:22,325 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:27,412 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:28,414 - INFO - Processing message 45/100: Hey Christopher, 
+
+Just wanted to confirm that we’ve decided to bring on Christopher Williams as our...
+2025-10-13 18:26:31,779 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:34,939 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:36,919 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:41,817 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:46,722 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:47,724 - INFO - Processing message 46/100: Hey team, 
+
+Just wanted to confirm that we’re moving forward with Daniel Burton as our new Senior So...
+2025-10-13 18:26:50,850 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:53,748 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:26:55,447 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:00,354 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:05,633 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:06,634 - INFO - Processing message 47/100: Hey Laura! 🎉 I'm super excited to confirm that we’re bringing on Laura Henderson as our new Product ...
+2025-10-13 18:27:09,927 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:13,716 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:16,035 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:20,979 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:26,217 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:27,223 - INFO - Processing message 48/100: Hey Bryan,
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Bryan James as ou...
+2025-10-13 18:27:30,148 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:32,909 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:34,462 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:39,179 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:43,999 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:45,005 - INFO - Processing message 49/100: Hey Wendy, 
+
+Just wanted to confirm that we’re bringing on Wendy Rice as our new Senior Accountant i...
+2025-10-13 18:27:48,089 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:50,703 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:52,329 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:27:57,199 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:02,151 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:03,155 - INFO - Processing message 50/100: Hey Tasha, 
+
+Just wanted to confirm that we’re all set to bring on Tasha Valencia as our new Softwar...
+2025-10-13 18:28:06,427 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:09,178 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:10,809 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:15,609 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:20,557 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:21,563 - INFO - Processing message 51/100: Hey Alexander, 
+
+Just wanted to confirm that we've officially hired Alexander Le as our new Product ...
+2025-10-13 18:28:24,746 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:27,505 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:29,306 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:34,019 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:38,863 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:39,870 - INFO - Processing message 52/100: Hey Erin, 
+
+Just wanted to confirm that we’re bringing on Erin Herrera as our new Finance Analyst in...
+2025-10-13 18:28:43,189 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:45,807 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:47,455 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:52,144 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:57,006 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:28:58,008 - INFO - Processing message 53/100: Hey Joseph, 
+
+Just wanted to confirm that we’re all set to bring on Joseph Davidson as our new Desig...
+2025-10-13 18:29:01,254 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:03,968 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:05,525 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:10,262 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:15,142 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:16,147 - INFO - Processing message 54/100: Hey team! Just wanted to confirm that we’re bringing on Daniel Graham as our new Data Scientist in t...
+2025-10-13 18:29:19,461 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:22,700 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:24,472 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:29,237 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:34,474 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:35,479 - INFO - Processing message 55/100: Hey team,
+
+Just wanted to give a quick shoutout to confirm our new hire, Shawn Mckay, for the UX Res...
+2025-10-13 18:29:38,768 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:41,942 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:43,512 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:48,230 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:53,378 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:29:54,380 - INFO - Processing message 56/100: Hey there! Just wanted to confirm that we’re all set to bring on Nancy Baker as our new UX Researche...
+2025-10-13 18:29:57,528 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:01,038 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:02,842 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:07,623 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:13,150 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:14,156 - INFO - Processing message 57/100: Hey team, 
+
+Just wanted to confirm that we’re bringing Vincent White on board as our new UX Research...
+2025-10-13 18:30:17,395 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:20,606 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:22,437 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:27,448 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:33,113 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:34,116 - INFO - Processing message 58/100: Hey Rita, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Rita Harrell as ...
+2025-10-13 18:30:37,525 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:40,892 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:42,458 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:47,422 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:52,402 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:30:53,408 - INFO - Processing message 59/100: Hey team! 👋 Just wanted to confirm that we’ve got Kenneth Fowler joining us as a Data Scientist in t...
+2025-10-13 18:30:56,753 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:00,063 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:01,891 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:06,666 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:12,025 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:13,031 - INFO - Processing message 60/100: Hey Chelsea, 
+
+Just wanted to confirm that we’re all set to bring Chelsea Hernandez on board as our ...
+2025-10-13 18:31:16,366 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:20,031 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:22,900 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:28,119 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:33,273 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:34,279 - INFO - Processing message 61/100: Hey Kathryn, 
+
+Just wanted to confirm that we’re all set to bring on Kathryn Ryan as our new Finance...
+2025-10-13 18:31:37,484 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:39,830 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:41,283 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:46,078 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:50,989 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:51,996 - INFO - Processing message 62/100: Hey Kimberly,  
+
+I just wanted to give you a quick heads up that we're bringing on Kimberly Moreno a...
+2025-10-13 18:31:55,078 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:58,002 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:31:59,636 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:04,474 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:09,491 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:10,498 - INFO - Processing message 63/100: Hey Aaron! 🎉 I'm super excited to confirm that we've officially hired Aaron Nguyen for the HR Genera...
+2025-10-13 18:32:13,758 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:17,218 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:19,069 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:23,706 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:29,105 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:30,110 - INFO - Processing message 64/100: Hey Andrew! 🎉 I'm super excited to confirm that we've officially hired Andrew Hickman as our new Pro...
+2025-10-13 18:32:33,359 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:36,628 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:38,459 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:43,246 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:48,143 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:49,150 - INFO - Processing message 65/100: Hey team, just wanted to confirm that we’re bringing on Natasha Decker as our new IT Support Contrac...
+2025-10-13 18:32:52,406 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:55,238 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:32:56,943 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:01,710 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:06,899 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:07,901 - INFO - Processing message 66/100: Hey Kyle, 
+
+Just wanted to confirm that we’re bringing on Kyle Brown as our new Product Designer in ...
+2025-10-13 18:33:10,883 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:13,353 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:15,109 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:19,840 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:24,634 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:25,638 - INFO - Processing message 67/100: Hey Natalie, 
+
+Just wanted to confirm that we’re all set to bring on Natalie Arroyo as our new UX Re...
+2025-10-13 18:33:28,706 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:31,865 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:33,587 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:38,332 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:43,237 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:44,241 - INFO - Processing message 68/100: Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing Christopher Tucker on ...
+2025-10-13 18:33:47,642 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:50,944 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:52,829 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:33:57,582 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:03,006 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:04,012 - INFO - Processing message 69/100: Hey team, 
+
+I just wanted to confirm that we’re all set to bring on Chad Hodges as our new Software ...
+2025-10-13 18:34:07,400 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:10,916 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:13,817 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:18,882 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:24,091 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:25,098 - INFO - Processing message 70/100: Hey Katie, 
+
+Just wanted to confirm that we’re all set to bring on Katie Anderson as our new HR Gene...
+2025-10-13 18:34:28,341 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:31,156 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:32,957 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:37,717 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:42,616 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:43,623 - INFO - Processing message 71/100: Hey Thomas, 
+
+Just wanted to confirm that we’re all set to bring Thomas Pierce on board as our new H...
+2025-10-13 18:34:46,927 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:49,934 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:52,713 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:34:57,588 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:02,428 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:03,430 - INFO - Processing message 72/100: Hey Joseph! Just wanted to confirm that we’re bringing on Joseph Brennan as our new Product Manager ...
+2025-10-13 18:35:06,640 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:09,392 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:11,207 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:15,930 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:20,745 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:21,751 - INFO - Processing message 73/100: Hey Rodney, 
+
+Just wanted to confirm that we’re all set to bring on Rodney Lewis as our new Machine ...
+2025-10-13 18:35:25,074 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:27,969 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:29,688 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:34,366 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:39,203 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:40,205 - INFO - Processing message 74/100: Hey team! 🎉 I'm super excited to confirm that we’ve officially hired Amber Blair as our new Marketin...
+2025-10-13 18:35:43,277 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:46,560 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:48,390 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:53,073 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:58,074 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:35:59,080 - INFO - Processing message 75/100: Hey James, 
+
+Just wanted to give you a quick heads-up that we’re all set to bring on James Collins a...
+2025-10-13 18:36:02,331 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:05,994 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:07,866 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:12,544 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:17,422 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:18,427 - INFO - Processing message 76/100: Hey Wanda, 
+
+Just wanted to confirm that we’re all set to bring on Wanda Santos as our new Marketing...
+2025-10-13 18:36:21,663 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:24,786 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:26,622 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:31,298 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:36,180 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:37,183 - INFO - Processing message 77/100: Hey Samuel! 🎉 I'm super excited to confirm that we've got Samuel Holmes joining us as our new Legal ...
+2025-10-13 18:36:40,385 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:43,793 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:45,558 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:50,205 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:55,245 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:36:56,250 - INFO - Processing message 78/100: Hey David, 
+
+Just wanted to confirm that we’re all set to bring David Walker on board as our new Dat...
+2025-10-13 18:36:59,434 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:02,395 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:04,200 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:08,844 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:13,643 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:14,646 - INFO - Processing message 79/100: Subject: Confirming New Hire - Matthew Chapman
+
+Hey team,
+
+Just wanted to confirm that we’re bringin...
+2025-10-13 18:37:17,837 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:21,161 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:23,593 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:28,580 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:33,905 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:34,912 - INFO - Processing message 80/100: Hey team, 
+
+Just wanted to confirm that we've officially hired Jerry Robinson for the Software Engin...
+2025-10-13 18:37:38,248 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:41,933 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:43,814 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:48,492 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:54,320 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:37:55,324 - INFO - Processing message 81/100: Hey Chad, 
+
+Just wanted to drop you a quick note to confirm that we’re bringing on Chad Welch as our...
+2025-10-13 18:37:58,647 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:01,652 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:03,285 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:07,977 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:13,009 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:14,013 - INFO - Processing message 82/100: Hey Jeremy, 
+
+Just wanted to give you a quick heads up that we've got a new hire for the Business In...
+2025-10-13 18:38:17,533 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:20,278 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:22,112 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:26,938 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:32,244 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:33,249 - INFO - Processing message 83/100: Hey team! 🎉 I'm super excited to confirm that we’ve got Michele Jones joining us as a Machine Learni...
+2025-10-13 18:38:36,510 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:40,308 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:43,516 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:46,175 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:46,175 - WARNING - keycard_access must be a dictionary
+2025-10-13 18:38:51,374 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:52,380 - INFO - Processing message 84/100: Hey team,
+
+I’m excited to confirm that we’re bringing on John Caldwell as our new Junior Data Analys...
+2025-10-13 18:38:55,384 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:38:58,769 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:00,459 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:05,120 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:10,803 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:11,809 - INFO - Processing message 85/100: Hey Jason, 
+
+Just wanted to confirm that we’re all set to bring on Jason Anderson as our new Design ...
+2025-10-13 18:39:15,004 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:18,173 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:19,919 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:24,896 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:30,002 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:31,009 - INFO - Processing message 86/100: Subject: Confirmation of New Hire
+
+Hey team,
+
+Just wanted to confirm that we’ve got a new Design Int...
+2025-10-13 18:39:34,351 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:37,159 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:38,830 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:44,056 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:49,508 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:50,515 - INFO - Processing message 87/100: Hey Thomas,  
+
+Just wanted to confirm that we've decided to bring on Thomas Mueller as our new IT Su...
+2025-10-13 18:39:53,669 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:56,577 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:39:58,557 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:03,439 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:08,373 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:09,376 - INFO - Processing message 88/100: Hey Lindsey,
+
+Just wanted to confirm that we've decided to bring on Lindsey Lee as our new IT Suppor...
+2025-10-13 18:40:12,610 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:15,724 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:17,745 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:22,515 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:27,601 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:28,602 - INFO - Processing message 89/100: Subject: New Hire Confirmation
+
+Hey Collin,
+
+Just wanted to drop you a quick note to confirm that we...
+2025-10-13 18:40:31,717 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:35,059 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:37,553 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:42,618 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:47,911 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:48,917 - INFO - Processing message 90/100: Hey team! 🎉 I'm super excited to confirm that we’re bringing on Rodney Owens as our new Senior Accou...
+2025-10-13 18:40:52,125 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:55,428 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:40:57,161 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:02,272 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:07,639 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:08,644 - INFO - Processing message 91/100: Hey team! 🎉 I'm super excited to confirm that we're bringing on Jessica Nunez as our new Junior Data...
+2025-10-13 18:41:11,842 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:15,391 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:17,201 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:22,013 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:27,509 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:28,512 - INFO - Processing message 92/100: Hey Tracey, 
+
+Just wanted to confirm that we’re all set to bring on Tracey Garcia as our new Softwar...
+2025-10-13 18:41:31,846 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:35,023 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:36,877 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:42,101 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:47,056 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:48,058 - INFO - Processing message 93/100: Hey Richard! Just wanted to give you a quick shout to confirm that we’re bringing on Richard Morgan ...
+2025-10-13 18:41:51,253 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:54,036 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:41:55,626 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:00,310 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:05,177 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:06,183 - INFO - Processing message 94/100: Hey Michelle! 🎉 I'm super excited to confirm that we've decided to bring on Michelle Wright as our n...
+2025-10-13 18:42:09,394 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:13,265 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:15,304 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:20,079 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:25,403 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:26,410 - INFO - Processing message 95/100: Hey team, 
+
+Just wanted to give a quick shout-out to confirm that we’re bringing James West on board...
+2025-10-13 18:42:29,510 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:32,600 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:34,259 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:39,378 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:44,379 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:45,385 - INFO - Processing message 96/100: Hey team! Just wanted to confirm that we’re bringing on Robert Ramirez as our new Senior Accountant ...
+2025-10-13 18:42:48,738 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:52,206 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:53,973 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:42:58,795 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:04,316 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:05,323 - INFO - Processing message 97/100: Hey John, 
+
+Just wanted to confirm that we’re bringing on John Leblanc as our new Data Scientist in ...
+2025-10-13 18:43:08,666 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:11,372 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:13,282 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:18,275 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:23,194 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:24,200 - INFO - Processing message 98/100: Hey there! Just wanted to confirm that we’re all set to bring on Scott Callahan as our new Legal Cou...
+2025-10-13 18:43:27,388 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:30,584 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:32,349 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:37,010 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:42,053 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:43,059 - INFO - Processing message 99/100: Hey Andrea, 
+
+Just wanted to confirm that we’re all set for the new UX Researcher in Operations, And...
+2025-10-13 18:43:46,266 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:49,423 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:51,229 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:43:55,871 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:44:00,727 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:44:01,733 - INFO - Processing message 100/100: Hey Yvette, 
+
+Just wanted to confirm that we’re bringing on Yvette Huff as our new Senior Software E...
+2025-10-13 18:44:04,770 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:44:07,341 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:44:09,020 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:44:13,765 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:44:18,658 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2025-10-13 18:44:19,674 - INFO - Results saved to /Users/janbieniek/Desktop/coding/hr-agent-framework/3agent_gemma3n_e4b_results.csv

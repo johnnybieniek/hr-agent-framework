@@ -1,0 +1,209 @@
+2025-10-20 14:05:36,746 - INFO - Starting HR data extraction experiment with model: gpt-5-mini
+2025-10-20 14:05:36,753 - INFO - Loaded dataset with 100 entries
+2025-10-20 14:05:36,755 - INFO - Processing message 1/100: Subject: Confirming New Hire - Danielle Johnson
+
+Hey Danielle,
+
+Just wanted to drop you a quick note...
+2025-10-20 14:05:37,036 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:37,037 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:37,037 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:37,037 - ERROR - Raw response: 
+2025-10-20 14:05:37,153 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:37,153 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:37,373 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:37,374 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:37,517 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:37,518 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:37,518 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:37,518 - ERROR - Raw security response: 
+2025-10-20 14:05:37,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:37,759 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:37,760 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:37,760 - ERROR - Raw security response: 
+2025-10-20 14:05:37,761 - INFO - Processing message 2/100: Hey Joshua, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Joshua Walker ...
+2025-10-20 14:05:37,948 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:37,950 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:37,950 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:37,950 - ERROR - Raw response: 
+2025-10-20 14:05:38,103 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:38,103 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:38,304 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:38,304 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:38,495 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:38,495 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:38,495 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:38,495 - ERROR - Raw security response: 
+2025-10-20 14:05:38,601 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:38,602 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:38,602 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:38,602 - ERROR - Raw security response: 
+2025-10-20 14:05:38,603 - INFO - Processing message 3/100: Hey Jill,
+
+I’m excited to confirm that we’re bringing on Jill Rhodes as our new Product Manager in t...
+2025-10-20 14:05:38,790 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:38,791 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:38,791 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:38,791 - ERROR - Raw response: 
+2025-10-20 14:05:38,931 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:38,932 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:39,064 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:39,064 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:39,249 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:39,250 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:39,250 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:39,251 - ERROR - Raw security response: 
+2025-10-20 14:05:39,404 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:39,405 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:39,406 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:39,406 - ERROR - Raw security response: 
+2025-10-20 14:05:39,406 - INFO - Processing message 4/100: Hey Patricia, 
+
+Just wanted to confirm that we’ve got Patricia Miller on board as our new Junior Dat...
+2025-10-20 14:05:39,508 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:39,510 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:39,510 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:39,510 - ERROR - Raw response: 
+2025-10-20 14:05:39,642 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:39,643 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:39,842 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:39,843 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:40,224 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 14:05:40,225 - ERROR - OpenAI API HTTP error: 400 {
+  "error": {
+    "message": "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.",
+    "type": "invalid_request_error",
+    "param": "max_tokens",
+    "code": "unsupported_parameter"
+  }
+}
+2025-10-20 14:05:40,225 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 14:05:40,225 - ERROR - Raw security response: 

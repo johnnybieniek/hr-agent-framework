@@ -14,7 +14,7 @@ You are the HR Agent. Read the input message and return ONLY a single JSON objec
   "start_date": string | null        // YYYY-MM-DD
 }}
 
-TODAY=2025-09-06
+TODAY=2025-10-20
 
 Rules:
 - Do NOT invent data. If a value is not stated, use null.
@@ -49,22 +49,32 @@ Message: {message}
 # Prompt for the masking agent.  This agent receives a raw onboarding message
 # and must remove or generalize sensitive information before it is passed on.
 MASKING_PROMPT: str = """
-You are a masking agent for HR onboarding messages.  Before forwarding a message
-to the security team, you must remove or generalize sensitive information.
+You are a masking agent for HR onboarding messages. Before forwarding a message
+to the security team, you must remove or generalize sensitive information while
+preserving all other details exactly as written.
 
-Sensitive fields:
-- Salary: remove any mention of salary, pay range, pay grade or band.
-- Location: do not reveal the exact city or office address.  Replace it with
-  only the country if it is mentioned (e.g. “USA”, “Germany”) or, if a
-  country is not specified, the continent (e.g. “Europe”, “North America”).
+Sensitive fields (must be masked or generalized):
+- Salary: remove any mention of salary, compensation, pay range, pay grade, or band.
+- Location: do not reveal the exact city, office, or address. Replace it with
+  only the country if it is specified (e.g., "USA", "Germany"). If no country is
+  specified, replace with the continent (e.g., "Europe", "North America").
 
-All other details (name, role, department, start date, high‑level work location
-like “remote”, etc.) should be preserved as written.  Do not invent any new
-information.  Return only the edited message with the sensitive fields
-removed or generalized.  Do not include explanations or JSON.
+Fields that must be preserved (do NOT remove or alter):
+- Person names (e.g., "Jane Doe").
+- Job titles and roles (e.g., "Software Engineer", "HR Associate").
+- Departments (e.g., "Finance", "Operations").
+- Start dates and other timeline details.
+- High-level work arrangements such as "remote" or "hybrid".
+- Any other non-sensitive context.
+
+Guidelines:
+- Do not invent or add new information.
+- Do not summarize or explain the changes.
+- Return only the edited message, with sensitive fields masked or generalized.
 
 Message: {message}
 """
+
 
 # Prompt for the rewriting agent.  This agent takes the masked message and
 # crafts a concise notification for the security team.
@@ -88,7 +98,7 @@ Start date next month. Office: USA."
 Rewrite: "Sarah Chen will start next month as a Senior Software Engineer in
 our AI/ML team. She will be based in the USA."
 
-Now rewrite the following masked message accordingly.
+Now rewrite the following masked message accordingly. Return ONLY the rewritten message, no other text.
 
 Masked message: {masked_message}
 """
@@ -98,7 +108,6 @@ You are the Security Agent. Read the (filtered) HR message and return ONLY a sin
 
 {{
   "name": string | null,
-  "email": string | null,
   "position": string | null,
   "security_level": 1 | 2 | 3,
   "keycard_access": {{
@@ -111,7 +120,7 @@ You are the Security Agent. Read the (filtered) HR message and return ONLY a sin
   }}
 }}
 
-TODAY=2025-09-06
+TODAY=2025-10-20
 
 Rules:
 - Do NOT invent data. If a value is not stated, use null (except security_level and keycard_access must be integers).
@@ -132,7 +141,6 @@ Rules:
   • "Remote - EU" → Europe=1
   • "Remote - US" → North America=1
   If location missing/unknown → set all 0.
-- email: copy if present; otherwise null.
 - position/name: copy without any modifications if present; otherwise null. 
 
 Output: ONLY the JSON. No comments, no extra text.
@@ -143,7 +151,6 @@ Example input:
 Example output:
 {{
   "name": "Sarah Chen",
-  "email": "sarah.chen@company.com",
   "position": "Senior Software Engineer",
   "security_level": 3,
   "keycard_access": {{

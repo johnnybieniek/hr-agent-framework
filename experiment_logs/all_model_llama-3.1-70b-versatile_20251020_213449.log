@@ -1,0 +1,222 @@
+2025-10-20 21:34:49,588 - INFO - Starting HR data extraction experiment with model: llama-3.1-70b-versatile
+2025-10-20 21:34:49,595 - INFO - Loaded dataset with 100 entries
+2025-10-20 21:34:49,596 - INFO - Processing message 1/100: Subject: Confirming New Hire - Danielle Johnson
+
+Hey Danielle,
+
+Just wanted to drop you a quick note...
+2025-10-20 21:34:49,866 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:49,869 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:49,869 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:49,869 - ERROR - Raw response length: 0
+2025-10-20 21:34:49,870 - ERROR - Raw response: ''...
+2025-10-20 21:34:49,928 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:49,929 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:49,929 - WARNING - Masking failed for message 0, using original message
+2025-10-20 21:34:49,987 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:49,988 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,052 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,053 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,053 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,053 - ERROR - Raw security response length: 0
+2025-10-20 21:34:50,053 - ERROR - Raw security response: ''...
+2025-10-20 21:34:50,106 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,106 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,106 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,106 - ERROR - Raw security response length: 0
+2025-10-20 21:34:50,106 - ERROR - Raw security response: ''...
+2025-10-20 21:34:50,107 - INFO - Processing message 2/100: Hey Joshua, 
+
+Just wanted to give you a quick heads up that we’re all set to bring on Joshua Walker ...
+2025-10-20 21:34:50,171 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,172 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,172 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,172 - ERROR - Raw response length: 0
+2025-10-20 21:34:50,172 - ERROR - Raw response: ''...
+2025-10-20 21:34:50,230 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,231 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,231 - WARNING - Masking failed for message 1, using original message
+2025-10-20 21:34:50,288 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,288 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,346 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,346 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,346 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,347 - ERROR - Raw security response length: 0
+2025-10-20 21:34:50,347 - ERROR - Raw security response: ''...
+2025-10-20 21:34:50,416 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,416 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,416 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,416 - ERROR - Raw security response length: 0
+2025-10-20 21:34:50,417 - ERROR - Raw security response: ''...
+2025-10-20 21:34:50,417 - INFO - Processing message 3/100: Hey Jill,
+
+I’m excited to confirm that we’re bringing on Jill Rhodes as our new Product Manager in t...
+2025-10-20 21:34:50,468 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,469 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,469 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,469 - ERROR - Raw response length: 0
+2025-10-20 21:34:50,469 - ERROR - Raw response: ''...
+2025-10-20 21:34:50,524 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,525 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,525 - WARNING - Masking failed for message 2, using original message
+2025-10-20 21:34:50,600 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,600 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,700 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,700 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,700 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,700 - ERROR - Raw security response length: 0
+2025-10-20 21:34:50,700 - ERROR - Raw security response: ''...
+2025-10-20 21:34:50,756 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,756 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,756 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,756 - ERROR - Raw security response length: 0
+2025-10-20 21:34:50,756 - ERROR - Raw security response: ''...
+2025-10-20 21:34:50,757 - INFO - Processing message 4/100: Hey Patricia, 
+
+Just wanted to confirm that we’ve got Patricia Miller on board as our new Junior Dat...
+2025-10-20 21:34:50,806 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,806 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,806 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,806 - ERROR - Raw response length: 0
+2025-10-20 21:34:50,806 - ERROR - Raw response: ''...
+2025-10-20 21:34:50,866 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,867 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,867 - WARNING - Masking failed for message 3, using original message
+2025-10-20 21:34:50,922 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,922 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,990 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:50,991 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:50,991 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:50,991 - ERROR - Raw security response length: 0
+2025-10-20 21:34:50,991 - ERROR - Raw security response: ''...
+2025-10-20 21:34:51,057 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,057 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,057 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,057 - ERROR - Raw security response length: 0
+2025-10-20 21:34:51,057 - ERROR - Raw security response: ''...
+2025-10-20 21:34:51,058 - INFO - Processing message 5/100: Hey Robert, 
+
+Just wanted to confirm that we’re bringing on Robert Johnson as our new Data Engineer ...
+2025-10-20 21:34:51,113 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,113 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,114 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,114 - ERROR - Raw response length: 0
+2025-10-20 21:34:51,114 - ERROR - Raw response: ''...
+2025-10-20 21:34:51,172 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,173 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,173 - WARNING - Masking failed for message 4, using original message
+2025-10-20 21:34:51,227 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,228 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,287 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,287 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,287 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,287 - ERROR - Raw security response length: 0
+2025-10-20 21:34:51,287 - ERROR - Raw security response: ''...
+2025-10-20 21:34:51,343 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,343 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,343 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,343 - ERROR - Raw security response length: 0
+2025-10-20 21:34:51,343 - ERROR - Raw security response: ''...
+2025-10-20 21:34:51,344 - INFO - Processing message 6/100: Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffery Wagner as our new Machine Learning...
+2025-10-20 21:34:51,401 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,401 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,401 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,401 - ERROR - Raw response length: 0
+2025-10-20 21:34:51,401 - ERROR - Raw response: ''...
+2025-10-20 21:34:51,459 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,459 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,459 - WARNING - Masking failed for message 5, using original message
+2025-10-20 21:34:51,519 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,520 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,569 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,569 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,569 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,569 - ERROR - Raw security response length: 0
+2025-10-20 21:34:51,569 - ERROR - Raw security response: ''...
+2025-10-20 21:34:51,631 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,632 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,632 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,632 - ERROR - Raw security response length: 0
+2025-10-20 21:34:51,632 - ERROR - Raw security response: ''...
+2025-10-20 21:34:51,632 - INFO - Processing message 7/100: Hey team! 🎉 I'm super excited to confirm that we’ve got Anthony Gonzalez joining us as our new UX Re...
+2025-10-20 21:34:51,693 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,694 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,694 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,694 - ERROR - Raw response length: 0
+2025-10-20 21:34:51,694 - ERROR - Raw response: ''...
+2025-10-20 21:34:51,771 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,771 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,772 - WARNING - Masking failed for message 6, using original message
+2025-10-20 21:34:51,821 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,821 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,875 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,875 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,876 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,876 - ERROR - Raw security response length: 0
+2025-10-20 21:34:51,876 - ERROR - Raw security response: ''...
+2025-10-20 21:34:51,937 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,938 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,938 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,938 - ERROR - Raw security response length: 0
+2025-10-20 21:34:51,938 - ERROR - Raw security response: ''...
+2025-10-20 21:34:51,938 - INFO - Processing message 8/100: Hey Debra, 
+
+Just wanted to confirm that we’re bringing on Debra Gardner as our new Junior Data Anal...
+2025-10-20 21:34:51,995 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:51,996 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:51,996 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:51,996 - ERROR - Raw response length: 0
+2025-10-20 21:34:51,996 - ERROR - Raw response: ''...
+2025-10-20 21:34:52,053 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,054 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,054 - WARNING - Masking failed for message 7, using original message
+2025-10-20 21:34:52,115 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,116 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,178 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,180 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,180 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:52,180 - ERROR - Raw security response length: 0
+2025-10-20 21:34:52,180 - ERROR - Raw security response: ''...
+2025-10-20 21:34:52,239 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,240 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,240 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:52,240 - ERROR - Raw security response length: 0
+2025-10-20 21:34:52,240 - ERROR - Raw security response: ''...
+2025-10-20 21:34:52,240 - INFO - Processing message 9/100: Hey team, 
+
+Just wanted to confirm that we’re bringing on Jeffrey Lawrence as our new Senior Softwar...
+2025-10-20 21:34:52,299 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,300 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,300 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:52,300 - ERROR - Raw response length: 0
+2025-10-20 21:34:52,300 - ERROR - Raw response: ''...
+2025-10-20 21:34:52,351 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,352 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,352 - WARNING - Masking failed for message 8, using original message
+2025-10-20 21:34:52,414 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,414 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,478 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,478 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,478 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:52,478 - ERROR - Raw security response length: 0
+2025-10-20 21:34:52,478 - ERROR - Raw security response: ''...
+2025-10-20 21:34:52,540 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,540 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,541 - ERROR - Failed to parse security JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:52,541 - ERROR - Raw security response length: 0
+2025-10-20 21:34:52,541 - ERROR - Raw security response: ''...
+2025-10-20 21:34:52,541 - INFO - Processing message 10/100: Hey Lisa, 
+
+Just wanted to confirm that we’re all set to bring on Lisa Smith as our new Machine Lear...
+2025-10-20 21:34:52,600 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,601 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,601 - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-10-20 21:34:52,601 - ERROR - Raw response length: 0
+2025-10-20 21:34:52,601 - ERROR - Raw response: ''...
+2025-10-20 21:34:52,656 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,656 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-20 21:34:52,656 - WARNING - Masking failed for message 9, using original message
+2025-10-20 21:34:52,738 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-20 21:34:52,738 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
