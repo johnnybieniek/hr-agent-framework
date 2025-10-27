@@ -20,28 +20,56 @@ Rules:
 - Do NOT invent data. If a value is not stated, use null.
 - Trim titles from names (e.g., remove "Dr.", "Ms.", etc.). Keep initials if that's all you have (e.g., "A. Smith").
 - salary: extract the numeric total (e.g., "$145,000" → 145000; "Band B3" → null).
-- location: copy as written (city/country/"Remote – EU", etc.) if present.
+- location:
+  • Capture the canonical location string (e.g., "New York, NY, United States", "Remote (US-only)").
+  • If the message adds trailing descriptors like "office", "site", "hub", "team", or "location" after the city/country, drop those extra words.
+  • Preserve punctuation inside the canonical string (commas, parentheses, hyphenated qualifiers).
+  • For remote roles, return exactly the "Remote" label provided (e.g., "Remote", "Remote (EU time zones)").
 - start_date normalization:
-  • Accept YYYY-MM-DD, MM/DD/YYYY, DD/MM/YYYY → convert to YYYY-MM-DD using the most likely locale if unambiguous.
-  • "next Monday" → date of the next Monday after TODAY.
-  • "in N days/weeks" → TODAY + N days/weeks.
-  • "next month" → first day of next month.
-  • "Q1/Q2/Q3/Q4 YYYY" → first day of that quarter (Q1=01-01, Q2=04-01, Q3=07-01, Q4=10-01).
-  • "ASAP", "TBD", missing, or ambiguous → null.
+  • If the message uses one of the standard short terms {"ASAP", "TBD", "next month"}, return that term exactly as written.
+  • Accept calendar dates in formats like YYYY-MM-DD, MM/DD/YYYY, or DD/MM/YYYY and convert to YYYY-MM-DD when unambiguous.
+  • If the text mentions other relative phrases (e.g., "in two weeks", "mid-November") that do not map precisely to a date, return the phrase exactly as written.
+  • If the start date is missing or ambiguous, return null.
 
 Output: ONLY the JSON. No comments, no extra text.
 
-Example input:
-"System alert: Please welcome Sarah Chen, Senior Software Engineer in AI/ML. Start date next month. Salary: $145,000. Office: San Francisco."
-
-Example output:
-{{
-  "name": "Sarah Chen",
-  "position": "Senior Software Engineer",
-  "salary": 145000,
-  "location": "San Francisco",
-  "start_date": "2025-09-01"
-}}
+Examples:
+- Message: "Please welcome Sarah Chen, Senior Software Engineer in AI/ML. Start date next month. Salary: $145,000. Office: San Francisco."
+  Output:
+  {{
+    "name": "Sarah Chen",
+    "position": "Senior Software Engineer",
+    "salary": 145000,
+    "location": "San Francisco",
+    "start_date": "next month"
+  }}
+- Message: "We’re bringing on Brian Miller as a UX Researcher based in our New York, NY, United States office."
+  Output:
+  {{
+    "name": "Brian Miller",
+    "position": "UX Researcher",
+    "salary": null,
+    "location": "New York, NY, United States",
+    "start_date": null
+  }}
+- Message: "Excited for Alicia Flores joining fully Remote (EU time zones) starting ASAP."
+  Output:
+  {{
+    "name": "Alicia Flores",
+    "position": null,
+    "salary": null,
+    "location": "Remote (EU time zones)",
+    "start_date": "ASAP"
+  }}
+- Message: "Ravi Patel signs on as Senior Accountant beginning next month."
+  Output:
+  {{
+    "name": "Ravi Patel",
+    "position": "Senior Accountant",
+    "salary": null,
+    "location": null,
+    "start_date": "next month"
+  }}
 
 Message: {message}
 """

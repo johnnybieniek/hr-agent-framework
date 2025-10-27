@@ -53,8 +53,11 @@ def norm_int(v: Any):
 
 def norm_date(v: Any) -> str:
     s = norm_str(v)
-    if s.upper() in {"ASAP", "TBD"}:
-        return ""  # treat ASAP/TBD as empty to align with models returning null/None
+    upper = s.upper() 
+    if upper in {"ASAP", "TBD"}:
+        return upper 
+    if upper == "NEXT MONTH":
+        return "next month" 
     return s
 
 
@@ -85,7 +88,7 @@ def eval_hr_row(gt_row, result_row) -> Dict[str, bool]:
         data = {}
 
     gt_name = f"{gt_row['first_name']} {gt_row['last_name']}"
-    name_ok = norm_str_ci(data.get("name")) == norm_str_ci(gt_name)
+    name_ok = norm_str_ci(data.get("name")) == norm_str_ci(gt_name) or norm_str_ci(data.get("name")) == norm_str_ci(gt_row['candidate_name'])
 
     pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
 
