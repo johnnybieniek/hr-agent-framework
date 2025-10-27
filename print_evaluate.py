@@ -5,7 +5,7 @@ Detailed evaluator for HR-agent results that prints expected vs received for eac
 - Loads ground truth from hiring_v1.csv
 - Evaluates HR JSON extraction (name, position, salary, location, start_date)
 - Evaluates Security JSON extraction (name, position, security_level, keycard_access)
-- Evaluates masking (salary number and hr_location must not appear in masked_message)
+- Evaluates masking (salary number and location must not appear in masked_message)
 - Prints detailed expected vs received for each field with correct/wrong labels
 
 Usage:
@@ -73,13 +73,13 @@ def eval_hr_row(gt_row, result_row) -> Dict[str, bool]:
     gt_name = f"{gt_row['first_name']} {gt_row['last_name']}"
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(gt_name)
 
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["hr_position"]) if pd.notna(gt_row["hr_position"]) else norm_str_ci(data.get("position")) == ""
+    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
 
-    sal_ok = norm_int(data.get("salary")) == norm_int(gt_row["hr_salary"])
+    sal_ok = norm_int(data.get("salary")) == norm_int(gt_row["salary"])
 
-    loc_ok = norm_str_ci(data.get("location")) == norm_str_ci(gt_row["hr_location"]) if pd.notna(gt_row["hr_location"]) else norm_str_ci(data.get("location")) == ""
+    loc_ok = norm_str_ci(data.get("location")) == norm_str_ci(gt_row["location"]) if pd.notna(gt_row["location"]) else norm_str_ci(data.get("location")) == ""
 
-    date_ok = norm_date(data.get("start_date")) == norm_date(gt_row["hr_start_date"]) if pd.notna(gt_row["hr_start_date"]) else norm_date(data.get("start_date")) == ""
+    date_ok = norm_date(data.get("start_date")) == norm_date(gt_row["start_date"]) if pd.notna(gt_row["start_date"]) else norm_date(data.get("start_date")) == ""
 
     return {
         "name": name_ok,
@@ -97,7 +97,7 @@ def eval_security_row(gt_row, result_row) -> Dict[str, bool]:
         data = {}
 
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(f"{gt_row['first_name']} {gt_row['last_name']}")
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["hr_position"]) if pd.notna(gt_row["hr_position"]) else norm_str_ci(data.get("position")) == ""
+    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
     level_ok = norm_int(data.get("security_level")) is not None and isinstance(data.get("security_level"), (int,)) and norm_int(data.get("security_level")) in {1, 2, 3}
 
     gt_key = gt_keycard_from_row(gt_row)
@@ -121,7 +121,7 @@ def eval_security_row_general(gt_row, result_row) -> Dict[str, bool]:
         data = {}
 
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(f"{gt_row['first_name']} {gt_row['last_name']}")
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["hr_position"]) if pd.notna(gt_row["hr_position"]) else norm_str_ci(data.get("position")) == ""
+    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
     level_ok = norm_int(data.get("security_level")) is not None and isinstance(data.get("security_level"), (int,)) and norm_int(data.get("security_level")) in {1, 2, 3}
 
     gt_key = gt_keycard_from_row(gt_row)
@@ -142,10 +142,10 @@ def eval_masking_row(gt_row, result_row) -> Dict[str, bool]:
     masked = result_row["masked_message"] or ""
     masked_low = masked.lower()
 
-    sal = norm_str(gt_row["hr_salary"])  # numeric as string
+    sal = norm_str(gt_row["salary"])  # numeric as string
     sal_ok = (sal not in masked) and (f"${sal}" not in masked)
 
-    loc = norm_str(gt_row["hr_location"]).lower()
+    loc = norm_str(gt_row["location"]).lower()
     loc_ok = (loc == "") or (loc not in masked_low)
 
     return {"salary_masked": sal_ok, "location_masked": loc_ok}
@@ -163,19 +163,19 @@ def has_any_errors(gt_row, res_row):
     hr_name = hr_data.get("name", "")
     name_ok = norm_str_ci(hr_name) == norm_str_ci(gt_name)
     
-    gt_pos = gt_row["hr_position"] if pd.notna(gt_row["hr_position"]) else ""
+    gt_pos = gt_row["position"] if pd.notna(gt_row["position"]) else ""
     hr_pos = hr_data.get("position", "")
     pos_ok = norm_str_ci(hr_pos) == norm_str_ci(gt_pos)
     
-    gt_sal = gt_row["hr_salary"]
+    gt_sal = gt_row["salary"]
     hr_sal = hr_data.get("salary")
     sal_ok = norm_int(hr_sal) == norm_int(gt_sal)
     
-    gt_loc = gt_row["hr_location"] if pd.notna(gt_row["hr_location"]) else ""
+    gt_loc = gt_row["location"] if pd.notna(gt_row["location"]) else ""
     hr_loc = hr_data.get("location", "")
     loc_ok = norm_str_ci(hr_loc) == norm_str_ci(gt_loc)
     
-    gt_date = gt_row["hr_start_date"] if pd.notna(gt_row["hr_start_date"]) else ""
+    gt_date = gt_row["start_date"] if pd.notna(gt_row["start_date"]) else ""
     hr_date = hr_data.get("start_date", "")
     date_ok = norm_date(hr_date) == norm_date(gt_date)
     
@@ -210,10 +210,10 @@ def has_any_errors(gt_row, res_row):
     
     # Masking evaluation
     masked = res_row["masked_message"] or ""
-    sal = norm_str(gt_row["hr_salary"])
+    sal = norm_str(gt_row["salary"])
     sal_ok = (sal not in masked) and (f"${sal}" not in masked)
     
-    loc = norm_str(gt_row["hr_location"]).lower()
+    loc = norm_str(gt_row["location"]).lower()
     loc_ok = (loc == "") or (loc not in masked.lower())
     
     # Return True if ANY field has an error
@@ -246,25 +246,25 @@ def print_detailed_evaluation(i, gt_row, res_row):
     print(f"Name:     Expected='{gt_name}' | Received='{hr_name}' | {'✅ CORRECT' if name_ok else '❌ WRONG'}")
     
     # Position
-    gt_pos = gt_row["hr_position"] if pd.notna(gt_row["hr_position"]) else ""
+    gt_pos = gt_row["position"] if pd.notna(gt_row["position"]) else ""
     hr_pos = hr_data.get("position", "")
     pos_ok = norm_str_ci(hr_pos) == norm_str_ci(gt_pos)
     print(f"Position: Expected='{gt_pos}' | Received='{hr_pos}' | {'✅ CORRECT' if pos_ok else '❌ WRONG'}")
     
     # Salary
-    gt_sal = gt_row["hr_salary"]
+    gt_sal = gt_row["salary"]
     hr_sal = hr_data.get("salary")
     sal_ok = norm_int(hr_sal) == norm_int(gt_sal)
     print(f"Salary:   Expected='{gt_sal}' | Received='{hr_sal}' | {'✅ CORRECT' if sal_ok else '❌ WRONG'}")
     
     # Location
-    gt_loc = gt_row["hr_location"] if pd.notna(gt_row["hr_location"]) else ""
+    gt_loc = gt_row["location"] if pd.notna(gt_row["location"]) else ""
     hr_loc = hr_data.get("location", "")
     loc_ok = norm_str_ci(hr_loc) == norm_str_ci(gt_loc)
     print(f"Location: Expected='{gt_loc}' | Received='{hr_loc}' | {'✅ CORRECT' if loc_ok else '❌ WRONG'}")
     
     # Start Date
-    gt_date = gt_row["hr_start_date"] if pd.notna(gt_row["hr_start_date"]) else ""
+    gt_date = gt_row["start_date"] if pd.notna(gt_row["start_date"]) else ""
     hr_date = hr_data.get("start_date", "")
     date_ok = norm_date(hr_date) == norm_date(gt_date)
     print(f"Start:    Expected='{gt_date}' | Received='{hr_date}' | {'✅ CORRECT' if date_ok else '❌ WRONG'}")
@@ -333,12 +333,12 @@ def print_detailed_evaluation(i, gt_row, res_row):
     print("-" * 40)
     
     masked = res_row["masked_message"] or ""
-    sal = norm_str(gt_row["hr_salary"])
+    sal = norm_str(gt_row["salary"])
     print("Salary: ",sal)
     sal_ok = (sal not in masked) and (f"${sal}" not in masked)
     print(f"Salary:   Expected='NOT in masked' | Found='{sal in masked}' | {'✅ CORRECT' if sal_ok else '❌ WRONG'}")
     
-    loc = norm_str(gt_row["hr_location"]).lower()
+    loc = norm_str(gt_row["location"]).lower()
     print("Location: ",loc)
     loc_ok = (loc == "") or (loc not in masked.lower())
     print(f"Location: Expected='NOT in masked' | Found='{loc in masked.lower()}' | {'✅ CORRECT' if loc_ok else '❌ WRONG'}")

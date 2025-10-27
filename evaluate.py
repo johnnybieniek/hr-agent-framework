@@ -5,7 +5,7 @@ Simple evaluator for HR-agent results.
 - Loads ground truth from hiring_v1.csv
 - Evaluates HR JSON extraction (name, position, salary, location, start_date)
 - Evaluates Security JSON extraction (name, email, position, security_level, keycard_access)
-- Evaluates masking (salary number and hr_location must not appear in masked_message)
+- Evaluates masking (salary number and location must not appear in masked_message)
 
 Usage:
   python evaluate.py RESULTS_CSV [--limit N]
@@ -78,13 +78,13 @@ def eval_hr_row(gt_row, result_row) -> Dict[str, bool]:
     gt_name = f"{gt_row['first_name']} {gt_row['last_name']}"
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(gt_name)
 
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["hr_position"]) if pd.notna(gt_row["hr_position"]) else norm_str_ci(data.get("position")) == ""
+    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
 
-    sal_ok = norm_int(data.get("salary")) == norm_int(gt_row["hr_salary"])
+    sal_ok = norm_int(data.get("salary")) == norm_int(gt_row["salary"])
 
-    loc_ok = norm_str_ci(data.get("location")) == norm_str_ci(gt_row["hr_location"]) if pd.notna(gt_row["hr_location"]) else norm_str_ci(data.get("location")) == ""
+    loc_ok = norm_str_ci(data.get("location")) == norm_str_ci(gt_row["location"]) if pd.notna(gt_row["location"]) else norm_str_ci(data.get("location")) == ""
 
-    date_ok = norm_date(data.get("start_date")) == norm_date(gt_row["hr_start_date"]) if pd.notna(gt_row["hr_start_date"]) else norm_date(data.get("start_date")) == ""
+    date_ok = norm_date(data.get("start_date")) == norm_date(gt_row["start_date"]) if pd.notna(gt_row["start_date"]) else norm_date(data.get("start_date")) == ""
 
     return {
         "name": name_ok,
@@ -102,7 +102,7 @@ def eval_security_row(gt_row, result_row) -> Dict[str, bool]:
         data = {}
 
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(f"{gt_row['first_name']} {gt_row['last_name']}")
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["hr_position"]) if pd.notna(gt_row["hr_position"]) else norm_str_ci(data.get("position")) == ""
+    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
     level_ok = norm_int(data.get("security_level")) is not None and isinstance(data.get("security_level"), (int,)) and norm_int(data.get("security_level")) in {1, 2, 3}
 
     gt_key = gt_keycard_from_row(gt_row)
@@ -126,7 +126,7 @@ def eval_security_row_general(gt_row, result_row) -> Dict[str, bool]:
         data = {}
 
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(f"{gt_row['first_name']} {gt_row['last_name']}")
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["hr_position"]) if pd.notna(gt_row["hr_position"]) else norm_str_ci(data.get("position")) == ""
+    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
     level_ok = norm_int(data.get("security_level")) is not None and isinstance(data.get("security_level"), (int,)) and norm_int(data.get("security_level")) in {1, 2, 3}
 
     gt_key = gt_keycard_from_row(gt_row)
@@ -152,10 +152,10 @@ def eval_masking_row(gt_row, result_row) -> Dict[str, bool]:
         masked = str(masked)
     masked_low = masked.lower()
 
-    sal = norm_str(gt_row["hr_salary"])  # numeric as string
+    sal = norm_str(gt_row["salary"])  # numeric as string
     sal_ok = (sal not in masked) and (f"${sal}" not in masked)
 
-    loc = norm_str(gt_row["hr_location"]).lower()
+    loc = norm_str(gt_row["location"]).lower()
     loc_ok = (loc == "") or (loc not in masked_low)
 
     return {"salary_masked": sal_ok, "location_masked": loc_ok}
@@ -205,10 +205,10 @@ def main():
             hr_pred = {}
         hr_exp = {
             "name": f"{gt_row['first_name']} {gt_row['last_name']}",
-            "position": gt_row["hr_position"],
-            "salary": gt_row["hr_salary"],
-            "location": gt_row["hr_location"],
-            "start_date": gt_row["hr_start_date"],
+            "position": gt_row["position"],
+            "salary": gt_row["salary"],
+            "location": gt_row["location"],
+            "start_date": gt_row["start_date"],
         }
         print("HR expected:", hr_exp)
         print("HR received:", hr_pred)
@@ -224,7 +224,7 @@ def main():
             sec_general_pred = {}
         sec_exp = {
             "name": f"{gt_row['first_name']} {gt_row['last_name']}",
-            "position": gt_row["hr_position"],
+            "position": gt_row["position"],
             "security_level": "(1/2/3 based on model output)",
             "keycard_access": gt_keycard_from_row(gt_row),
         }
@@ -311,5 +311,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
