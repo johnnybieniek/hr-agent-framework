@@ -1,514 +1,516 @@
-first_name,last_name,hr_name,hr_email,hr_position,department,hr_start_date,hr_salary,hr_location,country,access_europe,access_north_america,access_south_america,access_africa,access_asia,access_oceania,general_message
-Danielle,Johnson,Danielle Johnson,danielle.johnson@company.com,Machine Learning Engineer,IT,ASAP,113000,San Francisco,USA,0,1,0,0,0,0,"Subject: Confirming New Hire - Danielle Johnson
+general_message,candidate_name,first_name,last_name,position,department,start_date,salary,location,country,email,access_europe,access_north_america,access_south_america,access_africa,access_asia,access_oceania
+"Hey Team! 
 
-Hey Danielle,
+I'm excited to confirm that we’re bringing on Brian Miller as our new UX Researcher in the Engineering department. He’ll be based in New York 🇺🇸, and while the start date is still TBD, I think he'll be a fantastic addition. Just to note, he’ll have access to North America. 
 
-Just wanted to drop you a quick note to confirm that we’re bringing on Danielle Johnson as our new Machine Learning Engineer in the IT department. She’s set to start ASAP, and we’ve agreed on a salary of $113,000. She’ll be based in San Francisco, which is great!
+Let’s get the onboarding rolling!",Brian Miller,Brian,Miller,UX Researcher,Engineering,TBD,,New York,USA,brian.miller@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hi team,
 
-Let me know if you need anything else from my side to get her onboarded. Thanks!
+I’d like to confirm that we've decided to bring Richard Rodriguez on board as our new Software Engineer I for the Product department in Warsaw. He’ll be starting next month with a salary of $133,000, and he’s set up for access within Europe.
 
-Best,  
-[Your Name]"
-Joshua,Walker,Joshua Walker,joshua.walker@company.com,Machine Learning Engineer,Business Intelligence,2026-01-08,89000,Remote - EU,Remote,1,0,0,0,0,0,"Hey Joshua, 
+Please set up the necessary paperwork and everything else so we can ensure a smooth onboarding process for him. You can reach him at richard.rodriguez@company.com if you need to get in touch before he starts. Thanks!",Richard Rodriguez,Richard,Rodriguez,Software Engineer I,Product,next month,133000.0,Warsaw,Poland,richard.rodriguez@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Just wanted to give you a quick heads up that we’re all set to bring on Joshua Walker as our new Machine Learning Engineer in the Business Intelligence department! He’ll be starting on January 8, 2026, with a salary of $89,000. He’ll be working remotely from the EU, so everything should be smooth on that front. 
+Just wanted to give you a quick heads-up that we’re bringing Rachel Johnson on board as our new Regional Operations Manager in the R&D department. She’ll be starting ASAP and will be working remotely from the US, with a salary of $200,000. The only region she'll have access to is North America. 
 
-Let me know if you need anything else from me to get the ball rolling!
+Excited to have her join the team! Let’s get her all set up.",Rachel Johnson,Rachel,Johnson,Regional Operations Manager,R&D,ASAP,200000.0,Remote - US,Remote,rachel.johnson@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hi team,
 
-Cheers!"
-Jill,Rhodes,Jill Rhodes,jill.rhodes@company.com,Product Manager,AI/ML,2025-09-28,156000,Zurich,Switzerland,1,0,0,0,0,0,"Hey Jill,
+I’m confirming that we’ve successfully hired Amanda Cook for the UX Researcher position in our Finance department. She'll be located in Berlin, Germany and is set to start on February 10, 2026. 
 
-I’m excited to confirm that we’re bringing on Jill Rhodes as our new Product Manager in the AI/ML department! She’s set to start on September 28, 2025, and we’re offering her a salary of $156,000. She’ll be based in Zurich, Switzerland, which is great since she’ll have access to Europe.
+Please note that her access will be limited to the Europe region. You can reach her at amanda.cook@company.com for any onboarding-related communications. Thanks!",Amanda Cook,Amanda,Cook,UX Researcher,Finance,2026-02-10,,Berlin,Germany,amanda.cook@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Let me know if you need anything else from my end to get her onboarded!
+I’m excited to confirm that we’re bringing on Melissa Moore as our new Marketing Manager in the IT department, starting next month in Tokyo! She’ll be wandering the Asian markets with a salary of $177,000, and I trust she’ll drive some great initiatives for us.
 
-Cheers!"
-Patricia,Miller,Patricia Miller,patricia.miller@company.com,Junior Data Analyst,Business Intelligence,2026-02-19,77000,Warsaw,Poland,1,0,0,0,0,0,"Hey Patricia, 
+Her email is melissa.moore@company.com. Let’s get her set up with access for Asia only and ensure she has a smooth onboarding process!
 
-Just wanted to confirm that we’ve got Patricia Miller on board as our new Junior Data Analyst in the Business Intelligence department! She’s set to start on February 19, 2026, with a salary of $77,000. She’ll be based in Warsaw, Poland, which is great for our Europe access. 
+Thanks!",Melissa Moore,Melissa,Moore,Marketing Manager,IT,next month,177000.0,Tokyo,Japan,melissa.moore@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hey there,
 
-Let me know if you need anything else from my side. 
+I'm bringing in Matthew Cook as our new HR Generalist in the Operations department based out of San Francisco. He'll be starting on October 8, 2025, and his salary is set at $150,000. He's covered for North America, so we should be all set on that front.
 
-Thanks!"
-Robert,Johnson,Robert Johnson,robert.johnson@company.com,Data Engineer,Engineering,2025-10-31,112000,Warsaw,Poland,1,0,0,0,0,0,"Hey Robert, 
+Let me know if you need anything else!",Matthew Cook,Matthew,Cook,HR Generalist,Operations,2025-10-08,150000.0,San Francisco,USA,matthew.cook@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Just wanted to confirm that we’re bringing on Robert Johnson as our new Data Engineer in the Engineering department. He’s set to start on October 31, 2025, and we'll be offering him a salary of $112,000. He’ll be based in Warsaw, Poland. 
+Can we get the ball rolling on John Smith's hire? He’ll be joining us in Operations as a Finance Analyst, with a salary of $198,000. We're aiming for a start date ASAP.
 
-Let me know if you need anything else from my end!
+Thanks!",John Smith,John,Smith,Finance Analyst,Operations,ASAP,198000.0,,,,,,,,,
+"Hi team,
 
-Thanks!"
-Jeffery,Wagner,Jeffery Wagner,jeffery.wagner@company.com,Machine Learning Engineer,Marketing,2025-12-22,193000,New York,USA,0,1,0,0,0,0,"Hey team, 
+I'm reaching out to confirm that we've decided to move forward with Samuel Miller for the Senior Software Engineer position. He'll be based in Boston and will be joining the Business Intelligence department with a salary of $208,000. The start date is still to be determined, so we'll keep you posted on that.
 
-Just wanted to confirm that we’re bringing on Jeffery Wagner as our new Machine Learning Engineer in the Marketing department. He’ll be starting on December 22, 2025, and his salary will be $193,000. He’ll be based in New York. 
+For access, he'll have permissions for North America only. Let me know if you need any further information or have any questions as we prepare for his onboarding. Thanks!",Samuel Miller,Samuel,Miller,Senior Software Engineer,Business Intelligence,TBD,208000.0,Boston,USA,samuel.miller@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hi team,
 
-You can reach him at jeffery.wagner@company.com. Excited to have him on board!
+I’m writing to confirm the hiring of Carla Jones as our new Data Scientist in the Business Intelligence department, based in Mexico City. Carla will be starting soon, though the exact date is still to be determined. 
 
-Thanks!"
-Anthony,Gonzalez,Anthony Gonzalez,anthony.gonzalez@company.com,UX Researcher,Legal,next month,100000,Boston,USA,0,1,0,0,0,0,"Hey team! 🎉 I'm super excited to confirm that we’ve got Anthony Gonzalez joining us as our new UX Researcher in the Legal department! He'll be starting next month in Boston, and we're bringing him on board with a salary of $100,000. You can reach him at anthony.gonzalez@company.com. Can't wait for him to start and bring his awesome skills to the team! Let's get everything set up for him. Cheers!"
-Debra,Gardner,Debra Gardner,debra.gardner@company.com,Junior Data Analyst,AI/ML,next month,83000,Bangalore,India,0,0,0,0,1,0,"Hey Debra, 
+For her access, she’ll have North America enabled but won’t need access to other regions such as Europe, Asia, Africa, Oceania, or South America. Her email address will be carla.jones@company.com. Please let me know if you need any additional information. 
 
-Just wanted to confirm that we’re bringing on Debra Gardner as our new Junior Data Analyst in the AI/ML department! She’ll be starting next month in Bangalore with a salary of $83,000. 
+Thanks!",Carla Jones,Carla,Jones,Data Scientist,Business Intelligence,TBD,,Mexico City,Mexico,carla.jones@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Subject: New Hire Confirmation for Leslie West
 
-Let me know if you need anything else from my end. Excited to have her on board! 
+Hi team,
 
-Cheers!"
-Jeffrey,Lawrence,Jeffrey Lawrence,jeffrey.lawrence@company.com,Senior Software Engineer,Design,TBD,150000,Boston,USA,0,1,0,0,0,0,"Hey team, 
+I’m excited to confirm that we’ve decided to bring Leslie West on board as our new Finance Analyst! Leslie will be joining the HR department from Zurich, Switzerland, with a salary set at $96,000. The exact start date is TBD, but I’m looking forward to having Leslie on our team.
 
-Just wanted to confirm that we’re bringing on Jeffrey Lawrence as our new Senior Software Engineer in the Design department. His start date is still TBD, but we’re really excited to have him join us. He'll be based out of Boston and will be making $150,000. 
-
-You can reach him at jeffrey.lawrence@company.com. Let me know if you need anything else!
-
-Thanks!"
-Lisa,Smith,Lisa Smith,lisa.smith@company.com,Machine Learning Engineer,Design,2026-03-03,191000,Johannesburg,South Africa,0,0,0,1,0,0,"Hey Lisa, 
-
-Just wanted to confirm that we’re all set to bring on Lisa Smith as our new Machine Learning Engineer in the Design department. She’ll be starting on March 3rd, 2026, and her salary will be $191,000. She’ll be working out of Johannesburg, South Africa. 
-
-Let me know if you need anything else! 
-
-Cheers!"
-Linda,Wolfe,Linda Wolfe,linda.wolfe@company.com,Finance Analyst,Product,2025-11-29,174000,Sydney,Australia,0,0,0,0,0,1,"Hey Linda, 
-
-Just wanted to confirm that we’re all set to bring on Linda Wolfe as our new Finance Analyst in the Product department. She’ll be starting on November 29, 2025, and her salary will be $174,000. She’ll be based in Sydney, so make sure everything’s ready for her there. 
-
-Thanks!"
-Matthew,Moore,Matthew Moore,matthew.moore@company.com,Senior Software Engineer,IT,2025-11-23,160000,Berlin,Germany,1,0,0,0,0,0,"Hey team! 🎉 I'm super excited to confirm that we've got Matthew Moore on board as our new Senior Software Engineer in the IT department! He'll be starting on November 23, 2025, and he'll be based in Berlin. We're bringing him in with a salary of €160,000, which I think is a great fit for his skills. You can reach him at matthew.moore@company.com. Let’s give him a warm welcome when he arrives! Cheers!"
-Susan,Rogers,Susan Rogers,susan.rogers@company.com,UX Researcher,Operations,2025-12-14,192000,Remote - EU,Remote,1,0,0,0,0,0,"Hey Susan, 
-
-Just wanted to confirm that we’re all set to bring on Susan Rogers as our new UX Researcher in the Operations department. She’ll be starting on December 14, 2025, and her salary is set at $192,000. Since she’ll be working remotely in the EU, we won't need to worry about any location issues. 
-
-Let me know if you need anything else from my end! 
-
-Cheers!"
-Christopher,Davis,Christopher Davis,christopher.davis@company.com,Product Designer,Engineering,TBD,119000,Boston,USA,0,1,0,0,0,0,"Hey Christopher, 
-
-Just wanted to confirm that we’re bringing on Christopher Davis as our new Product Designer in the Engineering department. His start date is still TBD, but we’re looking at a salary of $119,000. He’ll be based out of Boston, which is great! 
-
-Let me know if you need anything else from my end. 
-
-Thanks!"
-Melanie,Munoz,Melanie Munoz,melanie.munoz@company.com,Regional Operations Manager,Design,TBD,237000,Dublin,Ireland,1,0,0,0,0,0,"Subject: New Hire Confirmation
-
-Hey Melanie,
-
-Just wanted to confirm that we’re bringing on board Melanie Munoz as our new Regional Operations Manager in the Design department. She’ll be based in Dublin, and I’m really excited about what she’ll bring to the team! 
-
-Salary is set at €237,000, and we’ll sort out her start date soon. Let’s make sure she has everything she needs for a smooth onboarding process.
-
-Thanks!
+As a note, Leslie’s role will focus on our operations in Europe, where their expertise will be particularly valuable. Their email will be leslie.west@company.com, so feel free to reach out as we prepare for their arrival. Let’s make sure we’re all set for a smooth onboarding process!
 
 Best,  
-[Your Name]"
-Lindsay,Blair,Lindsay Blair,lindsay.blair@company.com,Data Scientist,R&D,next month,118000,Zurich,Switzerland,1,0,0,0,0,0,"Hey Lindsay, 
+[Your Name]",Leslie West,Leslie,West,Finance Analyst,HR,TBD,96000.0,Zurich,Switzerland,leslie.west@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team! Just wanted to confirm that we’re moving forward with Rebecca Davis as our new Regional Operations Manager in the AI/ML department. She’s starting on February 6, 2026, and her salary will be $154,000. 
 
-I’m excited to confirm that we’re bringing on Lindsay Blair as our new Data Scientist in the R&D department! She’ll be starting next month in Zurich with a salary of $118,000. Just wanted to loop you in so you can get everything set up on your end. 
+Cheers to adding her amazing skills to the team! Let me know if there’s anything else you need from me.",Rebecca Davis,Rebecca,Davis,Regional Operations Manager,AI/ML,2026-02-06,154000.0,,,,,,,,,
+"Hey team! Just wanted to give a quick shoutout to confirm we’re moving forward with Douglas Tyler as our new UX Researcher in the Engineering department, with a solid salary of $135,000. 
 
-Thanks!"
-Amanda,Dudley,Amanda Dudley,amanda.dudley@company.com,HR Generalist,Legal,2025-11-17,102000,Remote - Global,Remote,1,1,1,1,1,1,"Hey Amanda! 🎉 Just wanted to confirm that we’re all set to bring on Amanda Dudley as our new HR Generalist in the Legal department. She’s starting on November 17, 2025, with a salary of $102,000. Super excited to have her join us remotely! Let me know if you need anything else from my end. Her email is amanda.dudley@company.com if you want to reach out. Cheers!"
-Nicholas,Arnold,Nicholas Arnold,nicholas.arnold@company.com,Senior Software Engineer,Finance,ASAP,220000,Boston,USA,0,1,0,0,0,0,"Hey Nicholas, 
+We're still sorting out the exact start date, but I'm excited to bring him on board! Let's make sure everything's in place when he's ready to jump in. Thanks!",Douglas Tyler,Douglas,Tyler,UX Researcher,Engineering,TBD,135000.0,,,,,,,,,
+"Hey team! 
 
-Just wanted to give you a quick shout to confirm that we’re moving forward with Nicholas Arnold for the Senior Software Engineer position in the Finance department. He’s all set to start ASAP, and we’re looking at a salary of $220,000. He’ll be based in Boston, so everything should be good to go on that front! 
+I’m excited to confirm that we’ve officially hired Andrew Pruitt as our new Machine Learning Engineer in Marketing. He’ll be starting on January 17, 2026, with a salary of $131,000. Looking forward to having him onboard!",Andrew Pruitt,Andrew,Pruitt,Machine Learning Engineer,Marketing,2026-01-17,131000.0,,,,,,,,,
+"Subject: Confirmation of New Hire - Ashley Baker
 
-Let me know if you need anything else from me. 
+Hi Team,
 
-Cheers!"
-Maria,Montgomery,Maria Montgomery,maria.montgomery@company.com,HR Generalist,IT,2026-02-21,144000,New York,USA,0,1,0,0,0,0,"Hey Maria! 🎉 Just wanted to confirm that we’re all set to bring on Maria Montgomery as our new HR Generalist in the IT department. She’ll be starting on February 21, 2026, with a salary of $144,000. She’ll be based in New York, which is awesome! You can reach her at her email: maria.montgomery@company.com. Let me know if you need anything else! Cheers!"
-Michelle,Ray,Michelle Ray,michelle.ray@company.com,Junior Data Analyst,R&D,ASAP,94000,San Francisco,USA,0,1,0,0,0,0,"Hey HR team, 
+I’m pleased to confirm that we’re bringing on Ashley Baker as a Data Engineer in the Design department, based in Johannesburg, South Africa. Her anticipated start date is ASAP, and her salary will be $192,000. 
 
-Just wanted to confirm that we’re bringing on Michelle Ray as our new Junior Data Analyst in the R&D department. She’ll be starting ASAP and her salary is set at $94,000. She'll be based out of San Francisco, which is great! 
-
-You can reach her at michelle.ray@company.com. Excited to have her on board!
-
-Thanks!"
-Janet,Williams,Janet Williams,janet.williams@company.com,Regional Operations Manager,R&D,2025-11-01,236000,London,UK,1,0,0,0,0,0,"Hey Janet,
-
-I wanted to confirm that we’re all set to bring on Janet Williams as our new Regional Operations Manager in the R&D department. She’s starting on November 1st, 2025, and her salary will be £236,000. She'll be based in London, so that should work out nicely. 
-
-If you need anything else or have questions, just let me know!
-
-Cheers!"
-Jeremy,Roberts,Jeremy Roberts,jeremy.roberts@company.com,UX Researcher,Business Intelligence,next month,98000,Remote - US,Remote,0,1,0,0,0,0,"Hey team, 
-
-Just wanted to confirm that we’re bringing Jeremy Roberts on board as our new UX Researcher in the Business Intelligence department. He’ll be starting next month with a salary of $98,000. Jeremy will be working remotely from the US. 
-
-His email is jeremy.roberts@company.com if you need to reach out. Excited to have him join us!
-
-Thanks!"
-Christopher,Hall,Christopher Hall,christopher.hall@company.com,Marketing Manager,IT,ASAP,132000,Remote - US,Remote,0,1,0,0,0,0,"Hey Christopher, 
-
-Just wanted to confirm that we’re moving forward with hiring Christopher Hall for the Marketing Manager position in the IT department. We’re looking to have him start ASAP, and he’ll be working remotely from the US. The salary is set at $132,000. 
-
-Let me know if you need anything else to wrap this up! 
-
-Thanks!"
-Craig,Ramirez,Craig Ramirez,craig.ramirez@company.com,Junior Data Analyst,Product,next month,80000,Remote - US,Remote,0,1,0,0,0,0,"Hey Craig! 🎉 I'm super excited to confirm that we’re bringing on Craig Ramirez as our new Junior Data Analyst in the Product department! He’ll be starting next month, and we’ve agreed on a salary of $80,000. He'll be working remotely from the US, which is perfect for our team. Let’s make sure he has everything he needs to hit the ground running! Can you send him a welcome email at craig.ramirez@company.com when you get a chance? Thanks!"
-Cynthia,Diaz,Cynthia Diaz,cynthia.diaz@company.com,Machine Learning Engineer,Engineering,TBD,115000,Sydney,Australia,0,0,0,0,0,1,"Hey Cynthia, 
-
-Just wanted to confirm that we’re bringing on Cynthia Diaz as our new Machine Learning Engineer in the Engineering department. Her starting salary will be $115,000, and she’ll be based in Sydney. We still need to finalize her start date, but I’ll keep you posted as soon as I have that info. 
-
-If you have any questions or need anything else from me, just let me know! 
-
-Thanks!"
-Mitchell,Clark,Mitchell Clark,mitchell.clark@company.com,Senior Software Engineer,Design,ASAP,237000,New York,USA,0,1,0,0,0,0,"Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Mitchell Clark as our new Senior Software Engineer in the Design department. Super excited to have him on board! He’ll be starting ASAP, and his salary is set at $237,000. He’ll be working out of New York. You can reach him at mitchell.clark@company.com. Let’s get everything set up for him! Thanks!"
-Joseph,Zuniga,Joseph Zuniga,joseph.zuniga@company.com,Data Scientist,Product,ASAP,118000,Tokyo,Japan,0,0,0,0,1,0,"Hey team! Just wanted to confirm that we’re moving forward with Joseph Zuniga for the Data Scientist position in the Product department. We’re looking for him to start ASAP, and his salary will be $118,000. He’ll be based in Tokyo, Japan. You can reach him at joseph.zuniga@company.com. Let’s get the ball rolling! Thanks!"
-Deborah,Lynch,Deborah Lynch,deborah.lynch@company.com,HR Generalist,Legal,next month,173000,Dublin,Ireland,1,0,0,0,0,0,"Hey Deborah,
-
-I’m excited to confirm that we’re bringing on Deborah Lynch as our new HR Generalist in the Legal department! She’ll be starting next month in Dublin. We agreed on a salary of €173,000. 
-
-Let me know if you need any more details or if there’s anything else I should do to help get her onboarded. 
-
-Thanks!"
-George,Daniel,George Daniel,george.daniel@company.com,Marketing Manager,Business Intelligence,next month,132000,Johannesburg,South Africa,0,0,0,1,0,0,"Hey George! 🎉 I'm super excited to confirm that we’re bringing George Daniel on board as our new Marketing Manager in the Business Intelligence department! He’ll be starting next month in Johannesburg with a salary of $132,000. I think he’s going to be a fantastic addition to the team! Make sure to reach out to him at george.daniel@company.com to get everything sorted. Cheers!"
-Frank,Gray,Frank Gray,frank.gray@company.com,Legal Counsel,HR,2025-10-08,206000,London,UK,1,0,0,0,0,0,"Hey Frank,
-
-Just wanted to confirm that we’re all set to bring on Frank Gray as our new Legal Counsel in the HR department. He’ll be starting on October 8, 2025, and his salary is set at £206,000. He’ll be based in London, which will be great for our team! 
-
-If you need anything else or want to chat about his onboarding, just let me know. 
-
-Cheers!"
-Veronica,Bowman,Veronica Bowman,veronica.bowman@company.com,Junior Data Analyst,Legal,2025-09-23,64000,Zurich,Switzerland,1,0,0,0,0,0,"Hey team, 
-
-Just wanted to confirm that we’re bringing on Veronica Bowman as our new Junior Data Analyst in the Legal department. She’ll be starting on September 23, 2025, with a salary of 64,000 CHF. She’ll be based in Zurich, Switzerland. 
-
-You can reach her at veronica.bowman@company.com if you need anything from her. Excited to have her on board!
-
-Cheers!"
-Angela,Cohen,Angela Cohen,angela.cohen@company.com,Software Engineer II,IT,2025-09-30,195000,Zurich,Switzerland,1,0,0,0,0,0,"Hey Angela, just wanted to confirm that we've officially hired Angela Cohen for the Software Engineer II position in the IT department. She'll be starting on September 30, 2025, with a salary of $195,000. She's based in Zurich, Switzerland. Let me know if you need anything else!"
-Megan,Parsons,Megan Parsons,megan.parsons@company.com,Design Intern,AI/ML,2026-01-24,61000,Zurich,Switzerland,1,0,0,0,0,0,"Hey team! Just wanted to give a quick shout-out to confirm that we’re bringing on Megan Parsons as our new Design Intern in the AI/ML department. She’s set to start on January 24, 2026, and her salary will be 61k. Megan will be based in Zurich, Switzerland. Let’s make sure everything’s ready for her! Thanks!"
-Jeremy,Johnson,Jeremy Johnson,jeremy.johnson@company.com,IT Support Contractor,Product,TBD,60000,Zurich,Switzerland,1,0,0,0,0,0,"Hey Jeremy, 
-
-Just wanted to confirm that we’re bringing on Jeremy Johnson as our new IT Support Contractor in the Product department. Super excited to have him on board! His starting salary will be 60K and he’ll be based in Zurich. We still need to finalize his start date, but I’ll keep you posted on that. 
-
-Thanks!"
-Leslie,Adams,Leslie Adams,leslie.adams@company.com,HR Generalist,AI/ML,2026-01-19,195000,Sydney,Australia,0,0,0,0,0,1,"Hey Leslie, 
-
-Just wanted to confirm that we’re all set to bring Leslie Adams on board as our new HR Generalist in the AI/ML department. She'll be starting on January 19, 2026, with a salary of $195,000. She'll be based in Sydney, which is great for our team dynamics. 
-
-Let me know if you need anything else from my side!
-
-Cheers!"
-Jason,Hahn,Jason Hahn,jason.hahn@company.com,Machine Learning Engineer,Engineering,2025-12-17,187000,Boston,USA,0,1,0,0,0,0,"Hey Jason, 
-
-Just wanted to confirm that we’re all set to bring Jason Hahn on board as our new Machine Learning Engineer in the Engineering department. He’s starting on December 17, 2025, with a salary of $187,000. He'll be based in Boston, so everything should be good to go for him. 
-
-Let me know if you need any more details! 
-
-Cheers!"
-Nancy,Edwards,Nancy Edwards,nancy.edwards@company.com,Product Designer,AI/ML,2026-01-14,102000,Dublin,Ireland,1,0,0,0,0,0,"Hey team! 🎉 I'm super excited to confirm that we've got Nancy Edwards joining us as a Product Designer in the AI/ML department! She'll be starting on January 14, 2026, with a salary of €102,000. She'll be based in Dublin, Ireland, so we’re all set for a great addition to the team. You can reach her at nancy.edwards@company.com. Let's give her a warm welcome when she arrives! Cheers!"
-Diana,Foster,Diana Foster,diana.foster@company.com,UX Researcher,Product,2025-10-11,141000,Mexico City,Mexico,0,1,0,0,0,0,"Hey Diana, 
-
-Just wanted to confirm that we've officially hired Diana Foster as our new UX Researcher in the Product department! She'll be starting on October 11, 2025, and her salary will be $141,000. She's based in Mexico City, which is great since we'll have some North America access. 
-
-If you need anything else or have questions, just let me know! 
-
-Cheers!"
-Robin,Ellis,Robin Ellis,robin.ellis@company.com,Machine Learning Engineer,HR,next month,192000,Boston,USA,0,1,0,0,0,0,"Hey Robin,
-
-Just wanted to confirm that we’re all set to bring on Robin Ellis as our new Machine Learning Engineer in the HR department. They’ll be starting next month in Boston with a salary of $192,000. 
-
-Please reach out to them at robin.ellis@company.com to get the onboarding process rolling. Looking forward to having them on the team!
-
-Cheers!"
-Joseph,Wright,Joseph Wright,joseph.wright@company.com,Product Designer,AI/ML,2026-01-23,112000,Berlin,Germany,1,0,0,0,0,0,"Hey Joseph,
-
-Just wanted to confirm that we’re all set to bring on Joseph Wright as our new Product Designer in the AI/ML department! He’ll be starting on January 23, 2026, and his salary will be 112,000. He’ll be based in Berlin, which is awesome for our EU operations.
-
-Let me know if you need any more info!
-
-Cheers!"
-Anna,Baker,Anna Baker,anna.baker@company.com,Software Engineer II,Operations,2025-12-30,118000,Berlin,Germany,1,0,0,0,0,0,"Hey HR Team! Just wanted to confirm that we’re bringing on Anna Baker as a Software Engineer II in the Operations department. She’s set to start on December 30, 2025, and her salary will be $118,000. She’ll be based in Berlin, Germany. You can reach her at anna.baker@company.com. Let me know if you need anything else! Cheers!"
-Brenda,Hurst,Brenda Hurst,brenda.hurst@company.com,Marketing Manager,Finance,next month,185000,Warsaw,Poland,1,0,0,0,0,0,"Hey team, 
-
-Just wanted to give a quick shoutout that we’re all set to bring on Brenda Hurst as our new Marketing Manager in the Finance department! 🎉 She’ll be starting next month in Warsaw with a salary of $185,000. 
-
-You can reach her at brenda.hurst@company.com. Excited to have her on board! 
-
-Cheers!"
-Reginald,Robinson,Reginald Robinson,reginald.robinson@company.com,IT Support Contractor,IT,2025-11-16,51000,Paris,France,1,0,0,0,0,0,"Hey Reginald! Just wanted to confirm that we've officially hired Reginald Robinson as our new IT Support Contractor in the IT department. He'll be starting on November 16, 2025, with a salary of €51,000. He'll be based in Paris, France, so we should make sure he has everything he needs to hit the ground running. Let me know if you need any more info or if there's anything else we need to do! Cheers!"
-Whitney,Hicks,Whitney Hicks,whitney.hicks@company.com,Junior Data Analyst,Business Intelligence,ASAP,63000,Boston,USA,0,1,0,0,0,0,"Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing on Whitney Hicks as our new Junior Data Analyst in the Business Intelligence department. Super excited to have her join us ASAP! She’ll be based in Boston with a salary of $63,000. You can reach her at whitney.hicks@company.com. Let’s get her onboarded! 🎉"
-Christopher,Williams,Christopher Williams,christopher.williams@company.com,Design Intern,Finance,2026-01-30,57000,Remote - US,Remote,0,1,0,0,0,0,"Hey Christopher, 
-
-Just wanted to confirm that we’ve decided to bring on Christopher Williams as our new Design Intern in the Finance department. He’s all set to start on January 30, 2026, and we’re offering him a salary of $57,000. He’ll be working remotely from the US. 
-
-Let me know if you need anything else from my end!
-
-Thanks!"
-Daniel,Burton,Daniel Burton,daniel.burton@company.com,Senior Software Engineer,Product,ASAP,191000,New York,USA,0,1,0,0,0,0,"Hey team, 
-
-Just wanted to confirm that we’re moving forward with Daniel Burton as our new Senior Software Engineer in the Product department. He’ll be starting ASAP and will be based in New York. The salary we discussed is $191,000. 
-
-If you could get everything set up for him, that would be awesome! You can reach him at daniel.burton@company.com if you need to touch base.
-
-Thanks!"
-Laura,Henderson,Laura Henderson,laura.henderson@company.com,Product Designer,Legal,2026-02-27,95000,Remote - Global,Remote,1,1,1,1,1,1,"Hey Laura! 🎉 I'm super excited to confirm that we’re bringing on Laura Henderson as our new Product Designer in the Legal department! She'll be starting on February 27, 2026, with a salary of $95,000. Since she’s going to be working remotely, she’ll have access across all regions – Europe, North America, South America, Africa, Asia, and Oceania! Can you please get everything set up for her? Her email will be laura.henderson@company.com. Thanks a ton! 😊"
-Bryan,James,Bryan James,bryan.james@company.com,Design Intern,IT,ASAP,65000,Singapore,Singapore,0,0,0,0,1,0,"Hey Bryan,
-
-Just wanted to drop you a quick note to confirm that we’re bringing on Bryan James as our new Design Intern in the IT department. He’ll be starting ASAP with a salary of $65,000. He’ll be based in Singapore, so we’ll need to set everything up for him over there.
-
-Thanks for handling the paperwork!
-
-Cheers!"
-Wendy,Rice,Wendy Rice,wendy.rice@company.com,Senior Accountant,R&D,TBD,198000,Paris,France,1,0,0,0,0,0,"Hey Wendy, 
-
-Just wanted to confirm that we’re bringing on Wendy Rice as our new Senior Accountant in the R&D department. She’ll be based in Paris, and her salary will be $198,000. We still need to finalize her start date, but I'll keep you posted on that. 
-
-Thanks!"
-Tasha,Valencia,Tasha Valencia,tasha.valencia@company.com,Software Engineer I,AI/ML,next month,97000,Mexico City,Mexico,0,1,0,0,0,0,"Hey Tasha, 
-
-Just wanted to confirm that we’re all set to bring on Tasha Valencia as our new Software Engineer I in the AI/ML department. She’ll be starting next month and will be based in Mexico City. The salary is $97,000. 
-
-Let me know if you need anything else from my end! 
-
-Cheers!"
-Alexander,Le,Alexander Le,alexander.le@company.com,Product Manager,HR,2025-12-20,197000,Remote - US,Remote,0,1,0,0,0,0,"Hey Alexander, 
-
-Just wanted to confirm that we've officially hired Alexander Le as our new Product Manager in the HR department! He’ll be starting on December 20, 2025, and he’ll be working remotely in the US. His salary will be set at $197,000. 
-
-Let me know if you need anything else from my end!
-
-Cheers!"
-Erin,Herrera,Erin Herrera,erin.herrera@company.com,Finance Analyst,Design,2026-02-08,175000,Bangalore,India,0,0,0,0,1,0,"Hey Erin, 
-
-Just wanted to confirm that we’re bringing on Erin Herrera as our new Finance Analyst in the Design department. She’ll be starting on February 8, 2026, with a salary of $175,000. She’ll be based in Bangalore, India. 
-
-Let me know if you need anything else! 
-
-Thanks!"
-Joseph,Davidson,Joseph Davidson,joseph.davidson@company.com,Design Intern,Legal,next month,64000,San Francisco,USA,0,1,0,0,0,0,"Hey Joseph, 
-
-Just wanted to confirm that we’re all set to bring on Joseph Davidson as our new Design Intern in the Legal department! He’s starting next month and will be based in San Francisco. The salary is $64,000. 
-
-Let me know if you need anything else from my end or if there are any forms to fill out. 
-
-Thanks!"
-Daniel,Graham,Daniel Graham,daniel.graham@company.com,Data Scientist,AI/ML,2025-10-19,180000,Toronto,Canada,0,1,0,0,0,0,"Hey team! Just wanted to confirm that we’re bringing on Daniel Graham as our new Data Scientist in the AI/ML department. He’s set to start on October 19, 2025, and his salary will be $180,000. He’ll be based in Toronto, Canada. You can reach him at daniel.graham@company.com. Excited to have him on board! Let me know if you need anything else."
-Shawn,Mckay,Shawn Mckay,shawn.mckay@company.com,UX Researcher,Product,next month,128000,Bangalore,India,0,0,0,0,1,0,"Hey team,
-
-Just wanted to give a quick shoutout to confirm our new hire, Shawn Mckay, for the UX Researcher position in the Product department. Shawn will be starting next month and will be based out of Bangalore. We're bringing him on with a salary of $128,000. 
-
-You can reach him at shawn.mckay@company.com. Excited to have him on board!
-
-Cheers!"
-Nancy,Baker,Nancy Baker,nancy.baker@company.com,UX Researcher,IT,2025-10-05,96000,Remote - US,Remote,0,1,0,0,0,0,"Hey there! Just wanted to confirm that we’re all set to bring on Nancy Baker as our new UX Researcher in the IT department. She’ll be starting on October 5, 2025, and her salary will be $96,000. She’ll be working remotely from the US, which is great. You can reach her at nancy.baker@company.com. Excited to have her on the team! Let me know if you need anything else."
-Vincent,White,Vincent White,vincent.white@company.com,UX Researcher,Operations,2025-10-25,166000,Boston,USA,0,1,0,0,0,0,"Hey team, 
-
-Just wanted to confirm that we’re bringing Vincent White on board as our new UX Researcher in the Operations department. He’ll be starting on October 25, 2025, with a salary of $166,000. He’ll be based in Boston. 
-
-Feel free to reach out to him at vincent.white@company.com if you need anything from him before he starts! 
-
-Thanks!"
-Rita,Harrell,Rita Harrell,rita.harrell@company.com,Legal Counsel,Product,next month,122000,Remote - EU,Remote,1,0,0,0,0,0,"Hey Rita, 
-
-Just wanted to give you a quick heads up that we’re all set to bring on Rita Harrell as our new Legal Counsel in the Product department. She’ll be starting next month and we’ve agreed on a salary of $122,000. Since she’s going to be remote - EU, I think she’ll fit in perfectly with the team. 
-
-Let me know if you need anything else from my side. 
-
-Cheers!"
-Kenneth,Fowler,Kenneth Fowler,kenneth.fowler@company.com,Data Scientist,AI/ML,2025-12-25,159000,Remote - EU,Remote,1,0,0,0,0,0,"Hey team! 👋 Just wanted to confirm that we’ve got Kenneth Fowler joining us as a Data Scientist in the AI/ML department. He’ll be starting on December 25, 2025, with a salary of $159,000. He’ll be working remotely from the EU, so let’s make sure everything is set up for him. You can reach him at kenneth.fowler@company.com. Excited to have him on board! 🎉"
-Chelsea,Hernandez,Chelsea Hernandez,chelsea.hernandez@company.com,HR Generalist,Product,2025-12-24,200000,Paris,France,1,0,0,0,0,0,"Hey Chelsea, 
-
-Just wanted to confirm that we’re all set to bring Chelsea Hernandez on board as our new HR Generalist in the Product department. She’ll be starting on December 24, 2025, and her salary will be 200,000. She’ll be based in Paris, which is great since we need someone with access to Europe. 
-
-Let me know if you need anything else or if there’s more paperwork to handle! 
-
-Thanks!"
-Kathryn,Ryan,Kathryn Ryan,kathryn.ryan@company.com,Finance Analyst,Engineering,next month,98000,Dublin,Ireland,1,0,0,0,0,0,"Hey Kathryn, 
-
-Just wanted to confirm that we’re all set to bring on Kathryn Ryan as our new Finance Analyst in the Engineering department. She’ll be starting next month in Dublin with a salary of 98k. 
-
-Let me know if you need anything else from my side! 
-
-Thanks!"
-Kimberly,Moreno,Kimberly Moreno,kimberly.moreno@company.com,HR Generalist,HR,ASAP,195000,Paris,France,1,0,0,0,0,0,"Hey Kimberly,  
-
-I just wanted to give you a quick heads up that we're bringing on Kimberly Moreno as our new HR Generalist. She's set to start ASAP and will be based in Paris. We’re offering her a salary of $195,000.  
-
-Let me know if you need anything else from my end!  
+Ashley will have access to the Africa region, which will be vital for her role. Let’s make sure everything is set for her onboarding process. Thanks for your support!
 
 Best,  
-[Your Name]"
-Aaron,Nguyen,Aaron Nguyen,aaron.nguyen@company.com,HR Generalist,Product,2025-12-16,185000,San Francisco,USA,0,1,0,0,0,0,"Hey Aaron! 🎉 I'm super excited to confirm that we've officially hired Aaron Nguyen for the HR Generalist role in the Product department! He'll be starting on December 16, 2025, and will be based in San Francisco. We're bringing him on at a salary of $185,000, which I think is a great fit for his skills. Can't wait to see what he brings to the team! If you need anything else from me, just let me know. Cheers!"
-Andrew,Hickman,Andrew Hickman,andrew.hickman@company.com,Product Designer,IT,2026-03-20,98000,Toronto,Canada,0,1,0,0,0,0,"Hey Andrew! 🎉 I'm super excited to confirm that we've officially hired Andrew Hickman as our new Product Designer in the IT department! He'll be starting on March 20, 2026, and he'll be based in Toronto. We're bringing him on board with a salary of $98,000, which is fantastic! Can't wait to see the creativity he brings to the team. Let’s get everything set up for him! Cheers!"
-Natasha,Decker,Natasha Decker,natasha.decker@company.com,IT Support Contractor,Engineering,2026-01-17,70000,Zurich,Switzerland,1,0,0,0,0,0,"Hey team, just wanted to confirm that we’re bringing on Natasha Decker as our new IT Support Contractor in the Engineering department. She’ll be starting on January 17, 2026, with a salary of 70k. She'll be based in Zurich, Switzerland. You can reach her at natasha.decker@company.com. Excited to have her on board!"
-Kyle,Brown,Kyle Brown,kyle.brown@company.com,Product Designer,Design,TBD,127000,San Francisco,USA,0,1,0,0,0,0,"Hey Kyle, 
+[Your Name]",Ashley Baker,Ashley,Baker,Data Engineer,Design,ASAP,192000.0,Johannesburg,South Africa,ashley.baker@company.com,0.0,0.0,0.0,1.0,0.0,0.0
+"Hey team, 
 
-Just wanted to confirm that we’re bringing on Kyle Brown as our new Product Designer in the Design department. His start date is still TBD, but the salary will be $127,000. He’ll be based in San Francisco. 
+I'm pleased to confirm that we've decided to bring on Mary Mack as our new Senior Accountant in the Engineering department. She'll be joining us starting February 15, 2026, with a salary of $237,000. Excited to have her aboard! 
 
-Let me know if you need anything else!
+Best,  
+[Your Name]",Mary Mack,Mary,Mack,Senior Accountant,Engineering,2026-02-15,237000.0,,,,,,,,,
+"Hey team!
 
-Thanks!"
-Natalie,Arroyo,Natalie Arroyo,natalie.arroyo@company.com,UX Researcher,AI/ML,TBD,171000,Sydney,Australia,0,0,0,0,0,1,"Hey Natalie, 
+I'm thrilled to announce that we've officially brought Matthew Solis on board as our new Legal Counsel in the Design department! 🎉 He'll be starting on December 1, 2025, and his salary is set at $206,000. This is such an exciting addition for us, and I can't wait for you all to meet him. Let’s make sure everything’s ready for his arrival!",Matthew Solis,Matthew,Solis,Legal Counsel,Design,2025-12-01,206000.0,,,,,,,,,
+"Hi team,
 
-Just wanted to confirm that we’re all set to bring on Natalie Arroyo as our new UX Researcher in the AI/ML department. Her start date is still TBD, but we’re offering her a salary of $171,000. She’ll be based in Sydney, Australia. 
+I’m excited to confirm that Jamie Lynch will be joining us in the Finance department as a Junior Data Analyst. Jamie is all set to start on February 7, 2026, working out of our Boston location for a salary of $69,000. 
 
-Could you please get the ball rolling on the paperwork? Let me know if you need anything else from my end. 
+Looking forward to welcoming Jamie aboard! Please ensure everything is in place for a smooth onboarding process. Thanks!",Jamie Lynch,Jamie,Lynch,Junior Data Analyst,Finance,2026-02-07,69000.0,Boston,USA,jamie.lynch@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Thanks!"
-Christopher,Tucker,Christopher Tucker,christopher.tucker@company.com,Regional Operations Manager,HR,2025-11-27,165000,San Francisco,USA,0,1,0,0,0,0,"Hey team! Just wanted to give a quick shoutout to confirm that we’re bringing Christopher Tucker on board as our new Regional Operations Manager in the HR department. He’ll be starting on November 27, 2025, with a salary of $165,000. He'll be based out of San Francisco, so let’s make sure he has everything he needs to hit the ground running. You can reach him at christopher.tucker@company.com. Excited to have him join us! 🎉"
-Chad,Hodges,Chad Hodges,chad.hodges@company.com,Software Engineer II,R&D,2025-12-19,178000,London,UK,1,0,0,0,0,0,"Hey team, 
+I’m thrilled to confirm that we’ve decided to bring on Alison Pacheco as our new Marketing Manager in the R&D department. Based in Berlin, she’ll be starting with a salary of $139,000. Just so you know, her access will be limited to Europe.
 
-I just wanted to confirm that we’re all set to bring on Chad Hodges as our new Software Engineer II in the R&D department. He’s starting on December 19, 2025, with a salary of £178,000. He’ll be based in London and will have access to Europe. 
+Her official start date is still TBD, but I wanted to ensure you have her details: alison.pacheco@company.com. Looking forward to welcoming her aboard!",Alison Pacheco,Alison,Pacheco,Marketing Manager,R&D,TBD,139000.0,Berlin,Germany,alison.pacheco@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"I'm excited to confirm that Leslie Sanders will be joining our AI/ML team as Legal Counsel, starting on November 10, 2025. Leslie's located in the Remote - EU area, and the agreed salary for this role is $137,000.
 
-Let me know if you need anything else from my side. You can reach him at chad.hodges@company.com. 
+Please go ahead and set up the onboarding process, and let me know if you need anything else from my end. Looking forward to having Leslie on board!",Leslie Sanders,Leslie,Sanders,Legal Counsel,AI/ML,2025-11-10,137000.0,Remote - EU,Remote,leslie.sanders@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Cheers!"
-Katie,Anderson,Katie Anderson,katie.anderson@company.com,HR Generalist,Marketing,2026-02-16,109000,Remote - US,Remote,0,1,0,0,0,0,"Hey Katie, 
+I’m excited to confirm that we’re bringing Kayla Hunt on board as our new Product Designer, starting on November 14, 2025. She's based in Boston and will be joining the Design department at a salary of $94,000. You can reach her at kayla.hunt@company.com.
 
-Just wanted to confirm that we’re all set to bring on Katie Anderson as our new HR Generalist in the Marketing department. She’ll be starting on February 16, 2026, with a salary of $109,000. She'll be working remotely from the US. 
+Let’s get the paperwork going so we can welcome her to the team!",Kayla Hunt,Kayla,Hunt,Product Designer,Design,2025-11-14,94000.0,Boston,USA,kayla.hunt@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Let me know if you need anything else! 
+I'm excited to confirm the hiring of Gail Little as our new Regional Operations Manager in the IT department! Based in Dublin, Ireland, she’s set to start on December 23, 2025, and will be earning a salary of $159,000. Let’s give her a warm welcome as she joins our team and gets to work on some great projects in Europe. 
 
-Thanks!"
-Thomas,Pierce,Thomas Pierce,thomas.pierce@company.com,HR Generalist,Engineering,2026-02-06,172000,San Francisco,USA,0,1,0,0,0,0,"Hey Thomas, 
+Please make sure to set up her company email (gail.little@company.com) and any necessary onboarding processes. Thanks!",Gail Little,Gail,Little,Regional Operations Manager,IT,2025-12-23,159000.0,Dublin,Ireland,gail.little@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Just wanted to confirm that we’re all set to bring Thomas Pierce on board as our new HR Generalist in the Engineering department. He'll be starting on February 6, 2026, and his salary will be $172,000. He’ll be located in San Francisco, which is great! 
+I wanted to confirm that we've extended an offer to Elizabeth Wu for the Machine Learning Engineer position in our Product department, based in Mexico City. She'll be starting soon, but the start date is still to be determined. We're bringing her on with a salary of $155,000, and she'll have full access to North America.
 
-Let me know if you need anything else from my end. 
+You can reach her at elizabeth.wu@company.com. Looking forward to seeing how she contributes to our projects!
 
-Thanks!"
-Joseph,Brennan,Joseph Brennan,joseph.brennan@company.com,Product Manager,Business Intelligence,2026-03-11,127000,Sydney,Australia,0,0,0,0,0,1,"Hey Joseph! Just wanted to confirm that we’re bringing on Joseph Brennan as our new Product Manager in the Business Intelligence department. He’s set to start on March 11, 2026, and we’re offering him a salary of $127,000. He’ll be based in Sydney, Australia. Let me know if you need anything else from my end! Cheers!"
-Rodney,Lewis,Rodney Lewis,rodney.lewis@company.com,Machine Learning Engineer,Marketing,2026-03-11,137000,Bangalore,India,0,0,0,0,1,0,"Hey Rodney, 
+Best,  
+[Your Name]",Elizabeth Wu,Elizabeth,Wu,Machine Learning Engineer,Product,TBD,155000.0,Mexico City,Mexico,elizabeth.wu@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Just wanted to confirm that we’re all set to bring on Rodney Lewis as our new Machine Learning Engineer in the Marketing department. He’ll be starting on March 11, 2026, with a salary of 137,000. He’ll be based in Bangalore, India. 
+I'm excited to confirm that we’re bringing on Todd Barnett as our new Data Engineer in Warsaw! He'll be starting on January 21, 2026, and will be working within the Operations department. 
 
-Let me know if you need anything else! 
+Let’s make sure everything is ready for his onboarding — I’ll forward his email, todd.barnett@company.com, to help with the setup. Thanks!",Todd Barnett,Todd,Barnett,Data Engineer,Operations,2026-01-21,,Warsaw,Poland,todd.barnett@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Cheers!"
-Amber,Blair,Amber Blair,amber.blair@company.com,Marketing Manager,Operations,2026-01-07,170000,Remote - EU,Remote,1,0,0,0,0,0,"Hey team! 🎉 I'm super excited to confirm that we’ve officially hired Amber Blair as our new Marketing Manager for the Operations department! She’ll be starting on January 7, 2026, with a salary of $170,000. She’ll be working remotely from the EU, which is fantastic! You can reach her at amber.blair@company.com. Let’s give her a warm welcome when she joins the team! 🥳 Cheers!"
-James,Collins,James Collins,james.collins@company.com,Data Engineer,IT,2026-02-09,191000,Remote - Global,Remote,1,1,1,1,1,1,"Hey James, 
+I’m pleased to confirm that we've hired Nicholas Johnson for the Software Engineer II position in the Engineering department. He'll be starting in Paris, France on March 19, 2026, at a salary of $96,000. He'll have access to our European operations, which should be a great fit.
 
-Just wanted to give you a quick heads-up that we’re all set to bring on James Collins as our new Data Engineer in the IT department. He’ll be starting on February 9, 2026, and his salary will be $191,000. He’ll be working remotely, which is great since he’ll have access to all regions—Europe, North America, South America, Africa, Asia, and Oceania. 
+Let's get everything set up for him, including his email: nicholas.johnson@company.com. Thanks!",Nicholas Johnson,Nicholas,Johnson,Software Engineer II,Engineering,2026-03-19,96000.0,Paris,France,nicholas.johnson@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hi team, 
 
-Let me know if you need anything else from my end! 
+I’m pleased to confirm that we’ve decided to bring on Karen White as our new Product Designer in the Marketing department. Her start date is set for October 8, 2025, and her annual salary will be $99,000. 
 
-Cheers!"
-Wanda,Santos,Wanda Santos,wanda.santos@company.com,Marketing Manager,R&D,2026-02-17,162000,Dublin,Ireland,1,0,0,0,0,0,"Hey Wanda, 
+Looking forward to welcoming her aboard! Let me know if you need anything else from my side.",Karen White,Karen,White,Product Designer,Marketing,2025-10-08,99000.0,,,,,,,,,
+"Subject: Confirmation of New Hire - Lori Mcintyre
 
-Just wanted to confirm that we’re all set to bring on Wanda Santos as our new Marketing Manager in the R&D department! She’ll be starting on February 17, 2026, and her salary will be €162,000. She'll be based in Dublin, Ireland, so please make sure she has the necessary access for Europe. 
+Hi Team,
 
-Let me know if you need anything else from my end!
+I'm excited to confirm the hiring of Lori Mcintyre as a Junior Data Analyst in our Operations department, starting October 25, 2025. Lori will be based in our Sydney location and has been granted access to Oceania for her role. 
 
-Cheers!"
-Samuel,Holmes,Samuel Holmes,samuel.holmes@company.com,Legal Counsel,Marketing,2025-11-15,250000,Mexico City,Mexico,0,1,0,0,0,0,"Hey Samuel! 🎉 I'm super excited to confirm that we've got Samuel Holmes joining us as our new Legal Counsel in the Marketing department! He'll be starting on November 15, 2025, and his salary will be set at $250,000. He'll be based in Mexico City, which is fantastic! Can you please get everything set up for him? His email will be samuel.holmes@company.com. Let’s make him feel welcome! Cheers!"
-David,Walker,David Walker,david.walker@company.com,Data Engineer,Business Intelligence,2026-03-10,166000,New York,USA,0,1,0,0,0,0,"Hey David, 
+You can reach her at lori.mcintyre@company.com. Let’s ensure she has everything she needs for a smooth onboarding process. Thanks!",Lori Mcintyre,Lori,Mcintyre,Junior Data Analyst,Operations,2025-10-25,,Sydney,Australia,lori.mcintyre@company.com,0.0,0.0,0.0,0.0,0.0,1.0
+"Hi team,  
 
-Just wanted to confirm that we’re all set to bring David Walker on board as our new Data Engineer in the Business Intelligence department. His start date is March 10, 2026, and he’ll be based in New York. We’re looking at a salary of $166,000. 
+I’m reaching out to confirm the hiring of Dominique Jackson for the position of Regional Operations Manager in the Legal department. Dominique will be based in Mexico City and starts next month with a salary of $170,000. It's worth noting that this role will grant access to North America but not to other regions.  
 
-Let me know if you need anything else from me! 
+Please have all the necessary onboarding procedures ready so we can ensure a smooth assimilation. Dominique's email will be dominique.jackson@company.com. Let me know if you need anything else from my side.",Dominique Jackson,Dominique,Jackson,Regional Operations Manager,Legal,next month,170000.0,Mexico City,Mexico,dominique.jackson@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hi team,
 
-Cheers!"
-Matthew,Chapman,Matthew Chapman,matthew.chapman@company.com,Senior Software Engineer,Marketing,ASAP,243000,Zurich,Switzerland,1,0,0,0,0,0,"Subject: Confirming New Hire - Matthew Chapman
+I'm excited to confirm that we've brought Matthew Myers on board as a Finance Analyst in the Design department! He'll be starting on February 23, 2026, and will have access to Europe. His base salary is set at 97,000 euros.
 
-Hey team,
+Let’s get everything lined up for his onboarding in Berlin. Thanks!",Matthew Myers,Matthew,Myers,Finance Analyst,Design,2026-02-23,97000.0,Berlin,Germany,matthew.myers@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Subject: Confirmation of New Hire
 
-Just wanted to confirm that we’re bringing on Matthew Chapman as our new Senior Software Engineer in the Marketing department. He’ll be starting ASAP and will be based in Zurich, Switzerland. We’re looking at a salary of $243,000 for him. 
+Hi team,
 
-Matthew can be reached at his email, matthew.chapman@company.com. Super excited to have him on board!
+I’m pleased to confirm that we’re bringing Charles Bryant on board as our new Marketing Manager in the IT department. He’ll be based out of Mexico City and is ready to start ASAP. You can reach him at charles.bryant@company.com for any onboarding communications. 
 
-Thanks!"
-Jerry,Robinson,Jerry Robinson,jerry.robinson@company.com,Software Engineer I,Product,2026-01-21,163000,Boston,USA,0,1,0,0,0,0,"Hey team, 
+Looking forward to seeing all the great contributions he’ll make to the team!
 
-Just wanted to confirm that we've officially hired Jerry Robinson for the Software Engineer I position in the Product department. He'll be starting on January 21, 2026, with a salary of $163,000. Jerry will be based in Boston, so let’s make sure everything is set up for him. 
+Best,  
+[Your Name]",Charles Bryant,Charles,Bryant,Marketing Manager,IT,ASAP,,Mexico City,Mexico,charles.bryant@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Just wanted to confirm that we're bringing Ashley Rogers on board as our new Senior Software Engineer in Product. Her start date is set for January 7, 2026, and she'll be based in Berlin at an annual salary of $161,000.
 
-Feel free to reach out to him at jerry.robinson@company.com if you need anything from him before he starts. Excited to have him on board!
+Ashley has access throughout Europe, but not to the other regions. Looking forward to seeing the impact she'll make on the team!",Ashley Rogers,Ashley,Rogers,Senior Software Engineer,Product,2026-01-07,161000.0,Berlin,Germany,ashley.rogers@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"I'm thrilled to share that we’ve officially decided to bring onboard Jaime Davis as our new Junior Data Analyst in the Legal department! 🎉 Jaime will be starting in Singapore next month, and we're super excited to have them join the team. 
 
-Thanks!"
-Chad,Welch,Chad Welch,chad.welch@company.com,Legal Counsel,AI/ML,next month,169000,Warsaw,Poland,1,0,0,0,0,0,"Hey Chad, 
+With a salary of $69,000, Jaime will be primarily focused on our operations in Asia. You can reach them at jaime.davis@company.com. Let’s make sure we roll out the welcome mat for Jaime—looking forward to seeing the great things they'll accomplish with us!",Jaime Davis,Jaime,Davis,Junior Data Analyst,Legal,next month,69000.0,Singapore,Singapore,jaime.davis@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hey team,  
 
-Just wanted to drop you a quick note to confirm that we’re bringing on Chad Welch as our new Legal Counsel in the AI/ML department. He’ll be starting next month, and we’ve agreed on a salary of $169,000. He’ll be based in Warsaw, Poland. 
+I’d like to confirm our new hire, Courtney Smith, as an HR Generalist starting ASAP. She’ll be based remotely in the EU and will have access to Europe. You can reach her at courtney.smith@company.com.  
 
-Let me know if you need anything else or if there’s more paperwork to sort out. 
+Thanks!",Courtney Smith,Courtney,Smith,HR Generalist,Operations,ASAP,,Remote - EU,Remote,courtney.smith@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Dear HR Team,
 
-Thanks!"
-Jeremy,Whitehead,Jeremy Whitehead,jeremy.whitehead@company.com,Senior Accountant,Business Intelligence,2025-10-29,223000,Tokyo,Japan,0,0,0,0,1,0,"Hey Jeremy, 
+I would like to confirm the details for our new hire, Michael Perez, who will be joining us as an IT Support Contractor in the Operations department. He’s set to start on November 7, 2025, with an annual salary of $73,000.
 
-Just wanted to give you a quick heads up that we've got a new hire for the Business Intelligence department! Jeremy Whitehead will be joining us as a Senior Accountant starting on October 29, 2025. His salary will be $223,000, and he'll be based in Tokyo, Japan. 
+Please proceed with the necessary onboarding processes at your earliest convenience. Let me know if you need any further information. Thank you.",Michael Perez,Michael,Perez,IT Support Contractor,Operations,2025-11-07,73000.0,,,,,,,,,
+"Hey team,
 
-Let me know if you need anything else from my end. 
+I’m happy to confirm that we’re bringing Amanda Cummings on board as a Data Scientist in the IT department, starting January 30, 2026. She will be working remotely from our global location and has agreed to a salary of $138,000. 
 
-Cheers!"
-Michele,Jones,Michele Jones,michele.jones@company.com,Machine Learning Engineer,Engineering,2026-03-19,151000,Warsaw,Poland,1,0,0,0,0,0,"Hey team! 🎉 I'm super excited to confirm that we’ve got Michele Jones joining us as a Machine Learning Engineer in the Engineering department! She'll be starting on March 19, 2026, and her salary will be $151,000. Michele will be based in Warsaw, Poland. Let’s make sure to welcome her with open arms! If you need to reach her, her email is michele.jones@company.com. Can’t wait to have her on board! Cheers! 🥳"
-John,Caldwell,John Caldwell,john.caldwell@company.com,Junior Data Analyst,Engineering,ASAP,89000,Zurich,Switzerland,1,0,0,0,0,0,"Hey team,
+Amanda’s background aligns perfectly with what we need, and she’ll have access across all regions—North America, Europe, Asia, South America, Oceania, and Africa. Excited to have her join us!",Amanda Cummings,Amanda,Cummings,Data Scientist,IT,2026-01-30,138000.0,Remote - Global,Remote,amanda.cummings@company.com,1.0,1.0,1.0,1.0,1.0,1.0
+"Hi team,
 
-I’m excited to confirm that we’re bringing on John Caldwell as our new Junior Data Analyst in the Engineering department. He’ll be starting ASAP, and we’re offering him a salary of $89,000. He’ll be based out of Zurich, Switzerland, so let’s make sure everything is set up for him there.
+I’m confirming that we've officially decided to bring Regina Fowler on board as a Junior Data Analyst. She'll start on December 6, 2025, and her salary will be $89,000. She’ll be working from Tokyo and will have access to Asia only.
 
-Feel free to reach out to him at john.caldwell@company.com if you need anything from him before he starts!
+Let's make sure to get her set up with the proper onboarding. You can reach her at regina.fowler@company.com. Thanks!",Regina Fowler,Regina,Fowler,Junior Data Analyst,IT,2025-12-06,89000.0,Tokyo,Japan,regina.fowler@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hey team,
 
-Cheers!"
-Jason,Anderson,Jason Anderson,jason.anderson@company.com,Design Intern,Finance,2026-01-13,74000,Remote - EU,Remote,1,0,0,0,0,0,"Hey Jason, 
+I’m excited to confirm that we've officially hired Victoria Maynard as our new Data Engineer in the Operations department. She'll be joining us in London next month, with a salary of £94,000. Importantly, her access will be limited to Europe, as she won't have access to other regions like North America, South America, Africa, Asia, or Oceania.
 
-Just wanted to confirm that we’re all set to bring on Jason Anderson as our new Design Intern in the Finance department. He’ll be starting on January 13, 2026, and his salary will be $74,000. Since he’ll be working remotely in the EU, we don’t need to worry about any office logistics. 
+Please set up her email (victoria.maynard@company.com) and get everything ready for her onboarding. Thanks!",Victoria Maynard,Victoria,Maynard,Data Engineer,Operations,next month,94000.0,London,UK,victoria.maynard@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team!
 
-Let me know if you need anything else from my end! 
+I'm thrilled to confirm that we've just hired Crystal Hall as our new IT Support Contractor in the Marketing department! She’ll be starting on October 5th, 2025, in Berlin, and her annual salary will be $81,000. Can't wait for everyone to meet her! 🎉 
 
-Thanks!"
-Selena,Duncan,Selena Duncan,selena.duncan@company.com,Design Intern,Business Intelligence,next month,69000,Warsaw,Poland,1,0,0,0,0,0,"Subject: Confirmation of New Hire
+Let’s make sure she’s set up with access to the European resources she needs. Exciting times ahead!",Crystal Hall,Crystal,Hall,IT Support Contractor,Marketing,2025-10-05,81000.0,Berlin,Germany,crystal.hall@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team!
 
-Hey team,
+I’m super excited to confirm that we’ve got Timothy Thompson on board as our new Data Scientist in the Finance department! 🎉 He’ll be starting on March 14, 2026, and I can’t wait for him to bring his expertise to the team here in Toronto. His annual salary will be $149,000, and just a heads-up—his role will focus on North America only. 
 
-Just wanted to confirm that we’ve got a new Design Intern joining us! Selena Duncan will be starting next month in the Business Intelligence department. We’re offering her a salary of $69,000, and she’ll be based in Warsaw, Poland. 
+Let’s gear up to welcome him!",Timothy Thompson,Timothy,Thompson,Data Scientist,Finance,2026-03-14,149000.0,Toronto,Canada,timothy.thompson@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hi team,
 
-Her email will be selena.duncan@company.com. I’m excited to have her onboard!
+I'm writing to confirm that we've extended an offer to Victoria Wallace for the Software Engineer II position within the AI/ML department. Her salary will be $174,000, and she’s set to start on November 22, 2025. 
 
-Thanks!"
-Thomas,Mueller,Thomas Mueller,thomas.mueller@company.com,IT Support Contractor,Business Intelligence,2025-11-24,65000,Mexico City,Mexico,0,1,0,0,0,0,"Hey Thomas,  
+Victoria will be based in our Sydney office, with no additional access to other regions. Please adjust the records accordingly.
 
-Just wanted to confirm that we've decided to bring on Thomas Mueller as our new IT Support Contractor in the Business Intelligence department. He'll be starting on November 24, 2025, and his salary will be $65,000. He'll be based in Mexico City.  
+Best,  
+[Your Name]",Victoria Wallace,Victoria,Wallace,Software Engineer II,AI/ML,2025-11-22,174000.0,Sydney,Australia,victoria.wallace@company.com,0.0,0.0,0.0,0.0,0.0,1.0
+"Hi team,
 
-Let me know if you need anything else from my end!  
+I’m excited to confirm that we’ve successfully moved forward with Karen Williams as our new Software Engineer I in the Operations department. Her start date is set for ASAP, and her salary will be $119,000. 
 
-Cheers!"
-Lindsey,Lee,Lindsey Lee,lindsey.lee@company.com,IT Support Contractor,HR,2025-10-11,66000,Zurich,Switzerland,1,0,0,0,0,0,"Hey Lindsey,
+Looking forward to welcoming her on board! Thanks for getting everything in place.",Karen Williams,Karen,Williams,Software Engineer I,Operations,ASAP,119000.0,,,,,,,,,
+"I’m thrilled to confirm Dennis Lee as our new Junior Data Analyst in the AI/ML department, starting ASAP. He'll be based out of Paris, France, with a salary set at $91,000. 
 
-Just wanted to confirm that we've decided to bring on Lindsey Lee as our new IT Support Contractor. She'll be joining the HR department and starting on October 11, 2025. We're offering her a salary of 66,000 CHF, and she'll be based in Zurich. 
+Dennis will have access to our Europe operations, which aligns perfectly with our team objectives. His email, if anyone needs to reach him, is dennis.lee@company.com. Looking forward to welcoming him aboard!",Dennis Lee,Dennis,Lee,Junior Data Analyst,AI/ML,ASAP,91000.0,Paris,France,dennis.lee@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team! 🎉 I'm thrilled to confirm that Jonathan Bell will be joining us as a Senior Accountant starting on October 14, 2025! He'll be based in London and brings an incredible skill set to the HR department.
 
-Let me know if you need any more info or if there's anything else you need me to do to get her all set up. 
+With a salary of £228,000, he’ll have access to Europe, and I can't wait for him to become part of our team. Let's make sure everything is ready for his onboarding at jonathan.bell@company.com!",Jonathan Bell,Jonathan,Bell,Senior Accountant,HR,2025-10-14,228000.0,London,UK,jonathan.bell@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Thanks!"
-Collin,Jordan,Collin Jordan,collin.jordan@company.com,Regional Operations Manager,R&D,ASAP,155000,Singapore,Singapore,0,0,0,0,1,0,"Subject: New Hire Confirmation
+I’m excited to confirm that we’ve hired Joseph Hamilton as our new Senior Accountant in Johannesburg! His start date is next month, and he’ll be joining us in the HR department with a salary of $182,000. Just a heads up, he’ll have access to Africa but not other regions. 
 
-Hey Collin,
+Let’s get everything sorted to welcome him aboard smoothly! Thanks!",Joseph Hamilton,Joseph,Hamilton,Senior Accountant,HR,next month,182000.0,Johannesburg,South Africa,joseph.hamilton@company.com,0.0,0.0,0.0,1.0,0.0,0.0
+"Hey team,
 
-Just wanted to drop you a quick note to confirm that we’re bringing on Collin Jordan as our new Regional Operations Manager in the R&D department. Super excited about this! He’ll be starting ASAP with a salary of $155,000, and he’ll be based in Singapore. 
+I’m excited to confirm that we’re bringing on Robert Rodriguez as our new Regional Operations Manager in the Product department! He'll be starting on February 5, 2026, and will be operating out of Tokyo, Japan, with a salary set at $128,000. 
 
-If you could get everything set up for him, that’d be great. Let me know if you need anything else from my end.
+Robert will be focusing on our initiatives in Asia, and you can reach him at robert.rodriguez@company.com. Let’s get the ball rolling so he has everything he needs for a smooth start!
 
-Thanks!"
-Rodney,Owens,Rodney Owens,rodney.owens@company.com,Senior Accountant,Design,ASAP,193000,Paris,France,1,0,0,0,0,0,"Hey team! 🎉 I'm super excited to confirm that we’re bringing on Rodney Owens as our new Senior Accountant in the Design department! He’s set to start ASAP and will be based in Paris. We're looking at a salary of $193,000. You can reach him at rodney.owens@company.com. Can’t wait to see the great things he’ll bring to the team! Let’s get the ball rolling! 🚀"
-Jessica,Nunez,Jessica Nunez,jessica.nunez@company.com,Junior Data Analyst,Marketing,2025-11-13,86000,Mexico City,Mexico,0,1,0,0,0,0,"Hey team! 🎉 I'm super excited to confirm that we're bringing on Jessica Nunez as our new Junior Data Analyst in the Marketing department! She'll be starting on November 13, 2025, and we'll be offering her a salary of $86,000. She's based in Mexico City, which is awesome! You can reach her at jessica.nunez@company.com. Can't wait to have her join the team! Let’s get the onboarding process rolling! 🙌"
-Tracey,Garcia,Tracey Garcia,tracey.garcia@company.com,Software Engineer I,Legal,2025-09-23,130000,Remote - Global,Remote,1,1,1,1,1,1,"Hey Tracey, 
+Thanks!",Robert Rodriguez,Robert,Rodriguez,Regional Operations Manager,Product,2026-02-05,128000.0,Tokyo,Japan,robert.rodriguez@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hi team,
 
-Just wanted to confirm that we’re all set to bring on Tracey Garcia as our new Software Engineer I in the Legal department. She’ll be starting on September 23, 2025, with a salary of $130,000. She’ll be working remotely, which is great since she’ll have access to all regions. 
+I’d like to confirm the hiring of Bryan Kelly as our new Legal Counsel for the Finance department in Mexico City. He’ll be taking on responsibilities with access to North America and an annual salary of $231,000. 
 
-Thanks for handling the paperwork! 
+As for the start date, that’s still to be determined. Let’s make sure everything's set up for him once we finalize the details. Thanks!",Bryan Kelly,Bryan,Kelly,Legal Counsel,Finance,TBD,231000.0,Mexico City,Mexico,bryan.kelly@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hello,
 
-Cheers!"
-Richard,Morgan,Richard Morgan,richard.morgan@company.com,HR Generalist,Operations,next month,187000,Remote - EU,Remote,1,0,0,0,0,0,"Hey Richard! Just wanted to give you a quick shout to confirm that we’re bringing on Richard Morgan as our new HR Generalist in the Operations department. He’ll be starting next month with a salary of $187,000. He'll be working remotely from the EU, so no access to North or South America for him. Let me know if you need anything else from my end! Cheers!"
-Michelle,Wright,Michelle Wright,michelle.wright@company.com,IT Support Contractor,Design,2026-01-24,49000,Zurich,Switzerland,1,0,0,0,0,0,"Hey Michelle! 🎉 I'm super excited to confirm that we've decided to bring on Michelle Wright as our new IT Support Contractor in the Design department! She'll be starting on January 24, 2026, and her salary will be 49,000 CHF. She'll be based in Zurich, Switzerland, which is awesome! Let's make sure everything's set for her onboarding. You can reach her at michelle.wright@company.com if you need to connect with her before she starts. Can't wait to have her on the team! Cheers!"
-James,West,James West,james.west@company.com,Senior Accountant,Marketing,ASAP,219000,Berlin,Germany,1,0,0,0,0,0,"Hey team, 
+I’d like to formally confirm the hire of Christopher Hamilton for the UX Researcher position in the IT department in Zurich, Switzerland. His salary will be $151,000, and we’re looking to have him start ASAP.
 
-Just wanted to give a quick shout-out to confirm that we’re bringing James West on board as our new Senior Accountant in the Marketing department. He’ll be starting ASAP, and we’re all really excited about it! His salary is set at 219k, and he’ll be based out of Berlin. 
+For the record, Christopher will have access to Europe but no access to other regions like North America, Asia, South America, Africa, or Oceania. Please proceed with the next steps in onboarding him. Thanks!",Christopher Hamilton,Christopher,Hamilton,UX Researcher,IT,ASAP,151000.0,Zurich,Switzerland,christopher.hamilton@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Subject: Confirmation of New Hire - Alan Herrera
 
-Let’s make sure everything’s ready for him when he arrives. If you need anything from me, just let me know!
+Hi Team,
 
-Cheers!"
-Robert,Ramirez,Robert Ramirez,robert.ramirez@company.com,Senior Accountant,Engineering,2025-09-28,150000,Remote - Global,Remote,1,1,1,1,1,1,"Hey team! Just wanted to confirm that we’re bringing on Robert Ramirez as our new Senior Accountant in the Engineering department. He’ll be starting on September 28, 2025, with a salary of $150,000. He'll be working remotely (Global), which is great since he’ll have access across all regions – Europe, North America, South America, Africa, Asia, and Oceania. His email will be robert.ramirez@company.com. Excited to have him on board!"
-John,Leblanc,John Leblanc,john.leblanc@company.com,Data Scientist,Operations,2025-11-27,133000,Mexico City,Mexico,0,1,0,0,0,0,"Hey John, 
+I’m excited to confirm the hiring of Alan Herrera for the Marketing Manager position in the Product department. He’s set to start on January 16, 2026, and will be based in Warsaw, Poland. Alan will have access to our operations in Europe, and his salary will be $119,000. 
 
-Just wanted to confirm that we’re bringing on John Leblanc as our new Data Scientist in the Operations department. He’ll be starting on November 27, 2025, with a salary of $133,000. He'll be based in Mexico City. 
+His email address will be alan.herrera@company.com. Please let me know if you need any further information or if there are next steps regarding onboarding documents! 
 
-Let me know if you need anything else! 
+Best,  
+[Your Name]",Alan Herrera,Alan,Herrera,Marketing Manager,Product,2026-01-16,119000.0,Warsaw,Poland,alan.herrera@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Just wanted to confirm that we’re bringing Charles Benson on as our new Software Engineer II. He’ll be starting in London on December 19, 2025, with a salary of $112,000. 
 
-Cheers!"
-Scott,Callahan,Scott Callahan,scott.callahan@company.com,Legal Counsel,Design,2025-12-28,191000,Singapore,Singapore,0,0,0,0,1,0,"Hey there! Just wanted to confirm that we’re all set to bring on Scott Callahan as our new Legal Counsel in the Design department. He'll be starting on December 28, 2025, and his salary will be $191,000. He'll be based in Singapore, and you can reach him at scott.callahan@company.com. Excited to have him join the team! Let me know if you need anything else."
-Andrea,Williams,Andrea Williams,andrea.williams@company.com,UX Researcher,Operations,2026-02-07,91000,New York,USA,0,1,0,0,0,0,"Hey Andrea, 
+He's set for access in Europe, but will not have access in Asia, North America, Oceania, South America, or Africa. Excited to have him join the Marketing department!",Charles Benson,Charles,Benson,Software Engineer II,Marketing,2025-12-19,112000.0,London,UK,charles.benson@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
 
-Just wanted to confirm that we’re all set for the new UX Researcher in Operations, Andrea Williams. She’ll be starting on February 7, 2026, with a salary of $91,000. She’ll be based in New York, and I think she’ll be a great fit for the team!
+I’m thrilled to confirm that we've officially hired Richard Galloway as our new Finance Analyst in the Product department! He'll be joining us in Johannesburg next month, with a starting salary of $147,000. You can reach him at richard.galloway@company.com. 
 
-Let me know if you need anything else!
+Richard's expertise will be valuable, especially since he’ll be focusing on Africa markets. Let's get him settled in smoothly!
 
-Cheers!"
-Yvette,Huff,Yvette Huff,yvette.huff@company.com,Senior Software Engineer,Design,ASAP,165000,Boston,USA,0,1,0,0,0,0,"Hey Yvette, 
+Best,  
+[Your Name]",Richard Galloway,Richard,Galloway,Finance Analyst,Product,next month,147000.0,Johannesburg,South Africa,richard.galloway@company.com,0.0,0.0,0.0,1.0,0.0,0.0
+"Hey team,
 
-Just wanted to confirm that we’re bringing on Yvette Huff as our new Senior Software Engineer in the Design department. We’re looking to get her started ASAP with a salary of $165,000. She’ll be based in Boston, so let’s get all the onboarding stuff rolling. 
+I'm thrilled to confirm that we've got Jose Kennedy onboard as our IT Support Contractor! His start date is March 1st, 2026, and he’ll be working from London with a salary of £59,000. 
 
-Thanks!"
+Jose will bring a great energy to the Design department, especially with access to our European resources. His email is jose.kennedy@company.com. Let's help him settle in smoothly when he arrives!
+
+Best,  
+[Your Name]",Jose Kennedy,Jose,Kennedy,IT Support Contractor,Design,2026-03-01,59000.0,London,UK,jose.kennedy@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hi team,
+
+I'm thrilled to confirm that we've officially brought Karen Rogers on board as our new Product Manager in the Legal department! She’ll be starting on October 15th, 2025, and will be based in Dublin, Ireland with a salary of $137,000.
+
+Please set up her company email at karen.rogers@company.com and ensure that she has the necessary access for Europe.
+
+Thanks!",Karen Rogers,Karen,Rogers,Product Manager,Legal,2025-10-15,137000.0,Dublin,Ireland,karen.rogers@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"I’m happy to confirm that we’re moving forward with Michael Fowler as our new Legal Counsel in the Product department. He’ll be based in Mexico City and is set to start ASAP. 
+
+His salary will be $246,000, and his email will be michael.fowler@company.com. Excited to bring him on board!",Michael Fowler,Michael,Fowler,Legal Counsel,Product,ASAP,246000.0,Mexico City,Mexico,michael.fowler@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"I'm writing to confirm that we’ll be welcoming Tara Henson as our new Data Scientist in the Operations department, starting on March 7, 2026. Tara will be based in Berlin, Germany, and will have an annual salary of $171,000. 
+
+Please note that access is limited to Europe, as there are no permissions for North America, Africa, Oceania, South America, or Asia. Her contact email will be tara.henson@company.com. Let me know if you need anything further to finalize her onboarding.",Tara Henson,Tara,Henson,Data Scientist,Operations,2026-03-07,171000.0,Berlin,Germany,tara.henson@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team!
+
+I’m thrilled to confirm that we're bringing Robert Robbins on board as a Software Engineer I in our IT department! He's based in Zurich, Switzerland, and we’re looking to get him started ASAP. 🎉 With a salary of $171,000, I believe he'll be a fantastic addition to the team and help us enhance our projects across Europe.
+
+Thanks for facilitating this process! Let’s make sure everything is set up for Robert’s arrival so we can hit the ground running!",Robert Robbins,Robert,Robbins,Software Engineer I,IT,ASAP,171000.0,Zurich,Switzerland,robert.robbins@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey there!
+
+I’m thrilled to let you know that we’re bringing Erika Watson on board as our new UX Researcher in the Product department! She’ll be starting on March 12, 2026, and will be based in Berlin. With a salary of €183,000 and her expertise, I’m confident she’ll make a fantastic addition to the team! 🌟
+
+Looking forward to having her on the team and watching the impact she’ll make in Europe! Let me know if you need anything else!",Erika Watson,Erika,Watson,UX Researcher,Product,2026-03-12,183000.0,Berlin,Germany,erika.watson@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hi team,
+
+I’m excited to confirm that we’re bringing Jimmy Miller on board as a Senior Software Engineer. He’ll be based in Zurich, Switzerland, with a starting salary of $223,000. While his start date is still TBD, we believe his skills will strengthen our Product department tremendously.
+
+Jimmy will have access to Europe, but no access in other regions. Let’s get everything prepped for his onboarding!",Jimmy Miller,Jimmy,Miller,Senior Software Engineer,Product,TBD,223000.0,Zurich,Switzerland,jimmy.miller@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team! 
+
+I’m thrilled to share that we’ve officially brought Natasha Brown on board as our new IT Support Contractor in the HR department, starting next month! With a salary of $71,000, I can’t wait for Natasha to jump in and start making an impact. Let’s give her a warm welcome when she joins us! 🎉",Natasha Brown,Natasha,Brown,IT Support Contractor,HR,next month,71000.0,,,,,,,,,
+"Hey there! 
+
+Just wanted to confirm that we’re bringing on April Medina as our new IT Support Contractor in the HR department. She’ll be starting ASAP here in Bangalore, and you can reach her at april.medina@company.com. Looking forward to having her on board!",April Medina,April,Medina,IT Support Contractor,HR,ASAP,,Bangalore,India,april.medina@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hey team!
+
+I’m thrilled to confirm that we’re bringing Dustin Rios on board as our new IT Support Contractor in Bangalore, starting December 31, 2025! He’ll be joining our R&D department with a salary of $68,000. Dustin's skills and energy are just what we need, especially since he’ll be focusing on our operations in Asia.
+
+Let's get everything prepped for his arrival. His email is dustin.rios@company.com—feel free to reach out if you have any questions or need more info. Exciting times ahead! 🎉",Dustin Rios,Dustin,Rios,IT Support Contractor,R&D,2025-12-31,68000.0,Bangalore,India,dustin.rios@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hey team!
+
+I’m thrilled to confirm that we’ve officially hired Ruth Parsons as our new Regional Operations Manager in the Business Intelligence department! She'll be joining us in London on November 11, 2025, at a salary of $197,000. Exciting times ahead as Ruth brings fresh perspectives to our Europe-focused initiatives! 🎉 
+
+Make sure to set her up with the proper access for her role, and let’s give her a warm welcome when she comes onboard. Her email is ruth.parsons@company.com. Looking forward to seeing the great things she’ll accomplish with our team!",Ruth Parsons,Ruth,Parsons,Regional Operations Manager,Business Intelligence,2025-11-11,197000.0,London,UK,ruth.parsons@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Just wanted to drop a quick note to confirm that we’re moving forward with Paul Martinez as our new Legal Counsel in Tokyo. He’ll be starting on March 6, 2026, with a salary of $154,000, and he’ll be in the Product department.
+
+Looking forward to having him join the team and to see how he’ll contribute to our projects, especially with his expertise in Asia! Let's finalize the paperwork when you can.",Paul Martinez,Paul,Martinez,Legal Counsel,Product,2026-03-06,154000.0,Tokyo,Japan,paul.martinez@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"I’d like to confirm that we’re proceeding with the hiring of Theresa Holmes as a Product Designer in R&D. She’s set to start on February 18, 2026, and will be located in Warsaw, Poland, with access to the Europe market. 
+
+The agreed salary is $150,000. Please reach out to Theresa at theresa.holmes@company.com to finalize any remaining details. Let me know if you need anything else on this!",Theresa Holmes,Theresa,Holmes,Product Designer,R&D,2026-02-18,150000.0,Warsaw,Poland,theresa.holmes@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hi team,
+
+I’d like to confirm that we've successfully hired Crystal Pham as our new Senior Accountant in the IT department. She’s set to start on October 8, 2025, with a salary of $208,000. 
+
+Please proceed with the necessary arrangements. Thank you!",Crystal Pham,Crystal,Pham,Senior Accountant,IT,2025-10-08,208000.0,,,,,,,,,
+"Hey team, 
+
+Just wanted to confirm that we’re bringing on Paul Brown as a Finance Analyst. He’ll be starting next month, and his email will be paul.brown@company.com. Super excited to get him on board - he’ll be a great fit for the Design department, working remotely from the EU! 
+
+His salary is set at $172,000. Let me know if you need anything else from my end to get this finalized. Thanks!",Paul Brown,Paul,Brown,Finance Analyst,Design,next month,172000.0,Remote - EU,Remote,paul.brown@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team!
+
+I’m thrilled to confirm our newest addition to the Business Intelligence department, Derek Barnett! 🎉 He’s joining us as a Machine Learning Engineer and will be starting from Paris, France on November 9, 2025. With a salary of $197,000, I have no doubt he’ll be a fantastic fit for our team's goals in Europe. Derek can be reached at derek.barnett@company.com, so let’s make sure we roll out the welcome mat! 
+
+Looking forward to seeing all the great things he’ll accomplish with us!",Derek Barnett,Derek,Barnett,Machine Learning Engineer,Business Intelligence,2025-11-09,197000.0,Paris,France,derek.barnett@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hi team,
+
+I’m pleased to confirm that we’re bringing on Michael Pitts as our new Product Designer in the Legal department. He’ll be starting on January 18, 2026, and he’s based in London, UK. His salary will be set at £93,000, and he’ll have access to European markets.
+
+Please set up his email at michael.pitts@company.com and ensure everything's ready for his first day! Let's make sure he has a smooth onboarding experience. Thanks!",Michael Pitts,Michael,Pitts,Product Designer,Legal,2026-01-18,93000.0,London,UK,michael.pitts@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
+
+I’m excited to confirm that Jody Hooper has accepted the position of Product Designer in the AI/ML department. Jody will be starting on November 26, 2025, with a salary of $132,000. 
+
+Let’s ensure everything’s set for her onboarding!",Jody Hooper,Jody,Hooper,Product Designer,AI/ML,2025-11-26,132000.0,,,,,,,,,
+"Hey team! 🎉 I'm excited to confirm that we've officially brought Elizabeth Torres on board as our new Design Intern for the AI/ML department. She'll be starting on December 25, 2025, with a salary of $65,000. Can't wait to see her creativity and fresh ideas contribute to our projects!",Elizabeth Torres,Elizabeth,Torres,Design Intern,AI/ML,2025-12-25,65000.0,,,,,,,,,
+"Hey team! 🎉 I’m super excited to confirm that we’ve just brought Kylie Johnson on board as a Software Engineer II in the AI/ML department! She’ll be starting on January 21, 2026, and will be based in London with a salary of $135,000. 
+
+Kylie’s going to be working primarily within Europe, so please reach out if you need anything from her end before she starts. Her email is kylie.johnson@company.com. Let’s give her a warm welcome!",Kylie Johnson,Kylie,Johnson,Software Engineer II,AI/ML,2026-01-21,135000.0,London,UK,kylie.johnson@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hi team,
+
+I’m pleased to confirm that we’re moving forward with Aimee Savage as our new Software Engineer I in the Finance department. Her start date is set for January 28, 2026, and she'll be based in New York. 
+
+Aimee’s salary is set at $94,000, and she will have access to North America resources. Please ensure all arrangements for her onboarding are in place. Thanks!",Aimee Savage,Aimee,Savage,Software Engineer I,Finance,2026-01-28,94000.0,New York,USA,aimee.savage@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Exciting news—Xavier Taylor has accepted the position of Product Manager in our Zurich office! He has a solid background and will be a great fit for our Product team.
+
+His access will be limited to Europe only, and his email address is xavier.taylor@company.com. Although his start date is still to be determined, we'll need to prepare for his salary of $125,000. Let's get the onboarding process rolling when you can!",Xavier Taylor,Xavier,Taylor,Product Manager,Product,TBD,125000.0,Zurich,Switzerland,xavier.taylor@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
+
+I’m thrilled to confirm that we’re bringing Vincent Gardner on board as our new Data Scientist in the Finance department! He's set to start on January 9, 2026, at a salary of $102,000. Great addition to the crew! 
+
+Let's get everything prepped for his first day! 
+
+Best,  
+[Your Name]",Vincent Gardner,Vincent,Gardner,Data Scientist,Finance,2026-01-09,102000.0,,,,,,,,,
+"Hey team!
+
+I’m thrilled to share that we’ve brought Miguel Barry on board as our new Marketing Manager in the AI/ML department! 🌟 He’ll be starting in Singapore on March 16, 2026, with a salary of $140,000. Miguel’s going to be a fantastic addition to the team—let’s give him a warm welcome when he joins! His email is miguel.barry@company.com if you need to reach out.
+
+Looking forward to the amazing things he’ll achieve with us. Cheers!",Miguel Barry,Miguel,Barry,Marketing Manager,AI/ML,2026-03-16,140000.0,Singapore,Singapore,miguel.barry@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hey Team!
+
+I’m thrilled to confirm our new hire, Matthew Nelson, as the Product Manager in the Design department! He’ll be starting in Berlin on March 16, 2026, with a salary of $123,000. I can already tell he’s going to bring some great ideas to the table! 🎉 
+
+Be sure to reach out to him at his email—matthew.nelson@company.com—to get him all set up. Let’s give him a warm welcome when he joins us!",Matthew Nelson,Matthew,Nelson,Product Manager,Design,2026-03-16,123000.0,Berlin,Germany,matthew.nelson@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team! 
+
+I’m excited to confirm that we’re bringing on William Harris as our new HR Generalist in the Finance department. He’ll be based in Berlin and will bring home a salary of $123,000. We still need to nail down a start date, but you can reach him at william.harris@company.com for any onboarding details. 
+
+Cheers!",William Harris,William,Harris,HR Generalist,Finance,TBD,123000.0,Berlin,Germany,william.harris@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Subject: Confirmation of New Hire - Marc Sanders
+
+Hi Team,
+
+I'm pleased to confirm that we’ve decided to bring on Marc Sanders as our new Software Engineer I in the Product department, starting on October 29, 2025. His annual salary will be $107,000. 
+
+Please proceed with the necessary steps to onboard him. Let me know if you need anything further from my end!
+
+Best,  
+[Your Name]",Marc Sanders,Marc,Sanders,Software Engineer I,Product,2025-10-29,107000.0,,,,,,,,,
+"Just wanted to drop a quick note to confirm that we've decided to bring Shawna Miller on board as our new Legal Counsel in the Design department. She'll be starting next month in Tokyo, and her salary will be set at $211,000.
+
+Please make sure everything is lined up for her onboarding. You can reach her at shawna.miller@company.com. Excited to have her join the team!",Shawna Miller,Shawna,Miller,Legal Counsel,Design,next month,211000.0,Tokyo,Japan,shawna.miller@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hey team!
+
+I’m thrilled to announce that we’ve made an offer to James Gonzalez as our new Product Manager in the Product department! He’ll be working out of Bangalore and will have access within Asia. His start date is still TBD, but we’re all set to bring him on board at a salary of $87,000. 🎉 
+
+Let’s roll out the welcome mat and ensure he has everything he needs to hit the ground running here! Feel free to reach out if there are any logistical details we should finalize.",James Gonzalez,James,Gonzalez,Product Manager,Product,TBD,87000.0,Bangalore,India,james.gonzalez@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hi team,
+
+I'm confirming the hiring of Wanda Macdonald for the position of Product Manager in the AI/ML department. She'll be starting ASAP in our Sydney office, with an annual salary of $111,000. 
+
+Wanda's role doesn’t require access to any regions outside of Oceania, so we’re all set there. You can reach her at wanda.macdonald@company.com. Thanks!",Wanda Macdonald,Wanda,Macdonald,Product Manager,AI/ML,ASAP,111000.0,Sydney,Australia,wanda.macdonald@company.com,0.0,0.0,0.0,0.0,0.0,1.0
+"Hey team! Just wanted to confirm that we’re bringing on James Cunningham as our new Product Manager in the IT department. He’ll be starting in Dublin on February 3, 2026, and he’ll have access to Europe. 
+
+You can reach him at james.cunningham@company.com. Looking forward to seeing how he contributes to the team! Thanks!",James Cunningham,James,Cunningham,Product Manager,IT,2026-02-03,,Dublin,Ireland,james.cunningham@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hi Team,
+
+I'm excited to confirm our new UX Researcher—Christopher Stewart. He’s ready to jump in ASAP and will be based in Warsaw as part of the HR department. His email is christopher.stewart@company.com, and he’ll be starting with a salary of 126,000. 
+
+Just a quick reminder: Christopher will have access to Europe but not to any other regions. Let’s make sure everything’s set for his arrival. Thanks!",Christopher Stewart,Christopher,Stewart,UX Researcher,HR,ASAP,126000.0,Warsaw,Poland,christopher.stewart@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Just wanted to confirm that we've brought on Matthew Medina for the Software Engineer I position in the Business Intelligence department. 
+
+His starting salary is set at $168,000, with a start date lined up for next month. Excited to have him on board!",Matthew Medina,Matthew,Medina,Software Engineer I,Business Intelligence,next month,168000.0,,,,,,,,,
+"Hi team,
+
+I’m pleased to confirm that we’ve hired Sarah Lamb for the Junior Data Analyst position in our R&D department. She’ll be starting on February 9, 2026, in Berlin, and her annual salary will be €62,000. Access to Europe has been set up as needed since she won’t require access to other regions.
+
+Looking forward to having Sarah on board! Thanks for your help with the next steps.",Sarah Lamb,Sarah,Lamb,Junior Data Analyst,R&D,2026-02-09,62000.0,Berlin,Germany,sarah.lamb@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Subject: New Hire Confirmation for Software Engineer II
+
+Hi team,
+
+I'm excited to confirm that we've selected Amanda Hartman for the Software Engineer II position in our Paris office! She’ll be joining us starting December 16, 2025, with a salary of $154,000. Amanda will focus on support in Europe.
+
+I'll reach out soon to ensure everything is in place for her onboarding process. Thanks for all your help in bringing her on board! 
+
+Best,  
+[Your Name]",Amanda Hartman,Amanda,Hartman,Software Engineer II,HR,2025-12-16,154000.0,Paris,France,amanda.hartman@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"I'm writing to confirm that we've hired Timothy Cross as the new Regional Operations Manager for the Engineering department. He'll be starting on September 30, 2025, and his salary is set at $170,000. Timothy will be based in Bangalore, India, and will have access to the Asia region.
+
+Please ensure that everything is prepared for his onboarding. If you need any more details or documents, let me know.",Timothy Cross,Timothy,Cross,Regional Operations Manager,Engineering,2025-09-30,170000.0,Bangalore,India,timothy.cross@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hi team,
+
+I'm confirming that we've officially brought Kimberly Scott on board as our new Design Intern. She’ll be starting next month and will be working out of our Singapore office. Kimberly will be part of the Design department, and her salary is set at $62,000.
+
+Looking forward to having her join us! If you need anything else for the paperwork, her email is kimberly.scott@company.com. Thanks!",Kimberly Scott,Kimberly,Scott,Design Intern,Design,next month,62000.0,Singapore,Singapore,kimberly.scott@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hi team,
+
+I’m pleased to confirm that we’ve extended an offer to Marissa Lane for the Junior Data Analyst position in our Paris office. She’ll be starting on December 5, 2025, and her salary is set at €91,000.
+
+Marissa will focus on our Operations department, primarily supporting our access across Europe. I look forward to seeing her contributions to the team!
+
+Best,  
+[Your Name]",Marissa Lane,Marissa,Lane,Junior Data Analyst,Operations,2025-12-05,91000.0,Paris,France,marissa.lane@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Subject: Confirmation of New Hire - Todd Foster 
+
+Hi team, 
+
+I’m excited to confirm the hiring of Todd Foster for the Legal Counsel position in the Engineering department. He’ll be starting on November 22, 2025, with an annual salary of $135,000. Let me know if you need any further details or if there's anything specific we should prepare ahead of his arrival. 
+
+Best,  
+[Your Name]",Todd Foster,Todd,Foster,Legal Counsel,Engineering,2025-11-22,135000.0,,,,,,,,,
+"Hi team,
+
+I’m excited to confirm the hiring of Jeffrey Mason as our new Product Designer in the AI/ML department, starting on November 21, 2025. Jeffrey will be working out of Singapore and will primarily focus on our projects in Asia. You can reach him at jeffrey.mason@company.com.
+
+Looking forward to seeing the contributions he'll make to our team! Thanks!",Jeffrey Mason,Jeffrey,Mason,Product Designer,AI/ML,2025-11-21,,Singapore,Singapore,jeffrey.mason@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hey team,
+
+I’m excited to confirm that we’re bringing on David Walters as our new Junior Data Analyst in the Engineering department. He’ll be starting on March 14, 2026, and will be based in New York. 
+
+David will have access to North America, and I think he’ll fit right into our team dynamic. Let’s make sure everything’s set for his onboarding!",David Walters,David,Walters,Junior Data Analyst,Engineering,2026-03-14,,New York,USA,david.walters@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hey team!
+
+I’m thrilled to announce that we’ve officially brought on Rachel Gibbs as our new Legal Counsel in the Operations department! 🎉 She'll be stepping into her role with a salary of $199,000, and we’re still working out the exact start date. Can’t wait to see the impact she’ll make!",Rachel Gibbs,Rachel,Gibbs,Legal Counsel,Operations,TBD,199000.0,,,,,,,,,
+"Hi team,
+
+I would like to confirm the hiring of Chelsea Simpson for the Design Intern position in our Dublin office. Chelsea will be starting on December 21, 2025, with a salary set at €59,000.
+
+Please ensure that everything is prepared for her onboarding. If you need any more details, let me know.
+
+Thanks!",Chelsea Simpson,Chelsea,Simpson,Design Intern,Marketing,2025-12-21,59000.0,Dublin,Ireland,chelsea.simpson@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Subject: New Hire Confirmation - Heather Martinez
+
+Hi team,
+
+I’m excited to confirm that we’ve decided to bring Heather Martinez on board as our new Regional Operations Manager in HR, starting January 4, 2026. She’ll be based in San Francisco, and her annual salary will be $216,000. Heather has access to North America only, as she's focused on operations here, so let's ensure all setups reflect that.
+
+Please get her email, heather.martinez@company.com, added to our systems. Looking forward to having her join the team!
+
+Best,  
+[Your Name]",Heather Martinez,Heather,Martinez,Regional Operations Manager,HR,2026-01-04,216000.0,San Francisco,USA,heather.martinez@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hey team! I'm excited to confirm that we’ve officially brought Brian Hensley on board as our new Product Manager in the Design department. He’ll be starting next month in New York, and he’ll be earning $155,000. 
+
+Just a heads up, he’ll have access for North America only. Feel free to reach out to him at his email, brian.hensley@company.com, once he kicks things off!",Brian Hensley,Brian,Hensley,Product Manager,Design,next month,155000.0,New York,USA,brian.hensley@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hi team,
+
+I'm confirming the hire of Michael Caldwell for the position of Data Engineer in the Marketing department. He'll be starting as soon as possible in Toronto, Canada, and his email will be michael.caldwell@company.com.
+
+Please proceed with the necessary onboarding steps. Michael will have access limited to North America.
+
+Thanks!",Michael Caldwell,Michael,Caldwell,Data Engineer,Marketing,ASAP,,Toronto,Canada,michael.caldwell@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hi team,
+
+I'm thrilled to confirm that we've decided to bring Robert Howard on board as a Senior Software Engineer in the HR department. He'll be based in Bangalore, and his start date is ASAP. His annual salary will be $237,000, and you can reach him at robert.howard@company.com.
+
+Robert's role is crucial, especially considering our need for international access, particularly in Asia. Let's ensure he's set up correctly from day one. Thanks for all your hard work in facilitating this!",Robert Howard,Robert,Howard,Senior Software Engineer,HR,ASAP,237000.0,Bangalore,India,robert.howard@company.com,0.0,0.0,0.0,0.0,1.0,0.0
+"Hi Team,
+
+I’m pleased to confirm that Kayla Cooper will be joining us as our new Marketing Manager in the AI/ML department, starting March 16, 2026. Based in Boston, she’ll support our North American initiatives. Her agreed salary will be $155,000.
+
+Let’s get the onboarding process rolling. Looking forward to welcoming Kayla to the team!",Kayla Cooper,Kayla,Cooper,Marketing Manager,AI/ML,2026-03-16,155000.0,Boston,USA,kayla.cooper@company.com,0.0,1.0,0.0,0.0,0.0,0.0
+"Hey team! 🎉 I'm thrilled to announce that we'll be adding Karen Hoover as our new UX Researcher to the Design department! She’ll be joining us in Warsaw with a starting salary of $133,000 and will kick things off on December 18, 2025. 
+
+Karen comes with a wealth of knowledge, and her focus will be primarily based in Europe. Don't hesitate to reach out to her at karen.hoover@company.com once she's on board. Here’s to exciting new beginnings!",Karen Hoover,Karen,Hoover,UX Researcher,Design,2025-12-18,133000.0,Warsaw,Poland,karen.hoover@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team! 🎉 
+
+I’m excited to confirm that we’re bringing on Henry Rowland as our new Design Intern in the Business Intelligence department. He’ll be starting December 26, 2025, in Zurich, Switzerland, with a salary of 55K. Looking forward to having him on board!",Henry Rowland,Henry,Rowland,Design Intern,Business Intelligence,2025-12-26,55000.0,Zurich,Switzerland,henry.rowland@company.com,1.0,0.0,0.0,0.0,0.0,0.0
+"Hey team,
+
+I'm excited to confirm that we’re bringing Bryan Perry on board as our new Design Intern in the HR department. He’ll be starting on February 1, 2026, and operating out of our Boston location with an annual salary of $59,000. You can reach him at bryan.perry@company.com. 
+
+Looking forward to seeing him contribute to the team!",Bryan Perry,Bryan,Perry,Design Intern,HR,2026-02-01,59000.0,Boston,USA,bryan.perry@company.com,0.0,1.0,0.0,0.0,0.0,0.0
