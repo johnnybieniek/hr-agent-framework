@@ -53,14 +53,24 @@ def norm_date(v: Any) -> str:
     return s
 
 
+
 def gt_keycard_from_row(row) -> Dict[str, int]:
+    def access_helper(col: str) -> int:
+        val = row.get(col) 
+        if pd.isna(val) or val == "":
+            return 0 # treat missing/blank access 
+        try: 
+            return int(val) 
+        except:
+            return 0
+        
     return {
-        "Europe": int(row["access_europe"]),
-        "North America": int(row["access_north_america"]),
-        "South America": int(row["access_south_america"]),
-        "Africa": int(row["access_africa"]),
-        "Asia": int(row["access_asia"]),
-        "Oceania": int(row["access_oceania"]),
+        "Europe": access_helper("access_europe"),
+        "North America": access_helper("access_north_america"),
+        "South America": access_helper("access_south_america"),
+        "Africa": access_helper("access_africa"),
+        "Asia": access_helper("access_asia"), 
+        "Oceania": access_helper("access_oceania")
     }
 
 
