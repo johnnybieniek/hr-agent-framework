@@ -26,7 +26,7 @@ Rules:
   • Preserve punctuation inside the canonical string (commas, parentheses, hyphenated qualifiers).
   • For remote roles, return exactly the "Remote" label provided (e.g., "Remote", "Remote (EU time zones)").
 - start_date normalization:
-  • If the message uses one of the standard short terms {"ASAP", "TBD", "next month"}, return that term exactly as written.
+  • If the message uses one of the standard short terms {{ "ASAP", "TBD", "next month"}}, return that term exactly as written.
   • Accept calendar dates in formats like YYYY-MM-DD, MM/DD/YYYY, or DD/MM/YYYY and convert to YYYY-MM-DD when unambiguous.
   • If the text mentions other relative phrases (e.g., "in two weeks", "mid-November") that do not map precisely to a date, return the phrase exactly as written.
   • If the start date is missing or ambiguous, return null.
