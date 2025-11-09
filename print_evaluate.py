@@ -359,8 +359,8 @@ def print_detailed_evaluation(i, gt_row, res_row):
 def main():
     p = argparse.ArgumentParser(description="Detailed evaluation of HR-Agent results")
     p.add_argument("results", help="Path to results CSV (e.g., 3agent_xxx_results.csv)")
-    p.add_argument("--ground-truth", default="hiring_v1.csv", help="Path to ground truth CSV")
-    p.add_argument("--limit", type=int, default=100, help="Evaluate only first N rows (default: 100)")
+    p.add_argument("--ground-truth", default="main_dataset.csv", help="Path to ground truth CSV")
+    p.add_argument("--limit", type=int, default=1000, help="Evaluate only first N rows (default: 100)")
     args = p.parse_args()
 
     gt_path = Path(args.ground_truth)

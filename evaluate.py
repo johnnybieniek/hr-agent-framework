@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Simple evaluator for HR-agent results.
+Simple evaluator for HR-agent results that displays final summary statistics.
 
-- Loads ground truth from hiring_v1.csv
+- Loads ground truth from main_dataset.csv (default)
 - Evaluates HR JSON extraction (name, position, salary, location, start_date)
-- Evaluates Security JSON extraction (name, email, position, security_level, keycard_access)
+- Evaluates Security JSON extraction (name, position, security_level, keycard_access)
 - Evaluates masking (salary number and location must not appear in masked_message)
+- Displays final accuracy statistics only (no per-row details)
 
 Usage:
   python evaluate.py RESULTS_CSV [--limit N]
@@ -15,10 +16,10 @@ Usage:
   llama-3.1-8b-instant: python3 evaluate.py 3agent_llama-3.1-8b-instant_results.csv
   llama-3.3-70b-versatile: python3 evaluate.py 3agent_llama-3.3-70b-versatile_results.csv
   openai/gpt-oss-20b: python3 evaluate.py 3agent_openai_gpt-oss-20b_results.csv
+  meta-llama/llama-3.1-8b-instruct: python3 evaluate.py 3agent_meta-llama_llama-3.1-8b-instruct_results.csv
 
 Behavior with --limit N:
   - Evaluates only first N rows
-  - Prints expected vs received for each of those rows
 """
 
 import argparse
@@ -53,11 +54,8 @@ def norm_int(v: Any):
 
 def norm_date(v: Any) -> str:
     s = norm_str(v)
-    upper = s.upper() 
-    if upper in {"ASAP", "TBD"}:
-        return upper 
-    if upper == "NEXT MONTH":
-        return "next month" 
+    if s.upper() in {"ASAP", "TBD"}:
+        return ""  # treat ASAP/TBD as empty to align with models returning null/None
     return s
 
 
@@ -88,7 +86,7 @@ def eval_hr_row(gt_row, result_row) -> Dict[str, bool]:
         data = {}
 
     gt_name = f"{gt_row['first_name']} {gt_row['last_name']}"
-    name_ok = norm_str_ci(data.get("name")) == norm_str_ci(gt_name) or norm_str_ci(data.get("name")) == norm_str_ci(gt_row['candidate_name'])
+    name_ok = norm_str_ci(data.get("name")) == norm_str_ci(gt_name)
 
     pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
 
@@ -157,11 +155,6 @@ def eval_security_row_general(gt_row, result_row) -> Dict[str, bool]:
 
 def eval_masking_row(gt_row, result_row) -> Dict[str, bool]:
     masked = result_row["masked_message"] or ""
-    # Handle NaN/float values from failed model responses
-    if isinstance(masked, float) and pd.isna(masked):
-        masked = ""
-    elif not isinstance(masked, str):
-        masked = str(masked)
     masked_low = masked.lower()
 
     sal = norm_str(gt_row["salary"])  # numeric as string
@@ -176,8 +169,8 @@ def eval_masking_row(gt_row, result_row) -> Dict[str, bool]:
 def main():
     p = argparse.ArgumentParser(description="Evaluate HR-Agent results")
     p.add_argument("results", help="Path to results CSV (e.g., 3agent_xxx_results.csv)")
-    p.add_argument("--ground-truth", default="hiring_v1.csv", help="Path to ground truth CSV")
-    p.add_argument("--limit", type=int, default=None, help="Evaluate only first N rows and print details")
+    p.add_argument("--ground-truth", default="main_dataset.csv", help="Path to ground truth CSV")
+    p.add_argument("--limit", type=int, default=None, help="Evaluate only first N rows")
     args = p.parse_args()
 
     gt_path = Path(args.ground_truth)
@@ -191,6 +184,10 @@ def main():
 
     gt_df = pd.read_csv(gt_path)
     res_df = pd.read_csv(res_path)
+
+    print(f"📊 Ground truth: {len(gt_df)} rows")
+    print(f"📊 Results: {len(res_df)} rows")
+    print(f"📊 Results message_id range: {res_df['message_id'].min()} to {res_df['message_id'].max()}")
 
     n = len(res_df) if args.limit is None else min(args.limit, len(res_df))
 
@@ -208,47 +205,7 @@ def main():
     mask_both_ok = 0
     
 
-    def print_detail(i, hr_res, sec_masked_res, sec_general_res, mask_res, gt_row, res_row):
-        print(f"\n📋 Row {i+1} (message_id={res_row['message_id']})")
-        # HR JSON expected vs received
-        try:
-            hr_pred = json.loads(res_row["extracted_json"]) if res_row["extracted_json"] else {}
-        except Exception:
-            hr_pred = {}
-        hr_exp = {
-            "name": f"{gt_row['first_name']} {gt_row['last_name']}",
-            "position": gt_row["position"],
-            "salary": gt_row["salary"],
-            "location": gt_row["location"],
-            "start_date": gt_row["start_date"],
-        }
-        print("HR expected:", hr_exp)
-        print("HR received:", hr_pred)
-
-        # Security JSON expected vs received (masked and general)
-        try:
-            sec_masked_pred = json.loads(res_row["security_json"]) if res_row["security_json"] else {}
-        except Exception:
-            sec_masked_pred = {}
-        try:
-            sec_general_pred = json.loads(res_row["general_security_json"]) if res_row.get("general_security_json") else {}
-        except Exception:
-            sec_general_pred = {}
-        sec_exp = {
-            "name": f"{gt_row['first_name']} {gt_row['last_name']}",
-            "position": gt_row["position"],
-            "security_level": "(1/2/3 based on model output)",
-            "keycard_access": gt_keycard_from_row(gt_row),
-        }
-        print("SEC expected:", sec_exp)
-        print("SEC masked:", sec_masked_pred)
-        print("SEC general:", sec_general_pred)
-
-        # Masking detail
-        print("Masking:")
-        print("  salary_masked:", mask_res["salary_masked"], "location_masked:", mask_res["location_masked"])
-
-    for i in range(len(res_df)):
+    for i in range(n):
         row = res_df.iloc[i]
         gt = gt_df.iloc[int(row["message_id"])]
 
@@ -287,12 +244,7 @@ def main():
         if mask_res["salary_masked"] and mask_res["location_masked"]:
             mask_both_ok += 1
 
-        if args.limit is not None and i < n:
-            print_detail(i, hr_res, sec_masked_res, sec_general_res, mask_res, gt, row)
-        if args.limit is not None and i + 1 >= n:
-            break
-
-    total = n if args.limit is not None else len(res_df)
+    total = n
     print("\n" + "=" * 70)
     print(f"Evaluated {total} rows from {res_path.name}")
     print("- HR JSON accuracy:", f"{hr_correct}/{total} = {hr_correct/total:.2%}")

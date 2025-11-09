@@ -19,27 +19,34 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
+GROQ_API_KEY=os.getenv("GROQ_API_KEY")
+GROQ_BASE_URL = "https://api.groq.com/openai/v1"
+
 DEFAULT_MODELS = [
     # "openai/gpt-4o-mini",
-    # "meta-llama/llama-3.1-8b-instruct",
+     #"meta-llama/llama-3.1-8b-instruct",
     "openai/gpt-oss-20b",
     # "meta-llama/llama-3.2-1b-instruct",
     # "google/gemma-2b-it", 
 ]
 
-DATASET_PATH = Path(__file__).parent / "hiring_v1.csv"
+DATASET_PATH = Path(__file__).parent / "main_dataset.csv"
 LOG_PATH = Path(__file__).parent / "experiment_logs"
-TEMPERATURE = 0.2
-MAX_TOKENS = 1024
+TEMPERATURE = 0.5
+MAX_TOKENS = 2048
 
 LOG_PATH.mkdir(exist_ok=True)
 
 _client: Optional[OpenAI] = None
 
 
-def get_client() -> OpenAI:
+def get_client(use_groq: bool = False) -> OpenAI:
     global _client
-    if _client is None:
+    if use_groq:
+        if not GROQ_API_KEY:
+            raise RuntimeError("GROQ_API_KEY is not set. Add it to your environment or .env file.")
+        _client = OpenAI(api_key=GROQ_API_KEY, base_url=GROQ_BASE_URL)
+    elif _client is None:
         if not OPENROUTER_API_KEY:
             raise RuntimeError("OPENROUTER_API_KEY is not set. Add it to your environment or .env file.")
         _client = OpenAI(api_key=OPENROUTER_API_KEY, base_url=OPENROUTER_BASE_URL)
@@ -48,7 +55,24 @@ def get_client() -> OpenAI:
 
 def call_openrouter(prompt: str, model: str) -> str:
     try:
-        client = get_client()
+        # Determine if we should use Groq based on model name
+        # For Groq, we need to map OpenRouter model names to Groq model names
+        use_groq = (
+            model.startswith("llama-3.1-8b-instruct") 
+            or model.startswith("meta-llama/llama-3.1-8b-instruct")
+            or model == "openai/gpt-oss-20b"
+        )
+        
+        # Map model names for Groq
+        if use_groq:
+            if model == "meta-llama/llama-3.1-8b-instruct":
+                model = "llama-3.1-8b-instant"  # Groq model name
+            elif model.startswith("llama-3.1-8b-instruct"):
+                model = "llama-3.1-8b-instant"  # Groq model name
+            elif model == "openai/gpt-oss-20b":
+                model = "openai/gpt-oss-20b"  # Groq model name (adjust if different)
+        
+        client = get_client(use_groq=use_groq)
         response = client.chat.completions.create(
             model=model,
             messages=[
@@ -102,7 +126,7 @@ def parse_security_json_response(response: str) -> Optional[Dict[str, Any]]:
 
 def run_experiment_for_model(model: str) -> None:
     model_safe_name = model.replace(":", "_").replace("/", "_")
-    csv_out_path = Path(__file__).parent / f"3agent_{model_safe_name}_results.csv"
+    csv_out_path = Path(__file__).parent / "final-evaluations" / f"3agent_{model_safe_name}_results.csv"
 
     logging.basicConfig(
         level=logging.INFO,
