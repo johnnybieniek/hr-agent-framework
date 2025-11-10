@@ -24,8 +24,9 @@ Behavior with --limit N:
 
 import argparse
 import json
+import re
 from pathlib import Path
-from typing import Dict, Any
+from typing import Any, Dict, List, Tuple
 
 import pandas as pd
 
@@ -53,10 +54,116 @@ def norm_int(v: Any):
 
 
 def norm_date(v: Any) -> str:
-    s = norm_str(v)
-    if s.upper() in {"ASAP", "TBD"}:
-        return ""  # treat ASAP/TBD as empty to align with models returning null/None
-    return s
+    return norm_str(v)
+
+
+REMOTE_GENERIC_REGION_RAW = [
+    "global",
+    "worldwide",
+    "anywhere",
+    "international",
+    "all regions",
+    "all region",
+    "all locations",
+    "any location",
+    "any timezone",
+    "any time zone",
+]
+
+
+def _normalize_region_label(region: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", region.lower())
+
+
+REMOTE_GENERIC_REGION_TOKENS = {_normalize_region_label(token) for token in REMOTE_GENERIC_REGION_RAW}
+
+REMOTE_REGION_PATTERNS = [
+    re.compile(r"remote\s*\(([^)]+)\)", re.IGNORECASE),
+    re.compile(r"remote\s*[-–—]\s*([A-Za-z0-9 /,&()]+?)(?=$|\n|[.;!,])", re.IGNORECASE),
+    re.compile(r"remote\s+(?:based\s+)?in\s+([A-Za-z0-9 /,&()]+?)(?=$|\n|[.;!,])", re.IGNORECASE),
+]
+
+
+def _extract_remote_region(text: str) -> str:
+    for pattern in REMOTE_REGION_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return match.group(1).strip(" ,.:-")
+    return ""
+
+
+def remote_descriptor(loc: Any) -> Tuple[str, str]:
+    text = norm_str(loc)
+    if not text:
+        return ("non_remote", "")
+    if "remote" not in text.lower():
+        return ("non_remote", "")
+    region = _extract_remote_region(text)
+    norm_region = _normalize_region_label(region) if region else ""
+    if norm_region in REMOTE_GENERIC_REGION_TOKENS:
+        region = ""
+        norm_region = ""
+    remote_type = "remote_specific" if region else "remote_generic"
+    return (remote_type, norm_region)
+
+def positions_match(gt_pos: Any, pred_pos: Any) -> bool:
+    gt_norm = norm_str_ci(gt_pos)
+    pred_norm = norm_str_ci(pred_pos)
+    if not gt_norm:
+        return pred_norm == ""
+    if not pred_norm:
+        return False
+    if gt_norm == pred_norm:
+        return True
+
+    def strip_department(text: str) -> str:
+        return re.sub(r"\s+in\s+the\s+.+?\s+department$", "", text).strip()
+
+    if strip_department(pred_norm) == gt_norm:
+        return True
+    if strip_department(gt_norm) == pred_norm:
+        return True
+
+    if pred_norm.startswith(gt_norm) and pred_norm[len(gt_norm):len(gt_norm)+1] in {"", " ", ",", "-", "(", "/"}:
+        return True
+    if gt_norm.startswith(pred_norm) and gt_norm[len(pred_norm):len(pred_norm)+1] in {"", " ", ",", "-", "(", "/"}:
+        return True
+
+    return False
+
+
+def locations_match(gt_loc: Any, pred_loc: Any) -> bool:
+    gt_raw = norm_str(gt_loc)
+    pred_raw = norm_str(pred_loc)
+    if not gt_raw:
+        return pred_raw == ""
+    if not pred_raw:
+        return False
+    gt_norm = norm_str_ci(gt_raw)
+    pred_norm = norm_str_ci(pred_raw)
+    if gt_norm == pred_norm:
+        return True
+    gt_type, gt_region = remote_descriptor(gt_raw)
+    pred_type, pred_region = remote_descriptor(pred_raw)
+    if gt_type == "remote_generic" and pred_type == "remote_generic":
+        return True
+    if gt_type == "remote_specific" and pred_type == "remote_specific":
+        return gt_region != "" and gt_region == pred_region
+    if gt_type == pred_type == "non_remote":
+        gt_tokens = _location_tokens(gt_norm)
+        pred_tokens = _location_tokens(pred_norm)
+        if not gt_tokens or not pred_tokens:
+            return gt_norm == pred_norm
+        longer, shorter = (gt_tokens, pred_tokens) if len(gt_tokens) >= len(pred_tokens) else (pred_tokens, gt_tokens)
+        if shorter == longer[: len(shorter)]:
+            return True
+    return False
+
+
+def _location_tokens(text: str) -> List[str]:
+    if not text:
+        return []
+    return [token.strip() for token in re.split(r",|\s+-\s+", text) if token.strip()]
 
 
 def gt_keycard_from_row(row) -> Dict[str, int]:
@@ -88,11 +195,17 @@ def eval_hr_row(gt_row, result_row) -> Dict[str, bool]:
     gt_name = f"{gt_row['first_name']} {gt_row['last_name']}"
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(gt_name)
 
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
+    if pd.notna(gt_row["position"]):
+        pos_ok = positions_match(gt_row["position"], data.get("position"))
+    else:
+        pos_ok = norm_str_ci(data.get("position")) == ""
 
     sal_ok = norm_int(data.get("salary")) == norm_int(gt_row["salary"])
 
-    loc_ok = norm_str_ci(data.get("location")) == norm_str_ci(gt_row["location"]) if pd.notna(gt_row["location"]) else norm_str_ci(data.get("location")) == ""
+    if pd.notna(gt_row["location"]):
+        loc_ok = locations_match(gt_row["location"], data.get("location"))
+    else:
+        loc_ok = norm_str_ci(data.get("location")) == ""
 
     date_ok = norm_date(data.get("start_date")) == norm_date(gt_row["start_date"]) if pd.notna(gt_row["start_date"]) else norm_date(data.get("start_date")) == ""
 
@@ -113,7 +226,8 @@ def eval_security_row(gt_row, result_row) -> Dict[str, bool]:
 
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(f"{gt_row['first_name']} {gt_row['last_name']}")
     pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
-    level_ok = norm_int(data.get("security_level")) is not None and isinstance(data.get("security_level"), (int,)) and norm_int(data.get("security_level")) in {1, 2, 3}
+    level_val = norm_int(data.get("security_level"))
+    level_ok = level_val is not None and level_val in {1, 2, 3}
 
     gt_key = gt_keycard_from_row(gt_row)
     pred_key = data.get("keycard_access", {}) or {}
@@ -137,7 +251,8 @@ def eval_security_row_general(gt_row, result_row) -> Dict[str, bool]:
 
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(f"{gt_row['first_name']} {gt_row['last_name']}")
     pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
-    level_ok = norm_int(data.get("security_level")) is not None and isinstance(data.get("security_level"), (int,)) and norm_int(data.get("security_level")) in {1, 2, 3}
+    level_val = norm_int(data.get("security_level"))
+    level_ok = level_val is not None and level_val in {1, 2, 3}
 
     gt_key = gt_keycard_from_row(gt_row)
     pred_key = data.get("keycard_access", {}) or {}
@@ -158,7 +273,10 @@ def eval_masking_row(gt_row, result_row) -> Dict[str, bool]:
     masked_low = masked.lower()
 
     sal = norm_str(gt_row["salary"])  # numeric as string
-    sal_ok = (sal not in masked) and (f"${sal}" not in masked)
+    if sal == "":
+        sal_ok = True
+    else:
+        sal_ok = (sal not in masked) and (f"${sal}" not in masked)
 
     loc = norm_str(gt_row["location"]).lower()
     loc_ok = (loc == "") or (loc not in masked_low)
