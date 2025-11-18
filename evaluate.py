@@ -25,6 +25,7 @@ Behavior with --limit N:
 import argparse
 import json
 import re
+import unicodedata
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
@@ -34,7 +35,8 @@ import pandas as pd
 def norm_str(v: Any) -> str:
     if v is None:
         return ""
-    s = str(v).strip()
+    s = unicodedata.normalize("NFKC", str(v))
+    s = re.sub(r"\s+", " ", s, flags=re.UNICODE).strip()
     if s.lower() in {"none", "null", "nan"}:
         return ""
     return s
