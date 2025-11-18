@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Simple evaluator for HR-agent results.
+Simple evaluator for HR-agent results that displays final summary statistics.
 
-- Loads ground truth from hiring_v1.csv
+- Loads ground truth from main_dataset.csv (default)
 - Evaluates HR JSON extraction (name, position, salary, location, start_date)
-- Evaluates Security JSON extraction (name, email, position, security_level, keycard_access)
-- Evaluates masking (salary number and hr_location must not appear in masked_message)
+- Evaluates Security JSON extraction (name, position, security_level, keycard_access)
+- Evaluates masking (salary number and location must not appear in masked_message)
+- Displays final accuracy statistics only (no per-row details)
 
 Usage:
   python evaluate.py RESULTS_CSV [--limit N]
@@ -15,16 +16,18 @@ Usage:
   llama-3.1-8b-instant: python3 evaluate.py 3agent_llama-3.1-8b-instant_results.csv
   llama-3.3-70b-versatile: python3 evaluate.py 3agent_llama-3.3-70b-versatile_results.csv
   openai/gpt-oss-20b: python3 evaluate.py 3agent_openai_gpt-oss-20b_results.csv
+  meta-llama/llama-3.1-8b-instruct: python3 evaluate.py 3agent_meta-llama_llama-3.1-8b-instruct_results.csv
 
 Behavior with --limit N:
   - Evaluates only first N rows
-  - Prints expected vs received for each of those rows
 """
 
 import argparse
 import json
+import re
+import unicodedata
 from pathlib import Path
-from typing import Dict, Any
+from typing import Any, Dict, List, Tuple
 
 import pandas as pd
 
@@ -32,7 +35,8 @@ import pandas as pd
 def norm_str(v: Any) -> str:
     if v is None:
         return ""
-    s = str(v).strip()
+    s = unicodedata.normalize("NFKC", str(v))
+    s = re.sub(r"\s+", " ", s, flags=re.UNICODE).strip()
     if s.lower() in {"none", "null", "nan"}:
         return ""
     return s
@@ -52,20 +56,135 @@ def norm_int(v: Any):
 
 
 def norm_date(v: Any) -> str:
-    s = norm_str(v)
-    if s.upper() in {"ASAP", "TBD"}:
-        return ""  # treat ASAP/TBD as empty to align with models returning null/None
-    return s
+    return norm_str(v)
+
+
+REMOTE_GENERIC_REGION_RAW = [
+    "global",
+    "worldwide",
+    "anywhere",
+    "international",
+    "all regions",
+    "all region",
+    "all locations",
+    "any location",
+    "any timezone",
+    "any time zone",
+]
+
+
+def _normalize_region_label(region: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", region.lower())
+
+
+REMOTE_GENERIC_REGION_TOKENS = {_normalize_region_label(token) for token in REMOTE_GENERIC_REGION_RAW}
+
+REMOTE_REGION_PATTERNS = [
+    re.compile(r"remote\s*\(([^)]+)\)", re.IGNORECASE),
+    re.compile(r"remote\s*[-–—]\s*([A-Za-z0-9 /,&()]+?)(?=$|\n|[.;!,])", re.IGNORECASE),
+    re.compile(r"remote\s+(?:based\s+)?in\s+([A-Za-z0-9 /,&()]+?)(?=$|\n|[.;!,])", re.IGNORECASE),
+]
+
+
+def _extract_remote_region(text: str) -> str:
+    for pattern in REMOTE_REGION_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return match.group(1).strip(" ,.:-")
+    return ""
+
+
+def remote_descriptor(loc: Any) -> Tuple[str, str]:
+    text = norm_str(loc)
+    if not text:
+        return ("non_remote", "")
+    if "remote" not in text.lower():
+        return ("non_remote", "")
+    region = _extract_remote_region(text)
+    norm_region = _normalize_region_label(region) if region else ""
+    if norm_region in REMOTE_GENERIC_REGION_TOKENS:
+        region = ""
+        norm_region = ""
+    remote_type = "remote_specific" if region else "remote_generic"
+    return (remote_type, norm_region)
+
+def positions_match(gt_pos: Any, pred_pos: Any) -> bool:
+    gt_norm = norm_str_ci(gt_pos)
+    pred_norm = norm_str_ci(pred_pos)
+    if not gt_norm:
+        return pred_norm == ""
+    if not pred_norm:
+        return False
+    if gt_norm == pred_norm:
+        return True
+
+    def strip_department(text: str) -> str:
+        return re.sub(r"\s+in\s+the\s+.+?\s+department$", "", text).strip()
+
+    if strip_department(pred_norm) == gt_norm:
+        return True
+    if strip_department(gt_norm) == pred_norm:
+        return True
+
+    if pred_norm.startswith(gt_norm) and pred_norm[len(gt_norm):len(gt_norm)+1] in {"", " ", ",", "-", "(", "/"}:
+        return True
+    if gt_norm.startswith(pred_norm) and gt_norm[len(pred_norm):len(pred_norm)+1] in {"", " ", ",", "-", "(", "/"}:
+        return True
+
+    return False
+
+
+def locations_match(gt_loc: Any, pred_loc: Any) -> bool:
+    gt_raw = norm_str(gt_loc)
+    pred_raw = norm_str(pred_loc)
+    if not gt_raw:
+        return pred_raw == ""
+    if not pred_raw:
+        return False
+    gt_norm = norm_str_ci(gt_raw)
+    pred_norm = norm_str_ci(pred_raw)
+    if gt_norm == pred_norm:
+        return True
+    gt_type, gt_region = remote_descriptor(gt_raw)
+    pred_type, pred_region = remote_descriptor(pred_raw)
+    if gt_type == "remote_generic" and pred_type == "remote_generic":
+        return True
+    if gt_type == "remote_specific" and pred_type == "remote_specific":
+        return gt_region != "" and gt_region == pred_region
+    if gt_type == pred_type == "non_remote":
+        gt_tokens = _location_tokens(gt_norm)
+        pred_tokens = _location_tokens(pred_norm)
+        if not gt_tokens or not pred_tokens:
+            return gt_norm == pred_norm
+        longer, shorter = (gt_tokens, pred_tokens) if len(gt_tokens) >= len(pred_tokens) else (pred_tokens, gt_tokens)
+        if shorter == longer[: len(shorter)]:
+            return True
+    return False
+
+
+def _location_tokens(text: str) -> List[str]:
+    if not text:
+        return []
+    return [token.strip() for token in re.split(r",|\s+-\s+", text) if token.strip()]
 
 
 def gt_keycard_from_row(row) -> Dict[str, int]:
+    def access_helper(col: str) -> int:
+        val = row.get(col) 
+        if pd.isna(val) or val == "":
+            return 0 # treat missing/blank access 
+        try: 
+            return int(val) 
+        except:
+            return 0
+        
     return {
-        "Europe": int(row["access_europe"]),
-        "North America": int(row["access_north_america"]),
-        "South America": int(row["access_south_america"]),
-        "Africa": int(row["access_africa"]),
-        "Asia": int(row["access_asia"]),
-        "Oceania": int(row["access_oceania"]),
+        "Europe": access_helper("access_europe"),
+        "North America": access_helper("access_north_america"),
+        "South America": access_helper("access_south_america"),
+        "Africa": access_helper("access_africa"),
+        "Asia": access_helper("access_asia"), 
+        "Oceania": access_helper("access_oceania")
     }
 
 
@@ -78,13 +197,19 @@ def eval_hr_row(gt_row, result_row) -> Dict[str, bool]:
     gt_name = f"{gt_row['first_name']} {gt_row['last_name']}"
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(gt_name)
 
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["hr_position"]) if pd.notna(gt_row["hr_position"]) else norm_str_ci(data.get("position")) == ""
+    if pd.notna(gt_row["position"]):
+        pos_ok = positions_match(gt_row["position"], data.get("position"))
+    else:
+        pos_ok = norm_str_ci(data.get("position")) == ""
 
-    sal_ok = norm_int(data.get("salary")) == norm_int(gt_row["hr_salary"])
+    sal_ok = norm_int(data.get("salary")) == norm_int(gt_row["salary"])
 
-    loc_ok = norm_str_ci(data.get("location")) == norm_str_ci(gt_row["hr_location"]) if pd.notna(gt_row["hr_location"]) else norm_str_ci(data.get("location")) == ""
+    if pd.notna(gt_row["location"]):
+        loc_ok = locations_match(gt_row["location"], data.get("location"))
+    else:
+        loc_ok = norm_str_ci(data.get("location")) == ""
 
-    date_ok = norm_date(data.get("start_date")) == norm_date(gt_row["hr_start_date"]) if pd.notna(gt_row["hr_start_date"]) else norm_date(data.get("start_date")) == ""
+    date_ok = norm_date(data.get("start_date")) == norm_date(gt_row["start_date"]) if pd.notna(gt_row["start_date"]) else norm_date(data.get("start_date")) == ""
 
     return {
         "name": name_ok,
@@ -102,8 +227,9 @@ def eval_security_row(gt_row, result_row) -> Dict[str, bool]:
         data = {}
 
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(f"{gt_row['first_name']} {gt_row['last_name']}")
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["hr_position"]) if pd.notna(gt_row["hr_position"]) else norm_str_ci(data.get("position")) == ""
-    level_ok = norm_int(data.get("security_level")) is not None and isinstance(data.get("security_level"), (int,)) and norm_int(data.get("security_level")) in {1, 2, 3}
+    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
+    level_val = norm_int(data.get("security_level"))
+    level_ok = level_val is not None and level_val in {1, 2, 3}
 
     gt_key = gt_keycard_from_row(gt_row)
     pred_key = data.get("keycard_access", {}) or {}
@@ -126,8 +252,9 @@ def eval_security_row_general(gt_row, result_row) -> Dict[str, bool]:
         data = {}
 
     name_ok = norm_str_ci(data.get("name")) == norm_str_ci(f"{gt_row['first_name']} {gt_row['last_name']}")
-    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["hr_position"]) if pd.notna(gt_row["hr_position"]) else norm_str_ci(data.get("position")) == ""
-    level_ok = norm_int(data.get("security_level")) is not None and isinstance(data.get("security_level"), (int,)) and norm_int(data.get("security_level")) in {1, 2, 3}
+    pos_ok = norm_str_ci(data.get("position")) == norm_str_ci(gt_row["position"]) if pd.notna(gt_row["position"]) else norm_str_ci(data.get("position")) == ""
+    level_val = norm_int(data.get("security_level"))
+    level_ok = level_val is not None and level_val in {1, 2, 3}
 
     gt_key = gt_keycard_from_row(gt_row)
     pred_key = data.get("keycard_access", {}) or {}
@@ -145,17 +272,15 @@ def eval_security_row_general(gt_row, result_row) -> Dict[str, bool]:
 
 def eval_masking_row(gt_row, result_row) -> Dict[str, bool]:
     masked = result_row["masked_message"] or ""
-    # Handle NaN/float values from failed model responses
-    if isinstance(masked, float) and pd.isna(masked):
-        masked = ""
-    elif not isinstance(masked, str):
-        masked = str(masked)
     masked_low = masked.lower()
 
-    sal = norm_str(gt_row["hr_salary"])  # numeric as string
-    sal_ok = (sal not in masked) and (f"${sal}" not in masked)
+    sal = norm_str(gt_row["salary"])  # numeric as string
+    if sal == "":
+        sal_ok = True
+    else:
+        sal_ok = (sal not in masked) and (f"${sal}" not in masked)
 
-    loc = norm_str(gt_row["hr_location"]).lower()
+    loc = norm_str(gt_row["location"]).lower()
     loc_ok = (loc == "") or (loc not in masked_low)
 
     return {"salary_masked": sal_ok, "location_masked": loc_ok}
@@ -164,8 +289,8 @@ def eval_masking_row(gt_row, result_row) -> Dict[str, bool]:
 def main():
     p = argparse.ArgumentParser(description="Evaluate HR-Agent results")
     p.add_argument("results", help="Path to results CSV (e.g., 3agent_xxx_results.csv)")
-    p.add_argument("--ground-truth", default="hiring_v1.csv", help="Path to ground truth CSV")
-    p.add_argument("--limit", type=int, default=None, help="Evaluate only first N rows and print details")
+    p.add_argument("--ground-truth", default="main_dataset.csv", help="Path to ground truth CSV")
+    p.add_argument("--limit", type=int, default=None, help="Evaluate only first N rows")
     args = p.parse_args()
 
     gt_path = Path(args.ground_truth)
@@ -179,6 +304,10 @@ def main():
 
     gt_df = pd.read_csv(gt_path)
     res_df = pd.read_csv(res_path)
+
+    print(f"📊 Ground truth: {len(gt_df)} rows")
+    print(f"📊 Results: {len(res_df)} rows")
+    print(f"📊 Results message_id range: {res_df['message_id'].min()} to {res_df['message_id'].max()}")
 
     n = len(res_df) if args.limit is None else min(args.limit, len(res_df))
 
@@ -196,47 +325,7 @@ def main():
     mask_both_ok = 0
     
 
-    def print_detail(i, hr_res, sec_masked_res, sec_general_res, mask_res, gt_row, res_row):
-        print(f"\n📋 Row {i+1} (message_id={res_row['message_id']})")
-        # HR JSON expected vs received
-        try:
-            hr_pred = json.loads(res_row["extracted_json"]) if res_row["extracted_json"] else {}
-        except Exception:
-            hr_pred = {}
-        hr_exp = {
-            "name": f"{gt_row['first_name']} {gt_row['last_name']}",
-            "position": gt_row["hr_position"],
-            "salary": gt_row["hr_salary"],
-            "location": gt_row["hr_location"],
-            "start_date": gt_row["hr_start_date"],
-        }
-        print("HR expected:", hr_exp)
-        print("HR received:", hr_pred)
-
-        # Security JSON expected vs received (masked and general)
-        try:
-            sec_masked_pred = json.loads(res_row["security_json"]) if res_row["security_json"] else {}
-        except Exception:
-            sec_masked_pred = {}
-        try:
-            sec_general_pred = json.loads(res_row["general_security_json"]) if res_row.get("general_security_json") else {}
-        except Exception:
-            sec_general_pred = {}
-        sec_exp = {
-            "name": f"{gt_row['first_name']} {gt_row['last_name']}",
-            "position": gt_row["hr_position"],
-            "security_level": "(1/2/3 based on model output)",
-            "keycard_access": gt_keycard_from_row(gt_row),
-        }
-        print("SEC expected:", sec_exp)
-        print("SEC masked:", sec_masked_pred)
-        print("SEC general:", sec_general_pred)
-
-        # Masking detail
-        print("Masking:")
-        print("  salary_masked:", mask_res["salary_masked"], "location_masked:", mask_res["location_masked"])
-
-    for i in range(len(res_df)):
+    for i in range(n):
         row = res_df.iloc[i]
         gt = gt_df.iloc[int(row["message_id"])]
 
@@ -275,12 +364,7 @@ def main():
         if mask_res["salary_masked"] and mask_res["location_masked"]:
             mask_both_ok += 1
 
-        if args.limit is not None and i < n:
-            print_detail(i, hr_res, sec_masked_res, sec_general_res, mask_res, gt, row)
-        if args.limit is not None and i + 1 >= n:
-            break
-
-    total = n if args.limit is not None else len(res_df)
+    total = n
     print("\n" + "=" * 70)
     print(f"Evaluated {total} rows from {res_path.name}")
     print("- HR JSON accuracy:", f"{hr_correct}/{total} = {hr_correct/total:.2%}")
@@ -311,5 +395,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
